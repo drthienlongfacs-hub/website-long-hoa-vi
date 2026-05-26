@@ -1,0 +1,18 @@
+# Temporary image folders
+_backup_original_images/
+_wm_out/
+
+# Temporary python scripts
+watermark_all_images.py
+watermark_parallel.py
+copy_raw.py
+copy_watermarked.py
+generate_drill_bits_data.py
+extract_catalogs.py
+extract_zip.py
+push_to_github.py
+
+# System files
+.DS_Store
+Thumbs.db
+.push_manifest.json
