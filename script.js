@@ -218,9 +218,8 @@ const CATALOGS = {
     kaiqiu: {
         title: 'Catalog KAIQIU / KAIYU',
         basePath: 'product_images/page_',
-        totalPages: 55,
+        pages: Array.from({length: 53}, (_, i) => i + 3), // [3, 4, ..., 55]
         toc: [
-            {label:'Bìa & Giới thiệu',pages:[1,2]},
             {label:'Búa DTH áp thấp CIR',pages:[3,4,5,6]},
             {label:'Búa DTH áp cao DHD',pages:[7,8,9,10,11,12]},
             {label:'Búa DTH SD Series',pages:[13,14,15,16,17,18]},
@@ -238,9 +237,8 @@ const CATALOGS = {
     pulanka: {
         title: 'Catalog PULANKA',
         basePath: 'catalog_pulanka/page_',
-        totalPages: 30,
+        pages: Array.from({length: 27}, (_, i) => i + 4), // [4, 5, ..., 30]
         toc: [
-            {label:'Bìa & Giới thiệu',pages:[1,2,3]},
             {label:'Mũi khoan ren',pages:[4,5,6,7]},
             {label:'Chuôi búa (Shank Adapter)',pages:[8,9,10]},
             {label:'Khớp nối ren',pages:[11]},
@@ -255,9 +253,8 @@ const CATALOGS = {
     shenlong: {
         title: 'Catalog SHENLONG',
         basePath: 'catalog_shenlong/page_',
-        totalPages: 8,
+        pages: Array.from({length: 5}, (_, i) => i + 4), // [4, 5, 6, 7, 8]
         toc: [
-            {label:'Bìa & Giới thiệu',pages:[1,2,3]},
             {label:'Máy khoan khí nén YT',pages:[4]},
             {label:'Xe khoan bánh xích SL',pages:[5]},
             {label:'Phụ tùng & Linh kiện',pages:[6,7,8]},
@@ -266,7 +263,7 @@ const CATALOGS = {
 };
 
 let currentCatalogKey = 'kaiqiu';
-let currentPage = 1;
+let currentPage = 3;
 
 // ═══ SEARCH INDEX (Auto-indexing all products & model numbers) ═══
 const SEARCH_INDEX = [];
@@ -435,7 +432,8 @@ function updateFilterCounts() {
 // ═══ MULTI-CATALOG SWITCHER ═══
 function selectCatalog(key) {
     currentCatalogKey = key;
-    currentPage = 1;
+    const cat = CATALOGS[key];
+    currentPage = cat.pages[0];
     
     // Update catalog tab active states
     document.querySelectorAll('.catalog-selector .tab-btn').forEach(btn => {
@@ -458,20 +456,27 @@ function goToCatalogPage(page) { currentPage = page; updateCatalogView(); }
 
 function changeCatalogPage(delta) {
     const cat = CATALOGS[currentCatalogKey];
-    currentPage = Math.max(1, Math.min(cat.totalPages, currentPage + delta));
-    updateCatalogView();
+    const currentIndex = cat.pages.indexOf(currentPage);
+    if (currentIndex !== -1) {
+        const newIndex = Math.max(0, Math.min(cat.pages.length - 1, currentIndex + delta));
+        currentPage = cat.pages[newIndex];
+        updateCatalogView();
+    }
 }
 
 function updateCatalogView() {
     const img = document.getElementById('catalog-image');
     const indicator = document.getElementById('page-indicator');
     const cat = CATALOGS[currentCatalogKey];
+    const currentIndex = cat.pages.indexOf(currentPage);
     
     if (img) {
         img.src = `${cat.basePath}${String(currentPage).padStart(2,'0')}.png`;
         img.alt = cat.title;
     }
-    if (indicator) indicator.textContent = `Trang ${currentPage} / ${cat.totalPages}`;
+    if (indicator && currentIndex !== -1) {
+        indicator.textContent = `Trang ${currentIndex + 1} / ${cat.pages.length}`;
+    }
     renderCatalogTOC();
 }
 
