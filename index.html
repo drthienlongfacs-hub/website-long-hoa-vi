@@ -136,55 +136,66 @@
     <section id="products" class="section products-section">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">Danh mục sản phẩm</span>
-                <h2 class="section-title">Tất Cả Sản Phẩm Kaiqiu</h2>
-                <p class="section-desc">Duyệt toàn bộ danh mục thiết bị khoan đá. Lọc theo nhóm sản phẩm, áp suất hoặc ứng dụng.</p>
+                <span class="section-tag">Danh mục sản phẩm phân phối</span>
+                <h2 class="section-title">Hệ Thống Thiết Bị Khoan & Khai Thác</h2>
+                <p class="section-desc">Duyệt toàn bộ danh mục sản phẩm chính hãng từ KAIQIU, PULANKA, SHENLONG và Long Hoa Vĩ. Dễ dàng tra cứu, so sánh và đặt hàng.</p>
             </div>
 
             <!-- FILTER BAR -->
             <div class="filter-bar" id="filter-bar">
-                <div class="filter-group">
-                    <label>Nhóm sản phẩm</label>
-                    <div class="filter-chips" id="category-filters">
-                        <button class="chip active" data-filter="all" onclick="filterByCategory('all')">Tất cả <span class="chip-count" id="count-all">7</span></button>
-                        <button class="chip" data-filter="dth-hammer" onclick="filterByCategory('dth-hammer')">Búa DTH</button>
-                        <button class="chip" data-filter="dth-bit" onclick="filterByCategory('dth-bit')">Mũi khoan DTH</button>
-                        <button class="chip" data-filter="drill-pipe" onclick="filterByCategory('drill-pipe')">Cần khoan</button>
-                        <button class="chip" data-filter="rc-hammer" onclick="filterByCategory('rc-hammer')">Búa RC</button>
-                        <button class="chip" data-filter="casing-tool" onclick="filterByCategory('casing-tool')">Ống chống</button>
-                        <button class="chip" data-filter="adapter" onclick="filterByCategory('adapter')">Đầu nối</button>
-                        <button class="chip" data-filter="tapered-tool" onclick="filterByCategory('tapered-tool')">Khoan côn</button>
+                <!-- Brand Filter Group -->
+                <div class="filter-group" style="margin-bottom: 16px;">
+                    <label>Thương hiệu phân phối</label>
+                    <div class="filter-chips" id="brand-filters">
+                        <button class="chip active" data-brand="all" onclick="filterByBrand('all')">Tất cả thương hiệu <span class="chip-count" id="count-brand-all">0</span></button>
+                        <button class="chip" data-brand="Kaiqiu" onclick="filterByBrand('Kaiqiu')">KAIQIU / KAIYU <span class="chip-count" id="count-brand-kaiqiu">0</span></button>
+                        <button class="chip" data-brand="PULANKA" onclick="filterByBrand('PULANKA')">PULANKA <span class="chip-count" id="count-brand-pulanka">0</span></button>
+                        <button class="chip" data-brand="SHENLONG" onclick="filterByBrand('SHENLONG')">SHENLONG <span class="chip-count" id="count-brand-shenlong">0</span></button>
+                        <button class="chip" data-brand="Long Hoa Vĩ" onclick="filterByBrand('Long Hoa Vĩ')">Mũi Khoan Thực Tế LHV <span class="chip-count" id="count-brand-lhv">0</span></button>
                     </div>
                 </div>
-                <div class="filter-secondary">
+
+                <!-- Category Filter Group -->
+                <div class="filter-group">
+                    <label>Nhóm sản phẩm kỹ thuật</label>
+                    <div class="filter-chips" id="category-filters">
+                        <button class="chip active" data-filter="all" onclick="filterByCategory('all')">Tất cả sản phẩm <span class="chip-count" id="count-cat-all">0</span></button>
+                        <button class="chip" data-filter="Búa Khoan" onclick="filterByCategory('Búa Khoan')">Búa Khoan DTH & RC</button>
+                        <button class="chip" data-filter="Mũi Khoan" onclick="filterByCategory('Mũi Khoan')">Mũi Khoan Hợp Kim</button>
+                        <button class="chip" data-filter="Phụ Kiện" onclick="filterByCategory('Phụ Kiện')">Cần Khoan & Phụ Kiện</button>
+                        <button class="chip" data-filter="Thiết Bị" onclick="filterByCategory('Thiết Bị')">Máy & Xe Khoan Đá</button>
+                    </div>
+                </div>
+
+                <div class="filter-secondary" style="margin-top: 16px;">
                     <div class="filter-group">
-                        <label>Áp suất</label>
+                        <label>Áp suất khí</label>
                         <select id="pressure-filter" onchange="applyFilters()">
-                            <option value="all">Tất cả</option>
+                            <option value="all">Tất cả áp suất</option>
                             <option value="low">Thấp (7–17 bar)</option>
                             <option value="medium">Trung bình (10–21 bar)</option>
                             <option value="high">Cao (17–25 bar)</option>
                         </select>
                     </div>
                     <div class="filter-group">
-                        <label>Ứng dụng</label>
+                        <label>Ứng dụng thi công</label>
                         <select id="app-filter" onchange="applyFilters()">
-                            <option value="all">Tất cả</option>
-                            <option value="mining">Khai thác mỏ</option>
-                            <option value="well">Khoan giếng</option>
-                            <option value="construction">Xây dựng</option>
+                            <option value="all">Tất cả ứng dụng</option>
+                            <option value="mining">Khai thác mỏ đá / Quặng</option>
+                            <option value="well">Khoan giếng công nghiệp</option>
+                            <option value="construction">Xây dựng & Thủy điện</option>
                             <option value="exploration">Thăm dò địa chất</option>
                         </select>
                     </div>
                     <div class="filter-group">
-                        <label>Sắp xếp</label>
+                        <label>Sắp xếp danh sách</label>
                         <select id="sort-filter" onchange="applyFilters()">
-                            <option value="featured">Nổi bật</option>
-                            <option value="name-asc">Tên A→Z</option>
-                            <option value="name-desc">Tên Z→A</option>
+                            <option value="featured">Sản phẩm nổi bật</option>
+                            <option value="name-asc">Tên sản phẩm A→Z</option>
+                            <option value="name-desc">Tên sản phẩm Z→A</option>
                         </select>
                     </div>
-                    <div class="filter-result-count"><span id="result-count">7</span> sản phẩm</div>
+                    <div class="filter-result-count" style="margin-left: auto; align-self: center;"><span id="result-count">0</span> sản phẩm</div>
                 </div>
             </div>
 
@@ -199,10 +210,18 @@
     <section id="catalog-browser" class="section catalog-browser-section">
         <div class="container">
             <div class="section-header">
-                <span class="section-tag">Catalog gốc nhà sản xuất</span>
-                <h2 class="section-title">Duyệt Catalog Kaiqiu</h2>
-                <p class="section-desc">Xem trực tiếp từng trang catalog chính hãng Kaiqiu — đầy đủ hình ảnh, thông số kỹ thuật, mã phụ tùng.</p>
+                <span class="section-tag">Thư viện tài liệu gốc</span>
+                <h2 class="section-title">Duyệt Catalog Nhà Sản Xuất</h2>
+                <p class="section-desc">Xem trực tiếp từng trang catalog kỹ thuật chính hãng từ KAIQIU, PULANKA và SHENLONG. Đầy đủ bản vẽ kỹ thuật, bảng tra kích thước và mã linh kiện.</p>
             </div>
+            
+            <!-- Catalog Selector Tabs -->
+            <div class="catalog-selector" style="display: flex; gap: 8px; margin-bottom: 24px; justify-content: center; flex-wrap: wrap;">
+                <button class="tab-btn active" style="margin: 0; padding: 10px 20px;" id="cat-btn-kaiqiu" onclick="selectCatalog('kaiqiu')">Catalog KAIQIU (55 trang)</button>
+                <button class="tab-btn" style="margin: 0; padding: 10px 20px;" id="cat-btn-pulanka" onclick="selectCatalog('pulanka')">Catalog PULANKA (30 trang)</button>
+                <button class="tab-btn" style="margin: 0; padding: 10px 20px;" id="cat-btn-shenlong" onclick="selectCatalog('shenlong')">Catalog SHENLONG (8 trang)</button>
+            </div>
+
             <div class="catalog-viewer">
                 <div class="catalog-sidebar">
                     <h3>Mục lục</h3>
@@ -217,7 +236,7 @@
                         <button id="next-page" onclick="changeCatalogPage(1)">Trang sau →</button>
                     </div>
                     <div class="catalog-page-view">
-                        <img id="catalog-image" src="product_images/page_01.png" alt="Catalog Kaiqiu" loading="lazy">
+                        <img id="catalog-image" src="product_images/page_01.png" alt="Catalog kỹ thuật" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -390,6 +409,7 @@
     </div>
     <button class="back-to-top" id="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg></button>
 
+    <script src="drill_bits_data.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
