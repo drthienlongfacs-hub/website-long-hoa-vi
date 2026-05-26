@@ -70,7 +70,7 @@ const BASE_PRODUCTS = [
       images:['catalog_pulanka/page_04.png', 'catalog_pulanka/page_05.png', 'catalog_pulanka/page_06.png'],
       models:'Ren R22, Ren R25, Ren R28, Ren R32, Ren R35, Ren T38, Ren T45, Ren T51, Ren GT60',
       detail:'Mũi khoan ren PULANKA được sản xuất bằng thép hợp kim chịu lực hàng đầu thế giới kết hợp với các nút hợp kim Cacbua Vonfram siêu cứng.\n\n• Ren nhỏ (R22–R32): ĐK 38–76mm, thích hợp khoan đá mỏ vừa, hầm lò nhỏ\n• Ren lớn (T38–T51): ĐK 76–127mm, chuyên dụng cho búa khoan thủy lực công suất lớn, khoan đá cứng lộ thiên.',
-      specDetail:[{l:'Chuẩn ren',v:'R22, R25, R32, T38, T45, T51, GT60'},{l:'Đường kính',v:'38–127mm'},{l:'Số nút hợp kim',v:'6–12 nút'},{l:'Kiểu mặt',v:'Flat face / Drop center'},{l:'Nhà sản xuất',v:'PULANKA Tools'}] },
+      specDetail:[{l:'Chuẩn ren',v:'R22, R25, R32, T38, T45, T51, GT60'},{l:'Đường kính',v:'38–127mm'},{l:'Số nút hợp kim',v:'6–12 nút'},{l:'Kiểu mặt',v:'Flat face / Drop center'}] },
 
     { id:'plk-shank-adapter', cat:'Phụ Kiện', brand:'PULANKA', title:'Chuôi Búa Thủy Lực (Shank Adapter)', img:'catalog_pulanka/page_08.png', badge:'Chính xác CNC',
       desc:'Chuôi búa thủy lực tương thích Atlas Copco (Cop1838), Sandvik, Furukawa, Ingersoll Rand, Montabert. Tôi nhiệt chống xoắn cực tốt.',
@@ -159,7 +159,52 @@ const BASE_PRODUCTS = [
       images:['catalog_shenlong/page_06.png', 'catalog_shenlong/page_07.png', 'catalog_shenlong/page_08.png'],
       models:'Piston YT28, Rifle Bar (Trục quả dứa) YT28, Water Needle (Kim nước), Valve Chest (Van chia khí), Ratchet Wheel YT29A',
       detail:'Long Hoa Vĩ cung cấp đầy đủ các loại phụ tùng chi tiết máy khoan đá hơi YT24, YT27, YT28, YT29A hao mòn nhanh.\n\n• Phụ tùng chính hãng đảm bảo độ bền vật liệu, khớp kích thước 100%, kéo dài tuổi thọ khai thác hầm mỏ đá tối đa.',
-      specDetail:[{l:'Dòng máy tương thích',v:'YT24, YT27, YT28, YT29A'},{l:'Vật liệu chế tạo',v:'Thép hợp kim rèn bề mặt thấm nitrogen chống mài mòn'},{l:'Dung sai chế tạo',v:'Độ chính xác OEM ≤ 0.01mm'},{l:'Linh kiện có sẵn',v:'Piston, quả dứa, bánh răng, kim nước, phớt chặn hơi'}] }
+      specDetail:[{l:'Dòng máy tương thích',v:'YT24, YT27, YT28, YT29A'},{l:'Vật liệu chế tạo',v:'Thép hợp kim rèn bề mặt thấm nitrogen chống mài mòn'},{l:'Dung sai chế tạo',v:'Độ chính xác OEM ≤ 0.01mm'},{l:'Linh kiện có sẵn',v:'Piston, quả dứa, bánh răng, kim nước, phớt chặn hơi'}] },
+
+    // ─── KAISHAN (开山) PRODUCTS ───
+    { id:'ks-dth-hammer-low', cat:'Búa Khoan', brand:'KAISHAN', title:'Búa DTH Áp Thấp CIR Kaishan', img:'product_images/page_03.png', badge:'Valveless',
+      desc:'Búa khoan ngầm áp thấp CIR50–CIR200 thiết kế valveless (không van). Cấu tạo đơn giản, bảo trì dễ dàng, tiết kiệm khí nén.',
+      specs:['0.5–0.7 MPa','CIR50–CIR200','Valveless design'], pressure:['low'], apps:['well','construction','mining'],
+      models:'CIR50, CIR60, CIR65, CIR70, CIR80, CIR90, CIR110, CIR130, CIR150, CIR170, CIR200',
+      detail:'Búa DTH áp thấp Kaishan (开山) sử dụng thiết kế không van (valveless) giúp tăng tần số đập, giảm tiêu hao dầu/khí nén, bảo trì đơn giản.\\n\\n• Áp suất làm việc: 0.5–0.7 MPa\\n• Phù hợp khoan giếng nước, khoan mỏ đá nhỏ, khoan neo đất\\n• Dải model từ CIR50 (lỗ nhỏ 58mm) đến CIR200 (lỗ lớn 250mm)',
+      specDetail:[{l:'Dải áp suất',v:'0.5–0.7 MPa (7–10 bar)'},{l:'Dòng model',v:'CIR50 → CIR200'},{l:'Thiết kế',v:'Valveless (không van) — giảm chi tiết, tăng tần số đập'},{l:'Ứng dụng',v:'Khoan giếng, mỏ đá, xây dựng'}] },
+
+    { id:'ks-dth-hammer-high', cat:'Búa Khoan', brand:'KAISHAN', title:'Búa DTH Áp Cao KD Series Kaishan', img:'product_images/page_07.png', badge:'Công suất lớn',
+      desc:'Búa khoan ngầm áp cao KD35–KD85 thiết kế valveless, ren multi-step dễ tháo lắp. Hiệu suất truyền năng lượng cao, khoan nhanh.',
+      specs:['>1.2 MPa','KD35–KD85','25–188 kg'], pressure:['high'], apps:['mining','construction','exploration'],
+      models:'KD35, KD45, KD55, KD65, KD85',
+      detail:'Búa DTH áp cao dòng KD của Kaishan (开山) được thiết kế valveless với hiệu suất truyền năng lượng vượt trội.\\n\\n• KD35: φ82mm, 930mm, 25kg — cho lỗ khoan trung bình\\n• KD45: φ99mm, 1030mm, 39kg — đa năng\\n• KD55: φ126mm, 1214mm, 76.5kg — khai mỏ lớn\\n• KD65: φ142–148mm, 1248mm, 100kg — khoan sâu\\n• KD85: φ144–148mm, 1482mm, 188kg — công suất cực lớn\\n\\nRen multi-step giúp tháo lắp bảo trì nhanh chóng.',
+      specDetail:[{l:'Model',v:'KD35 / KD45 / KD55 / KD65 / KD85'},{l:'ĐK ngoài',v:'φ82–φ148mm'},{l:'Chiều dài (không mũi)',v:'930–1482mm'},{l:'Trọng lượng',v:'25–188 kg'},{l:'Áp suất làm việc',v:'>1.2 MPa (>17 bar)'}] },
+
+    { id:'ks-bit-low', cat:'Mũi Khoan', brand:'KAISHAN', title:'Mũi Khoan DTH Áp Thấp CIR Kaishan', img:'product_images/page_35.png', badge:'',
+      desc:'Mũi khoan DTH áp thấp dòng CIR65–CIR170. Nút hợp kim cacbua vonfram cao cấp, thiết kế CAD/CNC tối ưu flushing.',
+      specs:['CIR65–CIR170','ĐK 65–200mm','Nút WC cao cấp'], pressure:['low'], apps:['well','construction','mining'],
+      models:'CIR65, CIR70, CIR80, CIR90, CIR110, CIR130, CIR150, CIR170',
+      detail:'Mũi khoan DTH áp thấp Kaishan dùng cho búa CIR series.\\n\\n• Thép hợp kim chịu lực cao kết hợp nút cacbua vonfram (WC) siêu cứng\\n• Thiết kế CAD, gia công CNC chính xác tuyệt đối\\n• Xử lý nhiệt nhiều lần tăng độ cứng và chống mỏi kim loại\\n• Rãnh xả phoi tối ưu đảm bảo flushing đều, giảm mài mòn thân mũi',
+      specDetail:[{l:'Dòng sản phẩm',v:'CIR65, CIR70, CIR80, CIR90, CIR110, CIR130, CIR150, CIR170'},{l:'Đường kính mũi',v:'65–200mm'},{l:'Số spline',v:'4–6 spline'},{l:'Mặt mũi khoan',v:'Phẳng (Flat) / Lõm (Concave) / Lồi (Convex)'}] },
+
+    { id:'ks-bit-high', cat:'Mũi Khoan', brand:'KAISHAN', title:'Mũi Khoan DTH Áp Cao DHD Kaishan', img:'product_images/page_36.png', badge:'',
+      desc:'Mũi khoan DTH áp cao chuẩn DHD3.5–DHD112. Đa dạng kiểu mặt Flat/Concave/Convex, đường kính 3"–12"+.',
+      specs:['DHD3.5–DHD112','ĐK 76–305mm+','Flat/Concave/Convex'], pressure:['high'], apps:['mining','well','construction','exploration'],
+      models:'DHD3.5, DHD340A, DHD350, DHD360, DHD380, DHD112',
+      detail:'Mũi khoan DTH áp cao Kaishan tương thích chuẩn shank quốc tế DHD.\\n\\n• Mặt phẳng (Flat): bền bỉ nhất cho đá cứng, mài mòn cao\\n• Mặt lõm (Concave): giữ hướng khoan tốt nhất\\n• Mặt lồi (Convex): tốc độ khoan nhanh nhất cho đá mềm–trung bình\\n\\nNút hợp kim WC cao cấp với cấu hình nút tối ưu giảm mất nút, tăng tuổi thọ.',
+      specDetail:[{l:'Chuẩn shank',v:'DHD3.5, DHD340, DHD350, DHD360, DHD380, DHD112'},{l:'Dải đường kính',v:'3\"–12\"+ (76–305mm+)'},{l:'Kiểu mặt',v:'Flat Face / Concave / Convex'},{l:'Nút hợp kim',v:'Cacbua vonfram (WC) — Spherical / Ballistic'}] },
+
+
+    // ─── MA&S PRODUCTS ───
+    { id:'mas-dth-hammer', cat:'Búa Khoan', brand:'MA&S', title:'Búa Khoan Ngầm DTH MA&S', img:'chongjiqi_images/DTH hammer CIR110 130.png', badge:'',
+      desc:'Búa khoan DTH MA&S tương thích chuẩn DHD340–DHD380, CIR90–CIR150. Xung lực đập mạnh, tiết kiệm khí nén, độ bền cao.',
+      specs:['DHD340–DHD380','CIR90–CIR150','Tương thích chuẩn quốc tế'], pressure:['low','high'], apps:['mining','well','construction'],
+      models:'MA&S CIR90, MA&S CIR110, MA&S CIR130, MA&S CIR150, MA&S DHD340, MA&S DHD350, MA&S DHD360',
+      detail:'Búa khoan DTH MA&S là dòng búa khoan nhập khẩu tương thích hoàn toàn với chuẩn shank quốc tế.\\n\\n• Tương thích búa CIR (áp thấp) và DHD (áp cao)\\n• Vỏ búa thép hợp kim tôi nhiệt chống mài mòn\\n• Buồng nén khí thiết kế tối ưu tiết kiệm lưu lượng khí nén\\n• Phù hợp thay thế cho các dàn khoan hiện hữu dùng búa CIR/DHD',
+      specDetail:[{l:'Dòng áp thấp',v:'CIR90, CIR110, CIR130, CIR150'},{l:'Dòng áp cao',v:'DHD340, DHD350, DHD360'},{l:'Tương thích',v:'Chuẩn shank CIR / DHD quốc tế'},{l:'Vật liệu vỏ',v:'Thép hợp kim tôi nhiệt chống mài mòn'}] },
+
+    { id:'mas-dth-bit', cat:'Mũi Khoan', brand:'MA&S', title:'Mũi Khoan Ngầm DTH MA&S', img:'chongjiqi_images/DTH hammer CIR150.png', badge:'',
+      desc:'Mũi khoan DTH MA&S nút hợp kim cacbua vonfram. Tương thích chuẩn CIR/DHD. Đường kính 90–203mm.',
+      specs:['ĐK 90–203mm','Nút WC cao cấp','CIR/DHD shank'], pressure:['low','high'], apps:['mining','well','construction'],
+      models:'Mũi CIR90, Mũi CIR110, Mũi CIR130, Mũi CIR150, Mũi DHD340, Mũi DHD350, Mũi DHD360',
+      detail:'Mũi khoan DTH MA&S được chế tạo từ thép hợp kim cao cấp kết hợp nút cacbua vonfram siêu cứng.\\n\\n• Đường kính từ 90mm đến 203mm\\n• Kiểu mặt: Flat Face (đá cứng) và Concave (giữ hướng)\\n• Rãnh xả phoi thiết kế rộng, flushing hiệu quả\\n• Tương thích hoàn toàn với búa CIR/DHD các hãng',
+      specDetail:[{l:'Đường kính mũi',v:'90–203mm'},{l:'Chuẩn đuôi shank',v:'CIR90/110/130/150, DHD340/350/360'},{l:'Nút hợp kim',v:'Cacbua vonfram (WC)'},{l:'Kiểu mặt mũi',v:'Flat Face / Concave'}] }
 ];
 
 // Combine standard products with all 81 generated drill bit products (brand: Long Hoa Vĩ)
@@ -713,4 +758,75 @@ document.addEventListener('DOMContentLoaded', () => {
     createParticles();
     animateCounters();
     initScrollAnimations();
+
+    // ═══ IMAGE PROTECTION — Anti-Copy Measures ═══
+    // 1. Disable right-click on images
+    document.addEventListener('contextmenu', function(e) {
+        if (e.target.tagName === 'IMG') {
+            e.preventDefault();
+            showCopyNotice();
+        }
+    });
+
+    // 2. Prevent drag on images
+    document.addEventListener('dragstart', function(e) {
+        if (e.target.tagName === 'IMG') {
+            e.preventDefault();
+        }
+    });
+
+    // 3. Prevent long-press save on mobile
+    document.addEventListener('touchstart', function(e) {
+        if (e.target.tagName === 'IMG') {
+            e.target.style.webkitTouchCallout = 'none';
+        }
+    }, {passive: true});
+
+    // Apply CSS protection to all images
+    document.querySelectorAll('img').forEach(img => {
+        img.style.webkitUserSelect = 'none';
+        img.style.userSelect = 'none';
+        img.style.pointerEvents = 'auto';
+        img.setAttribute('draggable', 'false');
+    });
+
+    // MutationObserver to protect dynamically added images
+    const observer = new MutationObserver(mutations => {
+        mutations.forEach(m => {
+            m.addedNodes.forEach(node => {
+                if (node.tagName === 'IMG') {
+                    node.setAttribute('draggable', 'false');
+                    node.style.webkitUserSelect = 'none';
+                    node.style.userSelect = 'none';
+                }
+                if (node.querySelectorAll) {
+                    node.querySelectorAll('img').forEach(img => {
+                        img.setAttribute('draggable', 'false');
+                        img.style.webkitUserSelect = 'none';
+                        img.style.userSelect = 'none';
+                    });
+                }
+            });
+        });
+    });
+    observer.observe(document.body, {childList: true, subtree: true});
 });
+
+// Copy protection notice
+function showCopyNotice() {
+    let notice = document.getElementById('copy-notice');
+    if (!notice) {
+        notice = document.createElement('div');
+        notice.id = 'copy-notice';
+        notice.innerHTML = '🔒 Hình ảnh được bảo vệ bởi Công ty TNHH MTV Long Hoa Vĩ<br><small>Liên hệ 0385 195 501 để nhận catalog chính thức</small>';
+        notice.style.cssText = 'position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:rgba(10,14,23,0.95);color:#f59e0b;padding:14px 28px;border-radius:12px;font-size:14px;z-index:99999;text-align:center;border:1px solid rgba(245,158,11,0.3);backdrop-filter:blur(10px);transition:opacity 0.3s;line-height:1.6;';
+        document.body.appendChild(notice);
+    }
+    notice.style.opacity = '1';
+    notice.style.display = 'block';
+    clearTimeout(notice._timer);
+    notice._timer = setTimeout(() => {
+        notice.style.opacity = '0';
+        setTimeout(() => notice.style.display = 'none', 300);
+    }, 3000);
+}
