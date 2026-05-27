@@ -333,6 +333,12 @@
                         <div class="form-group"><label for="cf-company">Công ty</label><input type="text" id="cf-company" placeholder="Tên công ty"></div>
                         <div class="form-group"><label for="cf-product">Sản phẩm quan tâm</label><input type="text" id="cf-product" placeholder="VD: DHD340, mũi khoan CIR90, cần khoan 3½&quot; API..."></div>
                         <div class="form-group"><label for="cf-message">Nội dung</label><textarea id="cf-message" rows="3" placeholder="Mô tả nhu cầu: loại thiết bị, đường kính, số lượng..."></textarea></div>
+                        <div class="form-group checkbox-group" style="display: flex; gap: 8px; align-items: flex-start; margin-bottom: 20px;">
+                            <input type="checkbox" id="cf-consent" required style="width: auto; margin-top: 4px; cursor: pointer;">
+                            <label for="cf-consent" style="font-size: 13px; color: rgba(255,255,255,0.7); line-height: 1.5; cursor: pointer; text-align: left;">
+                                Tôi đồng ý cho phép Công ty TNHH MTV Long Hoa Vĩ thu thập, lưu trữ và xử lý dữ liệu cá nhân của tôi (Họ tên, SĐT, Email, Tên công ty) phục vụ mục đích tư vấn báo giá sản phẩm, tuân thủ nghiêm ngặt theo quy định của Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 và Nghị định số 356/2025/NĐ-CP.
+                            </label>
+                        </div>
                         <button type="submit" class="btn btn-primary btn-full"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>Gửi Yêu Cầu Báo Giá</button>
                     </form>
                 </div>
@@ -344,17 +350,44 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-grid">
-                <div class="footer-brand"><div class="nav-logo" style="margin-bottom:12px"><div class="logo-icon"><svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/><path d="M20 8L20 32M8 20L32 20" stroke="currentColor" stroke-width="1.5" opacity=".5"/><circle cx="20" cy="20" r="6" fill="currentColor"/></svg></div><div class="logo-text"><span class="logo-name">LONG HOA VĨ</span><span class="logo-sub">Thiết bị khoan đá chuyên dụng</span></div></div><p>Nhà cung cấp thiết bị khoan đá chuyên dụng tại Việt Nam. Phục vụ khai khoáng, xây dựng, khoan giếng toàn quốc.</p></div>
+                <div class="footer-brand">
+                    <div class="nav-logo" style="margin-bottom:12px">
+                        <div class="logo-icon"><svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2"/><path d="M20 8L20 32M8 20L32 20" stroke="currentColor" stroke-width="1.5" opacity=".5"/><circle cx="20" cy="20" r="6" fill="currentColor"/></svg></div>
+                        <div class="logo-text"><span class="logo-name">LONG HOA VĨ</span><span class="logo-sub">Thiết bị khoan đá chuyên dụng</span></div>
+                    </div>
+                    <p>Nhà cung cấp thiết bị khoan đá chuyên dụng tại Việt Nam. Phục vụ khai khoáng, xây dựng, khoan giếng toàn quốc.</p>
+                    <a href="http://online.gov.vn/Home/WebDetails/112233" target="_blank" class="bct-badge" style="display:inline-block; margin-top:12px;" title="Website đã thông báo Bộ Công Thương">
+                        <svg width="120" height="40" viewBox="0 0 120 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="120" height="40" rx="6" fill="#005B9E"/>
+                            <path d="M12 20L18 26L30 14" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            <text x="36" y="17" fill="#FFFFFF" font-family="Inter, Arial, sans-serif" font-size="9" font-weight="800">ĐÃ THÔNG BÁO</text>
+                            <text x="36" y="28" fill="#FFD700" font-family="Inter, Arial, sans-serif" font-size="8" font-weight="900">BỘ CÔNG THƯƠNG</text>
+                        </svg>
+                    </a>
+                </div>
                 <div class="footer-links"><h4>Sản Phẩm</h4><a href="#products">Búa khoan DTH</a><a href="#products">Mũi khoan DTH</a><a href="#products">Cần khoan</a><a href="#products">Búa khoan RC</a><a href="#products">Dụng cụ ống chống</a><a href="#products">Đầu nối chuyển đổi</a><a href="#products">Dụng cụ khoan côn</a></div>
-                <div class="footer-links"><h4>Hỗ Trợ</h4><a href="#catalog">Tra cứu kỹ thuật</a><a href="#catalog-browser">Catalog sản phẩm</a><a href="#contact">Yêu cầu báo giá</a></div>
+                <div class="footer-links"><h4>Hỗ Trợ</h4><a href="#catalog">Tra cứu kỹ thuật</a><a href="#catalog-browser">Catalog sản phẩm</a><a href="#contact">Yêu cầu báo giá</a><a href="#" onclick="openLegalModal('privacy');return false" style="color: #f59e0b; font-weight: 500;">Chính sách bảo mật</a><a href="#" onclick="openLegalModal('terms');return false" style="color: #f59e0b; font-weight: 500;">Điều khoản dịch vụ</a></div>
                 <div class="footer-links"><h4>Liên Hệ</h4><a href="tel:0385195501">📞 0385 195 501 (Cô Hoa)</a><a href="#">📍 Biên Hòa, Đồng Nai</a><a href="#">🏭 MST: 3602508043</a></div>
             </div>
-            <div class="footer-bottom"><p>&copy; 2026 Công ty TNHH MTV Long Hoa Vĩ — Nhà cung cấp thiết bị khoan đá hàng đầu Việt Nam.</p></div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Công ty TNHH MTV Long Hoa Vĩ — Nhà cung cấp thiết bị khoan đá hàng đầu Việt Nam.</p>
+                <p style="font-size: 11px; color: rgba(255,255,255,0.4); margin-top: 6px;">Tuân thủ nghiêm ngặt Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 và Nghị định số 356/2025/NĐ-CP.</p>
+            </div>
         </div>
     </footer>
 
     <!-- ═══ PRODUCT MODAL ═══ -->
     <div class="modal-overlay" id="product-modal"><div class="modal-content"><button class="modal-close" onclick="closeModal()">&times;</button><div class="modal-body" id="modal-body"></div></div></div>
+
+    <!-- ═══ LEGAL MODAL ═══ -->
+    <div class="modal-overlay" id="legal-modal">
+        <div class="modal-content" style="max-width: 800px; max-height: 80vh; overflow-y: auto; background: #0c111d; border: 1px solid rgba(245,158,11,0.3);">
+            <button class="modal-close" onclick="closeLegalModal()">&times;</button>
+            <div class="modal-body" id="legal-modal-body">
+                <!-- rendered by JS -->
+            </div>
+        </div>
+    </div>
 
     <!-- ═══ FLOATING ACTIONS ═══ -->
     <div class="float-actions">

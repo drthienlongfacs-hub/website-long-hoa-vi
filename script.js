@@ -824,3 +824,125 @@ function showCopyNotice() {
         setTimeout(() => notice.style.display = 'none', 300);
     }, 3000);
 }
+
+// ═══ LEGAL COMPLIANCE MODALS (Luật 91/2025/QH15 & Nghị định 356/2025/NĐ-CP) ═══
+function openLegalModal(type) {
+    const modal = document.getElementById('legal-modal');
+    const body = document.getElementById('legal-modal-body');
+    if (!modal || !body) return;
+
+    let html = '';
+    if (type === 'privacy') {
+        html = `
+            <div style="padding: 10px 5px;">
+                <h2 style="color: #f59e0b; font-size: 22px; margin-bottom: 20px; border-bottom: 1px solid rgba(245,158,11,0.2); padding-bottom: 10px; font-weight: 700;">CHÍNH SÁCH BẢO MẬT VÀ XỬ LÝ DỮ LIỆU CÁ NHÂN</h2>
+                <p style="font-size: 13px; color: rgba(255,255,255,0.6); margin-bottom: 20px; font-style: italic;">Ban hành và áp dụng từ ngày 01/01/2026. Tuân thủ nghiêm ngặt Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15 và Nghị định số 356/2025/NĐ-CP quy định chi tiết Luật BVDLCN.</p>
+                
+                <h4 style="color: #f59e0b; font-size: 16px; margin: 15px 0 10px 0;">1. CĂN CỨ PHÁP LÝ</h4>
+                <p>Chính sách này được xây dựng và thực thi tuyệt đối theo các văn bản quy phạm pháp luật hiện hành của nước Cộng hòa Xã hội Chủ nghĩa Việt Nam:</p>
+                <ul style="padding-left: 20px; margin-bottom: 15px;">
+                    <li><strong>Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15</strong> (có hiệu lực từ ngày 01/01/2026).</li>
+                    <li><strong>Nghị định số 356/2025/NĐ-CP</strong> quy định chi tiết thi hành Luật Bảo vệ dữ liệu cá nhân (có hiệu lực từ ngày 01/01/2026).</li>
+                    <li><strong>Luật Giao dịch điện tử số 20/2023/QH15</strong> (có hiệu lực từ ngày 01/07/2024).</li>
+                </ul>
+
+                <h4 style="color: #f59e0b; font-size: 16px; margin: 15px 0 10px 0;">2. ĐƠN VỊ KIỂM SOÁT VÀ XỬ LÝ DỮ LIỆU</h4>
+                <p><strong>Bên Kiểm soát và xử lý dữ liệu cá nhân:</strong> Công ty TNHH MTV Long Hoa Vĩ.</p>
+                <p>Địa chỉ trụ sở: thành phố Biên Hòa, tỉnh Đồng Nai, Việt Nam.</p>
+                <p>Mã số thuế: 3602508043.</p>
+
+                <h4 style="color: #f59e0b; font-size: 16px; margin: 15px 0 10px 0;">3. CÁC DỮ LIỆU CÁ NHÂN ĐƯỢC THU THẬP VÀ XỬ LÝ</h4>
+                <p>Theo nguyên tắc thu thập tối thiểu quy định tại <strong>Điều 8 Luật số 91/2025/QH15</strong>, chúng tôi chỉ thu thập các dữ liệu cá nhân cơ bản cần thiết để phục vụ mục đích tư vấn báo giá sản phẩm kỹ thuật:</p>
+                <ul style="padding-left: 20px; margin-bottom: 15px;">
+                    <li>Họ và tên khách hàng (chủ thể dữ liệu).</li>
+                    <li>Số điện thoại liên hệ.</li>
+                    <li>Địa chỉ email cá nhân hoặc email công ty.</li>
+                    <li>Tên đơn vị/công ty công tác.</li>
+                    <li>Danh sách sản phẩm/vật tư kỹ thuật quan tâm.</li>
+                </ul>
+
+                <h4 style="color: #f59e0b; font-size: 16px; margin: 15px 0 10px 0;">4. MỤC ĐÍCH XỬ LÝ DỮ LIỆU</h4>
+                <p>Dữ liệu cá nhân thu thập thông qua biểu mẫu liên hệ sẽ được xử lý cho các mục đích chính đáng sau:</p>
+                <ul style="padding-left: 20px; margin-bottom: 15px;">
+                    <li>Tư vấn kỹ thuật, gửi file catalog sản phẩm chi tiết của búa khoan, mũi khoan, cần khoan.</li>
+                    <li>Lập báo giá thương mại chính thức theo nhu cầu dự án.</li>
+                    <li>Liên hệ hỗ trợ kỹ thuật và thực hiện hợp đồng mua bán thiết bị.</li>
+                </ul>
+
+                <h4 style="color: #f59e0b; font-size: 16px; margin: 15px 0 10px 0;">5. QUYỀN CỦA CHỦ THỂ DỮ LIỆU (KHÁCH HÀNG)</h4>
+                <p>Khách hàng có đầy đủ các quyền của chủ thể dữ liệu đối với dữ liệu cá nhân của mình theo quy định tại <strong>Chương II Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15</strong>:</p>
+                <ul style="padding-left: 20px; margin-bottom: 15px;">
+                    <li><strong>Quyền được biết & thông báo:</strong> Được biết về hoạt động xử lý dữ liệu của mình (Điều 16).</li>
+                    <li><strong>Quyền truy cập:</strong> Xem và yêu cầu cung cấp dữ liệu đã thu thập (Điều 17).</li>
+                    <li><strong>Quyền chỉnh sửa:</strong> Yêu cầu cập nhật, sửa đổi thông tin chưa chính xác (Điều 18).</li>
+                    <li><strong>Quyền xóa dữ liệu:</strong> Yêu cầu hủy bỏ, xóa hoàn toàn dữ liệu cá nhân (Điều 19).</li>
+                    <li><strong>Quyền rút lại sự đồng ý:</strong> Rút lại sự đồng ý cho phép xử lý dữ liệu bất cứ lúc nào.</li>
+                    <li><strong>Quyền khiếu nại, tố cáo:</strong> Khiếu nại lên cơ quan chuyên trách bảo vệ dữ liệu cá nhân (Điều 23).</li>
+                </ul>
+                <p style="font-style: italic; color: rgba(255,255,255,0.7);">* Để thực hiện bất kỳ quyền nào trên đây, quý khách vui lòng liên hệ trực tiếp với chúng tôi qua số điện thoại 0385 195 501. Chúng tôi sẽ phản hồi và xử lý yêu cầu của quý khách trong vòng 02 ngày làm việc theo quy định tại <strong>Điều 5 Nghị định số 356/2025/NĐ-CP</strong>.</p>
+
+                <h4 style="color: #f59e0b; font-size: 16px; margin: 15px 0 10px 0;">6. BIỆN PHÁP BẢO MẬT VÀ AN TOÀN THÔNG TIN</h4>
+                <p>Tuân thủ nghiêm ngặt quy định tại <strong>Điều 26, Điều 27 Luật số 91/2025/QH15</strong> và <strong>Điều 9 Nghị định số 356/2025/NĐ-CP</strong>, Công ty TNHH MTV Long Hoa Vĩ áp dụng các biện pháp tổ chức và kỹ thuật bảo mật nghiêm ngặt:</p>
+                <ul style="padding-left: 20px; margin-bottom: 15px;">
+                    <li><strong>Mã hóa dữ liệu:</strong> Áp dụng công nghệ mã hóa dữ liệu cá nhân ở trạng thái truyền tải và trạng thái tĩnh (theo Điều 12 Luật số 91/2025/QH15).</li>
+                    <li><strong>Bảo mật lưu trữ:</strong> Dữ liệu được lưu trữ trên hệ thống an toàn biệt lập, phân quyền truy cập nghiêm ngặt đối với nhân viên phụ trách tư vấn.</li>
+                    <li><strong>Thời hạn lưu trữ:</strong> Dữ liệu được lưu trữ cho đến khi hoàn thành mục đích tư vấn thương mại, hoặc bị xóa vĩnh viễn khi có yêu cầu hợp lệ của chủ thể dữ liệu (theo Điều 14 Luật số 91/2025/QH15).</li>
+                </ul>
+            </div>
+        `;
+    } else if (type === 'terms') {
+        html = `
+            <div style="padding: 10px 5px;">
+                <h2 style="color: #f59e0b; font-size: 22px; margin-bottom: 20px; border-bottom: 1px solid rgba(245,158,11,0.2); padding-bottom: 10px; font-weight: 700;">ĐIỀU KHOẢN DỊCH VỤ VÀ CHÍNH SÁCH GIAO DỊCH</h2>
+                <p style="font-size: 13px; color: rgba(255,255,255,0.6); margin-bottom: 20px; font-style: italic;">Ban hành và áp dụng từ ngày 01/01/2026. Tuân thủ nghiêm ngặt Luật Giao dịch điện tử số 20/2023/QH15 và Nghị định số 52/2013/NĐ-CP về thương mại điện tử.</p>
+
+                <h4 style="color: #f59e0b; font-size: 16px; margin: 15px 0 10px 0;">1. THÔNG TIN DOANH NGHIỆP</h4>
+                <p>Website này thuộc quyền sở hữu và vận hành bởi:</p>
+                <p><strong>CÔNG TY TNHH MỘT THÀNH VIÊN LONG HOA VĨ</strong></p>
+                <p>Địa chỉ trụ sở chính: thành phố Biên Hòa, tỉnh Đồng Nai, Việt Nam.</p>
+                <p>Mã số thuế: 3602508043 (Cấp bởi Sở Kế hoạch và Đầu tư tỉnh Đồng Nai).</p>
+                <p>Người đại diện pháp luật: Cô Hoa.</p>
+                <p>Hotline hỗ trợ khách hàng: 0385 195 501.</p>
+
+                <h4 style="color: #f59e0b; font-size: 16px; margin: 15px 0 10px 0;">2. PHẠM VI ÁP DỤNG & MỤC TIÊU HOẠT ĐỘNG</h4>
+                <p>Website này được thiết lập như một cổng thông tin kỹ thuật chính thức nhằm giới thiệu các sản phẩm thiết bị khoan đá, búa khoan ngầm DTH, mũi khoan ren, cần khoan và các phụ kiện vật tư cơ khí nặng phục vụ khai khoáng, khoan giếng và xây dựng.</p>
+                <p><strong>Lưu ý quan trọng:</strong> Website này chỉ hỗ trợ duyệt catalog kỹ thuật và gửi yêu cầu tư vấn báo giá trực tuyến. Website không tích hợp chức năng thanh toán trực tiếp hay đặt hàng tự động. Mọi giao dịch thương mại, phương thức thanh toán, thời gian giao nhận hàng sẽ được hai bên thỏa thuận chính thức bằng hợp đồng kinh tế bằng văn bản.</p>
+
+                <h4 style="color: #f59e0b; font-size: 16px; margin: 15px 0 10px 0;">3. SỞ HỮU TRÍ TUỆ VÀ BẢO VỆ BẢN QUYỀN HÌNH ẢNH</h4>
+                <p>Toàn bộ tài nguyên hình ảnh thiết bị, bản vẽ kỹ thuật CAD, bảng tra cứu kích thước và nội dung biên soạn catalog trên website này thuộc sở hữu trí tuệ chính thức hoặc quyền phân phối hợp pháp của Công ty TNHH MTV Long Hoa Vĩ.</p>
+                <p>Để ngăn ngừa việc sao chép bất hợp pháp gây tổn hại thương mại, mọi hình ảnh catalog trên website đều được đóng dấu bản quyền chéo <strong>"LONG HOA VĨ | 0385 195 501"</strong>. Nghiêm cấm mọi hành vi tự ý cắt xén, sao chép hoặc đăng tải lại tài nguyên hình ảnh của chúng tôi khi chưa có văn bản đồng ý chính thức từ Long Hoa Vĩ.</p>
+
+                <h4 style="color: #f59e0b; font-size: 16px; margin: 15px 0 10px 0;">4. CHÍNH SÁCH BẢO HÀNH VÀ KHIẾU NẠI</h4>
+                <p>Mọi sản phẩm do Long Hoa Vĩ cung cấp đều tuân thủ chính sách bảo hành chính hãng từ nhà sản xuất:</p>
+                <ul style="padding-left: 20px; margin-bottom: 15px;">
+                    <li>Bảo hành lỗi kỹ thuật do nhà sản xuất đối với vỏ búa, quả đập, piston theo đúng tiêu chuẩn kỹ thuật cam kết.</li>
+                    <li>Hỗ trợ kỹ thuật 24/7, cử chuyên viên đến thực địa kiểm tra cấu trúc đá và tư vấn áp lực khí nén phù hợp đối với các dự án khoan ngầm phức tạp.</li>
+                </ul>
+
+                <h4 style="color: #f59e0b; font-size: 16px; margin: 15px 0 10px 0;">5. GIẢI QUYẾT TRANH CHẤP</h4>
+                <p>Mọi tranh chấp phát sinh từ hoặc liên quan đến việc sử dụng website hoặc giao dịch mua bán hàng hóa sẽ được ưu tiên giải quyết bằng thương lượng, hòa giải trên tinh thần hợp tác cùng có lợi. Trường hợp không thể thương lượng hòa giải, tranh chấp sẽ được đưa ra phân xử tại Tòa án có thẩm quyền tại tỉnh Đồng Nai theo quy định của pháp luật Việt Nam.</p>
+            </div>
+        `;
+    }
+
+    body.innerHTML = html;
+    modal.style.display = 'flex';
+    document.body.style.overflow = 'hidden'; // block scrolling behind modal
+}
+
+function closeLegalModal() {
+    const modal = document.getElementById('legal-modal');
+    if (modal) {
+        modal.style.display = 'none';
+        document.body.style.overflow = 'auto'; // restore scrolling
+    }
+}
+
+// Close legal modal on overlay click
+document.addEventListener('click', function(e) {
+    const modal = document.getElementById('legal-modal');
+    if (e.target === modal) {
+        closeLegalModal();
+    }
+});
+
