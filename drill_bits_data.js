@@ -10,6 +10,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Đường kính: 110mm",
             "Cấu hình: 12 / 13 / 14 nút hợp kim",
+            "Hoàn thiện: Nhiều màu sơn bảo vệ hoặc không sơn theo yêu cầu",
             "Phân khúc: Hàng loại 1 chính hãng, cực kỳ bền bỉ",
             "Kiểm chứng: Chứng minh chất lượng tại Việt Nam qua thời gian dài"
         ],
@@ -46,8 +47,12 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "CIR110 (Áp lực thấp/trung bình)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô không sơn nguyên bản"
+            },
+            {
                 "l": "Kiểm chứng thực tế",
-                "v": "Đã được chứng minh chất lượng tại Việt Nam qua thời gian dài"
+                "v": "Đã được chứng minh chất lượng tại Việt Nam qua thời gian dài sử dụng"
             }
         ]
     },
@@ -62,6 +67,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Đường kính: 32, 34, 36, 38, 40, 42 mm",
             "Đuôi côn tương thích cần: H22 (Phi 22)",
+            "Hoàn thiện: Nhiều màu sơn bảo vệ hoặc không sơn (thép thô nguyên bản)",
             "Phân khúc: Hàng loại 1 chính hãng tuyển chọn",
             "Kiểm chứng: Chứng minh chất lượng tại Việt Nam qua thời gian dài"
         ],
@@ -98,8 +104,67 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "7°, 11°, 12°"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Nhiều màu sơn phủ bảo vệ tùy chọn hoặc thép thô không sơn nguyên bản mộc"
+            },
+            {
                 "l": "Độ tin cậy",
                 "v": "Đã được chứng minh chất lượng thực tế tại Việt Nam qua thời gian dài"
+            }
+        ]
+    },
+    {
+        "id": "bit-strategic-003",
+        "cat": "Cần Khoan",
+        "brand": "Long Hoa Vĩ",
+        "title": "Cần Khoan Côn H22 Lục Giác Phi 22 (Độ Dài 0.6m - 4.2m — Hàng Loại 1)",
+        "img": "drill_bit_images/Drill Rod H22.png",
+        "badge": "MẶT HÀNG CHIẾN LƯỢC",
+        "desc": "Cần khoan côn lục giác H22 (dòng KYH22 từ PDF) dài 0.6m đến 4.2m loại 1 chính hãng, độ bền mỏi cực cao đã được chứng minh chất lượng tại Việt Nam qua thời gian dài.",
+        "specs": [
+            "Độ dài khả dụng: 0.6m / 1.2m / 1.8m / 2.4m / 3.0m / 4.2m",
+            "Mã sản phẩm PDF: KYH22-12-7 / KYH22-18-7 / KYH22-24-7",
+            "Hoàn thiện: Nhiều màu sơn bảo vệ hoặc không sơn (thép thô lục giác)",
+            "Đặc trưng: Thép lục giác đặc chủng Phi 22 (H22)",
+            "Kiểm chứng: Chứng minh chất lượng tại Việt Nam qua thời gian dài"
+        ],
+        "pressure": [
+            "low",
+            "medium"
+        ],
+        "apps": [
+            "construction",
+            "mining"
+        ],
+        "images": [
+            "drill_bit_images/Drill Rod H22.png"
+        ],
+        "models": "KYH22 Series (0.6m - 4.2m)",
+        "detail": "Cần khoan côn lục giác H22 (phi 22, bao gồm các mã sản phẩm từ PDF như KYH22-06-7, KYH22-12-7, KYH22-18-7, KYH22-24-7, KYH22-30-7, KYH22-42-7) là dòng cần khoan lục giác phi 22 truyền lực cực tốt của Long Hoa Vĩ. Sản phẩm chế tạo từ thép lục giác đặc chủng chịu momen xoắn và lực đập nén va đập lớn, kết nối côn 7 độ, 11 độ hoặc 12 độ chuẩn xác. Cam kết hàng loại 1 chính hãng nhập khẩu, độ bền mỏi cực cao đã được kiểm chứng thực tế tại Việt Nam qua thời gian dài sử dụng ở các mỏ đá cứng.",
+        "specDetail": [
+            {
+                "l": "Phân khúc chất lượng",
+                "v": "Hàng loại 1 chính hãng (Tuyển chọn thép đặc chủng)"
+            },
+            {
+                "l": "Độ dài khả dụng",
+                "v": "0.6m, 0.8m, 1.2m, 1.8m, 2.4m, 3.0m, 3.6m, 4.0m, 4.2m"
+            },
+            {
+                "l": "Kết nối cần-mũi",
+                "v": "Liên kết côn chuẩn 7°, 11°, 12°"
+            },
+            {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Đa dạng màu sơn phủ bảo vệ chống gỉ hoặc thép lục giác thô nguyên bản"
+            },
+            {
+                "l": "Độ mỏi thép",
+                "v": "Giới hạn mỏi cực cao, truyền lực đập tối ưu, chống kẹt cần"
+            },
+            {
+                "l": "Kiểm chứng thực tế",
+                "v": "Đã được chứng minh chất lượng tại Việt Nam qua thời gian dài sử dụng"
             }
         ]
     },
@@ -966,6 +1031,42 @@ const DRILL_BIT_PRODUCTS = [
         "id": "bit-020",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
+        "title": "Sản Phẩm Mũi Khoan Drill Rod H22",
+        "img": "drill_bit_images/Drill Rod H22.png",
+        "badge": "",
+        "desc": "Dụng cụ khoan chất lượng cao phục vụ các công trình khai thác mỏ đá và giếng khoan.",
+        "specs": [
+            "Đa dạng kích thước",
+            "Hợp kim vonfram",
+            "Độ bền bỉ cao"
+        ],
+        "pressure": [
+            "high"
+        ],
+        "apps": [
+            "mining",
+            "construction"
+        ],
+        "images": [
+            "drill_bit_images/Drill Rod H22.png"
+        ],
+        "models": "Drill Rod H22",
+        "detail": "Các dòng mũi khoan chất lượng cao, đa dạng chủng loại đáp ứng mọi nhu cầu kỹ thuật khắt khe tại Việt Nam.",
+        "specDetail": [
+            {
+                "l": "Thương hiệu phân phối",
+                "v": "Long Hoa Vĩ"
+            },
+            {
+                "l": "Chất liệu",
+                "v": "Thép tôi thấm carbon, Cacbua Vonfram"
+            }
+        ]
+    },
+    {
+        "id": "bit-021",
+        "cat": "Mũi Khoan",
+        "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ren REAMING BIT T51-105",
         "img": "drill_bit_images/REAMING BIT T51-105.png",
         "badge": "",
@@ -1007,7 +1108,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-021",
+        "id": "bit-022",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ren Retrac bit t51",
@@ -1051,7 +1152,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-022",
+        "id": "bit-023",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Rút Retrac Retrac bit",
@@ -1095,7 +1196,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-023",
+        "id": "bit-024",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan DTH Chuẩn Nga Russia bit P110-110mm",
@@ -1134,7 +1235,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-024",
+        "id": "bit-025",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ren THREAD BIT R32 7BUTTONS",
@@ -1178,7 +1279,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-025",
+        "id": "bit-026",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ren THREAD BIT R32 SPHERIAL",
@@ -1222,7 +1323,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-026",
+        "id": "bit-027",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ren THREAD BIT R32",
@@ -1266,7 +1367,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-027",
+        "id": "bit-028",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Côn Tapered rock bit 36mm",
@@ -1311,7 +1412,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-028",
+        "id": "bit-029",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Bộ Mũi Khoan Tổng Hợp Thread",
@@ -1355,7 +1456,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-029",
+        "id": "bit-030",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ngầm DTH dht bit CIR110",
@@ -1401,7 +1502,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-030",
+        "id": "bit-031",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ren drifter bit or thread bit",
@@ -1445,7 +1546,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-031",
+        "id": "bit-032",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ngầm DTH dth Bit CIR130",
@@ -1491,7 +1592,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-032",
+        "id": "bit-033",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ngầm DTH dth Bit CIR170-250mm",
@@ -1537,7 +1638,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-033",
+        "id": "bit-034",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ngầm DTH dth bit CIR110-120mm",
@@ -1583,7 +1684,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-034",
+        "id": "bit-035",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ngầm DTH dth bit CIR110-130mm",
@@ -1629,7 +1730,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-035",
+        "id": "bit-036",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ngầm DTH dth bit CIR110",
@@ -1675,7 +1776,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-036",
+        "id": "bit-037",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ngầm DTH dth bit CIR130 (2)",
@@ -1721,7 +1822,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-037",
+        "id": "bit-038",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ngầm DTH dth bit CIR130-140mm",
@@ -1767,7 +1868,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-038",
+        "id": "bit-039",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ngầm DTH dth bit CIR130-150mm",
@@ -1813,7 +1914,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-039",
+        "id": "bit-040",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ngầm DTH dth bit CIR50",
@@ -1859,7 +1960,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-040",
+        "id": "bit-041",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ngầm DTH dth bit CIR76",
@@ -1905,7 +2006,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-041",
+        "id": "bit-042",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ngầm DTH dth bit CIR90-110mm",
@@ -1951,7 +2052,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-042",
+        "id": "bit-043",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ngầm DTH dth bit CIR90-90mm",
@@ -1997,7 +2098,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-043",
+        "id": "bit-044",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ngầm DTH dth bit DHD340-115MM 2",
@@ -2042,7 +2143,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-044",
+        "id": "bit-045",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ngầm DTH dth bit DHD340-115mm",
@@ -2087,7 +2188,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-045",
+        "id": "bit-046",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ngầm DTH dth bit DHD360-165mm",
@@ -2132,7 +2233,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-046",
+        "id": "bit-047",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ngầm DTH dth bit DHD360-190mm",
@@ -2177,7 +2278,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-047",
+        "id": "bit-048",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ngầm DTH dth bit DHD360-203mm",
@@ -2222,7 +2323,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-048",
+        "id": "bit-049",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ngầm DTH dth bit dhd3.5-90",
@@ -2267,7 +2368,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-049",
+        "id": "bit-050",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Bộ Mũi Khoan Tổng Hợp dth",
@@ -2312,7 +2413,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-050",
+        "id": "bit-051",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ngầm DTH dth bit m3",
@@ -2357,7 +2458,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-051",
+        "id": "bit-052",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ngầm DTH dth bit mission 60-165MM",
@@ -2402,7 +2503,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-052",
+        "id": "bit-053",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ngầm DTH dth bit mission60-152",
@@ -2447,7 +2548,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-053",
+        "id": "bit-054",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Bộ Mũi Khoan Tổng Hợp dth",
@@ -2492,7 +2593,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-054",
+        "id": "bit-055",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ren reaming bit T51",
@@ -2536,7 +2637,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-055",
+        "id": "bit-056",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ren reaming bit r32-89MM",
@@ -2580,7 +2681,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-056",
+        "id": "bit-057",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Bộ Mũi Khoan Tổng Hợp reaming",
@@ -2624,7 +2725,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-057",
+        "id": "bit-058",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Doa Rộng Lỗ reaming bit",
@@ -2668,7 +2769,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-058",
+        "id": "bit-059",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ren reaming bits R32",
@@ -2712,7 +2813,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-059",
+        "id": "bit-060",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ren reaming bits T51",
@@ -2756,7 +2857,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-060",
+        "id": "bit-061",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Rút Retrac retrac bit 2",
@@ -2800,7 +2901,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-061",
+        "id": "bit-062",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ren retrac bit T38 T45 T51-102mm",
@@ -2844,7 +2945,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-062",
+        "id": "bit-063",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ren retrac bit T45 T38",
@@ -2888,7 +2989,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-063",
+        "id": "bit-064",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ren retrac bit t38 t45 t51-89mm",
@@ -2932,7 +3033,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-064",
+        "id": "bit-065",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ren retrac thread bit T38 T45 T51 102mm with drop center face",
@@ -2976,7 +3077,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-065",
+        "id": "bit-066",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ren retrac thread bit T38 T45 T51-89MM",
@@ -3020,7 +3121,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-066",
+        "id": "bit-067",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ren retrac thread bit T45",
@@ -3064,7 +3165,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-067",
+        "id": "bit-068",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Bộ Mũi Khoan Tổng Hợp retrac",
@@ -3108,7 +3209,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-068",
+        "id": "bit-069",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan DTH Chuẩn Nga russia bit P110-130mm",
@@ -3147,7 +3248,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-069",
+        "id": "bit-070",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Côn tapered bits",
@@ -3192,7 +3293,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-070",
+        "id": "bit-071",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Côn tapered button bit 40MM",
@@ -3237,7 +3338,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-071",
+        "id": "bit-072",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ren thread bit R32 T45 T38  T51 -64mm",
@@ -3281,7 +3382,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-072",
+        "id": "bit-073",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ren thread bit R32-9BUTTONS",
@@ -3325,7 +3426,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-073",
+        "id": "bit-074",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ren thread bit T38 T45",
@@ -3369,7 +3470,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-074",
+        "id": "bit-075",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ren thread bit T38-76",
@@ -3413,7 +3514,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-075",
+        "id": "bit-076",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ren thread bit T38-89mm",
@@ -3457,7 +3558,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-076",
+        "id": "bit-077",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ren thread bit T45-102MM",
@@ -3501,7 +3602,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-077",
+        "id": "bit-078",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ren thread bit T45-89MM",
@@ -3545,7 +3646,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-078",
+        "id": "bit-079",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ren thread bit T51-102mm",
@@ -3589,7 +3690,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-079",
+        "id": "bit-080",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Mũi Khoan Ren thread bit T51-89mm",
@@ -3633,7 +3734,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-080",
+        "id": "bit-081",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Bộ Mũi Khoan Tổng Hợp thread",
@@ -3677,7 +3778,7 @@ const DRILL_BIT_PRODUCTS = [
         ]
     },
     {
-        "id": "bit-081",
+        "id": "bit-082",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
         "title": "Bộ Mũi Khoan Tổng Hợp thread",
