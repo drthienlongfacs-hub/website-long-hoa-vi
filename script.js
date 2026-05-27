@@ -218,9 +218,9 @@ const CATALOGS = {
     dth: {
         title: 'Catalog DTH & Phụ kiện',
         basePath: 'product_images/page_',
-        pages: Array.from({length: 53}, (_, i) => i + 3), // [3, 4, ..., 55]
+        pages: Array.from({length: 51}, (_, i) => i + 5), // [5, 6, ..., 55]
         toc: [
-            {label:'Búa DTH áp thấp CIR',pages:[3,4,5,6]},
+            {label:'Búa DTH áp thấp CIR',pages:[5,6]},
             {label:'Búa DTH áp cao DHD',pages:[7,8,9,10,11,12]},
             {label:'Búa DTH SD Series',pages:[13,14,15,16,17,18]},
             {label:'Búa DTH QL Series',pages:[19,20,21,22]},
@@ -263,7 +263,7 @@ const CATALOGS = {
 };
 
 let currentCatalogKey = 'dth';
-let currentPage = 3;
+let currentPage = 5;
 
 // ═══ SEARCH INDEX (Auto-indexing all products & model numbers) ═══
 const SEARCH_INDEX = [];
