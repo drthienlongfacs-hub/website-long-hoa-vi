@@ -1,5 +1,109 @@
 const DRILL_BIT_PRODUCTS = [
     {
+        "id": "bit-strategic-001",
+        "cat": "Mũi Khoan",
+        "brand": "Long Hoa Vĩ",
+        "title": "Mũi Khoan Ngầm DTH CIR110 (110mm — 12/13/14 nút)",
+        "img": "drill_bit_images/DTH bit CIR110 series.png",
+        "badge": "MẶT HÀNG CHIẾN LƯỢC",
+        "desc": "Mũi khoan DTH CIR110/12, 13, 14 mm chuyên dụng cho giếng khoan sâu, khoan khai mỏ địa chất cứng.",
+        "specs": [
+            "Đường kính: 110mm",
+            "Cấu hình: 12 / 13 / 14 nút hợp kim",
+            "Xuất xứ: Trung Quốc (Hàng chất lượng cao)",
+            "Thương hiệu: Long Hoa Vĩ phân phối chính hãng"
+        ],
+        "pressure": [
+            "low",
+            "medium"
+        ],
+        "apps": [
+            "well",
+            "mining",
+            "exploration"
+        ],
+        "images": [
+            "drill_bit_images/DTH bit CIR110 series.png",
+            "drill_bit_images/dht bit CIR110.png"
+        ],
+        "models": "CIR110-110mm",
+        "detail": "Dòng mũi khoan ngầm DTH CIR110 chiến lược của Long Hoa Vĩ. Nhập khẩu trực tiếp từ nhà máy Trung Quốc uy tín hàng đầu, sản xuất bằng thép hợp kim cao cấp cùng các nút cacbua vonfram (tungsten carbide) siêu chống mài mòn, chịu đập lớn. Sản phẩm chuyên dụng cho khoan giếng sâu, khoan nổ mìn đá cứng và khoan khảo sát địa chất, cam kết hàng chất lượng tốt nhất.",
+        "specDetail": [
+            {
+                "l": "Xuất xứ",
+                "v": "Trung Quốc (Hàng tuyển chọn chất lượng tốt)"
+            },
+            {
+                "l": "Đường kính mũi",
+                "v": "110 mm"
+            },
+            {
+                "l": "Số nút hợp kim",
+                "v": "12, 13 hoặc 14 nút cầu/nút côn"
+            },
+            {
+                "l": "Chuẩn đuôi búa tương thích",
+                "v": "CIR110 (Áp lực thấp/trung bình)"
+            },
+            {
+                "l": "Chất lượng kiểm duyệt",
+                "v": "Tiêu chuẩn quốc tế cao cấp, chịu va đập cực tốt"
+            }
+        ]
+    },
+    {
+        "id": "bit-strategic-002",
+        "cat": "Mũi Khoan",
+        "brand": "Long Hoa Vĩ",
+        "title": "Mũi Khoan Côn Hợp Kim Phi 22 (Đường kính 32, 34, 36, 38, 40, 42 mm)",
+        "img": "drill_bit_images/7buttons tapered bit.png",
+        "badge": "MẶT HÀNG CHIẾN LƯỢC",
+        "desc": "Mũi khoan côn phi 22 (tapered button bit) với đường kính đa dạng từ 32mm đến 42mm, chuyên dụng mỏ đá, công trình xây dựng.",
+        "specs": [
+            "Đường kính: 32, 34, 36, 38, 40, 42 mm",
+            "Đuôi côn tương thích cần: H22 (Phi 22)",
+            "Xuất xứ: Trung Quốc (Hàng chất lượng cao)",
+            "Góc côn: 7° / 11° / 12°"
+        ],
+        "pressure": [
+            "low",
+            "medium"
+        ],
+        "apps": [
+            "construction",
+            "mining"
+        ],
+        "images": [
+            "drill_bit_images/7buttons tapered bit.png",
+            "drill_bit_images/4 buttons tapered bit.png",
+            "drill_bit_images/8buttons tapered bit.png"
+        ],
+        "models": "Tapered Bit Phi 22",
+        "detail": "Mũi khoan côn hợp kim phi 22 là dòng sản phẩm chiến lược bán chạy nhất của Long Hoa Vĩ cho các mỏ đá xây dựng và khai khoáng. Thiết kế liên kết côn 7 độ, 11 độ hoặc 12 độ chuẩn xác với cần khoan lục giác H22. Sản phẩm nhập khẩu Trung Quốc chất lượng tốt nhất phân khúc, chịu lực đập va đập cực lớn từ búa khoan côn cầm tay.",
+        "specDetail": [
+            {
+                "l": "Xuất xứ",
+                "v": "Trung Quốc (Nhập khẩu tuyển chọn)"
+            },
+            {
+                "l": "Đường kính mũi khả dụng",
+                "v": "32mm, 34mm, 36mm, 38mm, 40mm, 42mm"
+            },
+            {
+                "l": "Kết nối cần khoan",
+                "v": "Cần lục giác H22 (Phi 22)"
+            },
+            {
+                "l": "Góc kết nối côn",
+                "v": "7°, 11°, 12°"
+            },
+            {
+                "l": "Đặc trưng nổi bật",
+                "v": "Thép hợp kim carbon cao, nút hợp kim cacbua vonfram siêu cứng"
+            }
+        ]
+    },
+    {
         "id": "bit-001",
         "cat": "Mũi Khoan",
         "brand": "Long Hoa Vĩ",
