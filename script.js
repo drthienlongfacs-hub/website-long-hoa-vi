@@ -7,7 +7,7 @@
 // ═══ PRODUCT DATABASE ═══
 const BASE_PRODUCTS = [
     // ─── Búa khoan, Mũi khoan, Phụ kiện DTH ───
-    { id:'dth-hammer', cat:'Búa Khoan', brand:'Long Hoa Vĩ', title:'Búa Khoan Ngầm DTH', img:'product_images/page_03.png', badge:'Chủ lực',
+    { id:'dth-hammer', cat:'Búa Khoan', brand:'Kaiqiu', title:'Búa Khoan Ngầm DTH', img:'product_images/page_03.png', badge:'Chủ lực',
       desc:'Búa khoan áp lực cao/trung/thấp: DHD, COP, QL, SD, Mission, CIR. Phục vụ khai mỏ, khoan giếng, xây dựng thủy điện.',
       specs:['7–25 bar','55–260mm','4.5–210 kg'], pressure:['low','medium','high'], apps:['mining','well','construction','exploration'],
       images:['product_images/page_03.png','product_images/page_05.png','product_images/page_07.png','product_images/page_09.png'],
@@ -15,7 +15,7 @@ const BASE_PRODUCTS = [
       detail:'Búa khoan ngầm DTH hoạt động bằng khí nén, búa đặt ngay trên mũi khoan tại đáy hố. Truyền năng lượng trực tiếp vào đá, giảm hao tổn, tăng tốc độ khoan.\n\n• Áp thấp (CIR): 7–17 bar — khoan giếng, khoan nông\n• Áp trung bình (BR/Mission): 10–21 bar — xây dựng, neo đất\n• Áp cao (DHD/SD/QL/COP): 17–25 bar — khai mỏ, khoan sâu',
       specDetail:[{l:'Dải áp suất',v:'7–25 bar'},{l:'ĐK ngoài',v:'55–260mm'},{l:'ĐK lỗ khoan',v:'58–381mm'},{l:'Kết nối ren',v:'CIR / API 2⅜"–6" / Remet / Metzke'},{l:'Trọng lượng',v:'4.5–210 kg'},{l:'Dòng sản phẩm',v:'CIR, DHD, SD, QL, COP, Mission, BR'}] },
 
-    { id:'dth-bit', cat:'Mũi Khoan', brand:'Long Hoa Vĩ', title:'Mũi Khoan Ngầm DTH', img:'product_images/page_35.png', badge:'Bền bỉ',
+    { id:'dth-bit', cat:'Mũi Khoan', brand:'Kaiqiu', title:'Mũi Khoan Ngầm DTH', img:'product_images/page_35.png', badge:'Bền bỉ',
       desc:'Mũi khoan áp lực thấp/trung/cao. Mặt phẳng & lồi. Nút hợp kim cacbua vonfram cao cấp chống mài mòn mạnh.',
       specs:['50–400mm','Có nhiều màu sơn bảo vệ hoặc không sơn','Nút cacbua WC'], pressure:['low','medium','high'], apps:['mining','well','construction'],
       images:['product_images/page_35.png','product_images/page_36.png','product_images/page_37.png','product_images/page_39.png'],
@@ -23,7 +23,7 @@ const BASE_PRODUCTS = [
       detail:'Mũi khoan DTH gắn nút hợp kim cacbua vonfram (tungsten carbide) với độ cứng và khả năng chống mài mòn cao.\n\n• Áp thấp (CIR): ĐK 50–400mm\n• Áp trung bình (BR): ĐK 64–105mm\n• Áp cao (COP/DHD/QL/SD): ĐK 105–381mm\n\nMặt phẳng (flat face) hoặc mặt lồi (convex face) tùy loại đá.',
       specDetail:[{l:'Đường kính',v:'50–400mm'},{l:'Loại mặt',v:'Phẳng / Lồi'},{l:'Nút hợp kim',v:'Cacbua vonfram (WC)'},{l:'Hoàn thiện bề mặt',v:'Nhiều màu sơn bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn'},{l:'Số rãnh xả phoi',v:'4–16 rãnh'}] },
 
-    { id:'drill-pipe', cat:'Phụ Kiện', brand:'Long Hoa Vĩ', title:'Cần Khoan DTH', img:'product_images/page_47.png', badge:'',
+    { id:'drill-pipe', cat:'Phụ Kiện', brand:'Kaiyu', title:'Cần Khoan DTH', img:'product_images/page_47.png', badge:'',
       desc:'Cần khoan ren API chuẩn quốc tế, thép hợp kim đúc chịu lực va đập xoắn cực tốt. Chiều dài 1–6m.',
       specs:['API 2⅜"–4½"','1–6m dài','Ren REG/IF'], pressure:['low','medium','high'], apps:['mining','well','construction','exploration'],
       images:['product_images/page_47.png','product_images/page_48.png','product_images/page_49.png'],
@@ -31,7 +31,7 @@ const BASE_PRODUCTS = [
       detail:'Cần khoan DTH truyền lực xoay và khí nén từ máy khoan đến búa khoan tại đáy hố.\n\n• Ren API REG (Regular) và IF (Internal Flush)\n• Chiều dài: 1000–6000mm\n• Thép hợp kim rỗng, xử lý nhiệt tinh vi toàn bộ cần\n• Thiết kế mặt khóa tháo lắp nhanh',
       specDetail:[{l:'Loại ren',v:'API REG / API IF / Remet / Metzke'},{l:'ĐK ngoài',v:'57–114mm'},{l:'ĐK trong',v:'38–76mm'},{l:'Chiều dài',v:'1000–6000mm'},{l:'Vật liệu',v:'Thép hợp kim tôi nhiệt'}] },
 
-    { id:'rc-hammer', cat:'Búa Khoan', brand:'Long Hoa Vĩ', title:'Búa Tuần Hoàn Ngược RC', img:'product_images/page_31.png', badge:'Thăm dò',
+    { id:'rc-hammer', cat:'Búa Khoan', brand:'Kaiqiu', title:'Búa Tuần Hoàn Ngược RC', img:'product_images/page_31.png', badge:'Thăm dò',
       desc:'Búa khoan lấy mẫu địa tầng tuần hoàn ngược. Độ sâu cao, bảo đảm mẫu không nhiễm bẩn địa tầng bên ngoài.',
       specs:['4"–5.5" cỡ búa','200–500 PSI','Ren Remet/Metzke'], pressure:['high'], apps:['exploration'],
       images:['product_images/page_31.png','product_images/page_32.png','product_images/page_33.png'],
@@ -39,7 +39,7 @@ const BASE_PRODUCTS = [
       detail:'Búa RC thu hồi mẫu qua ống trong bằng luồng khí nén ngược chiều, đảm bảo mẫu không bị nhiễm bẩn.\n\n• Mẫu khoan sạch, đại diện địa chất chính xác 100%\n• Thu hồi liên tục, không cần dừng chu kỳ khoan\n• Phù hợp thăm dò sâu hàng trăm mét',
       specDetail:[{l:'Kích thước búa',v:'4"–5.5"'},{l:'Chiều dài',v:'1191–1294mm'},{l:'Trọng lượng',v:'52–81 kg'},{l:'Áp suất khí',v:'200–500 PSI'},{l:'Ren kết nối',v:'Remet / Metzke'}] },
 
-    { id:'casing-tool', cat:'Phụ Kiện', brand:'Long Hoa Vĩ', title:'Dụng Cụ Khoan Ống Chống', img:'product_images/page_40.png', badge:'',
+    { id:'casing-tool', cat:'Phụ Kiện', brand:'Kaiyu', title:'Dụng Cụ Khoan Ống Chống', img:'product_images/page_40.png', badge:'',
       desc:'Khoan đồng tâm/lệch tâm luồn ống chống. Giải pháp khoan qua địa tầng sạt lở, bùn cát chảy.',
       specs:['Đồng/Lệch tâm','89–324mm ống','DHD3.5–112'], pressure:['high'], apps:['well','construction'],
       images:['product_images/page_40.png','product_images/page_41.png','product_images/page_42.png'],
@@ -47,7 +47,7 @@ const BASE_PRODUCTS = [
       detail:'Khoan và lắp ống chống đồng thời. Đồng tâm (concentric) hoặc lệch tâm (eccentric/ODEX).\n\nPhụ kiện gồm: ống chống bảo vệ hố, đế ống chống (casing shoe), vòng định vị (ring bit), khóa định vị chuyên dụng.',
       specDetail:[{l:'Kiểu hệ thống',v:'Đồng tâm / Lệch tâm (ODEX)'},{l:'Tương thích búa',v:'DHD3.5–DHD112'},{l:'ĐK ống chống',v:'89–324mm'},{l:'Ứng dụng địa chất',v:'Đất yếu, cát chảy, sạt lở mạnh'}] },
 
-    { id:'adapter', cat:'Phụ Kiện', brand:'Long Hoa Vĩ', title:'Đầu Nối Chuyển Đổi', img:'product_images/page_50.png', badge:'',
+    { id:'adapter', cat:'Phụ Kiện', brand:'Kaiyu', title:'Đầu Nối Chuyển Đổi', img:'product_images/page_50.png', badge:'',
       desc:'Đầu nối ren API chuẩn: Box-Pin, Box-Box, Pin-Pin. Gia công CNC chính xác tuyệt đối.',
       specs:['API 2⅜"–4½"','Box/Pin ren','CNC nguyên khối'], pressure:['low','medium','high'], apps:['mining','well','construction','exploration'],
       images:['product_images/page_50.png','product_images/page_51.png'],
@@ -55,7 +55,7 @@ const BASE_PRODUCTS = [
       detail:'Đầu nối chuyển đổi kết nối giữa các thiết bị có kích thước ren khác nhau.\n\n• Box–Pin (Trong–Ngoài): Phổ biến nhất\n• Box–Box (Trong–Trong): Nối 2 thiết bị ren ngoài\n• Pin–Pin (Ngoài–Ngoài): Nối 2 thiết bị ren trong\n\nGia công CNC, thép hợp kim, ren API chuẩn quốc tế.',
       specDetail:[{l:'Kiểu nối',v:'Box-Pin / Box-Box / Pin-Pin'},{l:'Quy cách ren',v:'2⅜"–4½" API REG/IF'},{l:'Vật liệu chế tạo',v:'Thép hợp kim xử lý nhiệt'},{l:'Mặt bản dẹt dập khóa',v:'65–120mm'}] },
 
-    { id:'tapered-tool', cat:'Mũi Khoan', brand:'Long Hoa Vĩ', title:'Dụng Cụ Khoan Côn', img:'product_images/page_55.png', badge:'',
+    { id:'tapered-tool', cat:'Mũi Khoan', brand:'Kaiyu', title:'Dụng Cụ Khoan Côn', img:'product_images/page_55.png', badge:'',
       desc:'Mũi khoan côn 7°/11°/12° nút hợp kim & chữ thập. Cần khoan côn lục giác H22 cao cấp.',
       specs:['Góc 7°/11°/12°','Sơn bảo vệ hoặc thép thô mộc không sơn','Cần H22 tôi cứng'], pressure:['low','medium'], apps:['construction'],
       images:['product_images/page_53.png','product_images/page_54.png','product_images/page_55.png'],
@@ -64,7 +64,7 @@ const BASE_PRODUCTS = [
       specDetail:[{l:'Góc côn liên kết',v:'7° / 11° / 12°'},{l:'Loại mũi khoan',v:'Chữ thập / Nút hợp kim'},{l:'Đường kính mũi',v:'28–45mm'},{l:'Thân cần khoan',v:'Lục giác H22, rỗng giữa, 610–8000mm'},{l:'Hoàn thiện bề mặt',v:'Có nhiều màu sơn bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn'}] },
 
     // ─── Khoan ren, Hầm lò, Thủy lực ───
-    { id:'rhl-thread-bit', cat:'Mũi Khoan', brand:'Long Hoa Vĩ', title:'Mũi Khoan Ren Cao Cấp', img:'catalog_ren_ham_lo/page_04.png', badge:'Hợp kim R32/T38',
+    { id:'rhl-thread-bit', cat:'Mũi Khoan', brand:'PULANKA', title:'Mũi Khoan Ren Cao Cấp', img:'catalog_ren_ham_lo/page_04.png', badge:'Hợp kim R32/T38',
       desc:'Mũi khoan ren bán cầu và nút đạn R22, R25, R32, T38, T45, T51. Thích hợp cho khoan hầm mỏ lộ thiên & thủy điện.',
       specs:['Ren R22–T51', 'Có sơn bảo vệ hoặc thép thô mộc không sơn', 'Nút cầu / Nút đạn'], pressure:['medium', 'high'], apps:['mining', 'construction'],
       images:['catalog_ren_ham_lo/page_04.png', 'catalog_ren_ham_lo/page_05.png', 'catalog_ren_ham_lo/page_06.png'],
@@ -72,7 +72,7 @@ const BASE_PRODUCTS = [
       detail:'Mũi khoan ren được sản xuất bằng thép hợp kim chịu lực hàng đầu thế giới kết hợp với các nút hợp kim Cacbua Vonfram siêu cứng.\n\n• Ren nhỏ (R22–R32): ĐK 38–76mm, thích hợp khoan đá mỏ vừa, hầm lò nhỏ\n• Ren lớn (T38–T51): ĐK 76–127mm, chuyên dụng cho búa khoan thủy lực công suất lớn, khoan đá cứng lộ thiên.',
       specDetail:[{l:'Chuẩn ren',v:'R22, R25, R32, T38, T45, T51, GT60'},{l:'Đường kính',v:'38–127mm'},{l:'Hoàn thiện bề mặt',v:'Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn'},{l:'Kiểu mặt',v:'Flat face / Drop center'}] },
 
-    { id:'rhl-shank-adapter', cat:'Phụ Kiện', brand:'Long Hoa Vĩ', title:'Chuôi Búa Thủy Lực (Shank Adapter)', img:'catalog_ren_ham_lo/page_08.png', badge:'Chính xác CNC',
+    { id:'rhl-shank-adapter', cat:'Phụ Kiện', brand:'PULANKA', title:'Chuôi Búa Thủy Lực (Shank Adapter)', img:'catalog_ren_ham_lo/page_08.png', badge:'Chính xác CNC',
       desc:'Chuôi búa thủy lực tương thích Atlas Copco (Cop1838), Sandvik, Furukawa, Ingersoll Rand, Montabert. Tôi nhiệt chống xoắn cực tốt.',
       specs:['Thép tôi chịu mỏi', 'Ren & Côn ≤ 0.02mm', 'Atlas Copco/Sandvik'], pressure:['high'], apps:['mining', 'construction'],
       images:['catalog_ren_ham_lo/page_08.png', 'catalog_ren_ham_lo/page_09.png', 'catalog_ren_ham_lo/page_10.png'],
@@ -80,7 +80,7 @@ const BASE_PRODUCTS = [
       detail:'Chuôi búa (Shank Adapter) đóng vai trò truyền mô-men xoắn, lực đẩy và lực va đập từ búa thủy lực sang cần khoan.\n\n• Được làm từ thép đặc biệt chịu lực va đập xoắn lớn, xử lý nhiệt tinh vi\n• Đảm bảo độ thẳng tuyệt đối, bảo vệ piston búa khoan tối đa khỏi phản chấn đá cứng.',
       specDetail:[{l:'Tương thích búa',v:'Atlas Copco, Sandvik, Furukawa, Montabert, IR'},{l:'Vật liệu',v:'Thép đặc chủng chịu mỏi va đập'},{l:'Gia công',v:'Độ chính xác ren & côn ≤ 0.02mm'},{l:'Đặc tính',v:'Chống xoắn, chống mỏi rạn nứt'}] },
 
-    { id:'rhl-coupling', cat:'Phụ Kiện', brand:'Long Hoa Vĩ', title:'Khớp Nối Ren (Coupling Sleeve)', img:'catalog_ren_ham_lo/page_11.png', badge:'',
+    { id:'rhl-coupling', cat:'Phụ Kiện', brand:'PULANKA', title:'Khớp Nối Ren (Coupling Sleeve)', img:'catalog_ren_ham_lo/page_11.png', badge:'',
       desc:'Khớp nối ren R22, R25, R32, T38, T45, T51. Liên kết bền bỉ các đoạn cần khoan dài, chống mài mòn ren cực tốt.',
       specs:['Khớp nối bán cầu / thẳng', 'Ren R22–T51', 'Thép tôi carbon'], pressure:['medium', 'high'], apps:['mining', 'construction'],
       images:['catalog_ren_ham_lo/page_11.png'],
@@ -88,7 +88,7 @@ const BASE_PRODUCTS = [
       detail:'Khớp nối ren kết nối các đoạn cần khoan với nhau để đạt được chiều sâu khoan mong muốn trong thi công hầm lò.\n\n• Giúp liên kết ren chắc chắn, truyền năng lượng đập tối ưu từ búa\n• Thép tôi thấm carbon bề mặt chống hao mòn tối đa.',
       specDetail:[{l:'Chuẩn ren',v:'R22, R25, R32, T38, T45, T51'},{l:'Loại khớp',v:'Khớp nối thẳng (Sleeve) / Khớp nối bán cầu'},{l:'Vật liệu',v:'Thép hợp kim xử lý bề mặt'},{l:'Công dụng',v:'Nối cần extension rod hoặc chuyển đổi ren'}] },
 
-    { id:'rhl-drill-rod', cat:'Phụ Kiện', brand:'Long Hoa Vĩ', title:'Cần Khoan Ren', img:'catalog_ren_ham_lo/page_13.png', badge:'',
+    { id:'rhl-drill-rod', cat:'Phụ Kiện', brand:'PULANKA', title:'Cần Khoan Ren', img:'catalog_ren_ham_lo/page_13.png', badge:'',
       desc:'Cần khoan ren extension, cần M/F (Male/Female), cần lục giác Hexagonal/Round. Thép khoan rỗng chất lượng cao.',
       specs:['Cần R32 / T38 / T45 / T51', 'Sơn bảo vệ hoặc thép thô mộc không sơn', 'M/F & Extension Rods'], pressure:['medium', 'high'], apps:['mining', 'construction'],
       images:['catalog_ren_ham_lo/page_13.png', 'catalog_ren_ham_lo/page_12.png', 'catalog_ren_ham_lo/page_14.png'],
@@ -96,7 +96,7 @@ const BASE_PRODUCTS = [
       detail:'Cần khoan ren chuyên dụng cho khoan hầm mỏ đá, khoan nổ mìn kỹ thuật.\n\n• Thép rỗng truyền khí xả phoi hơi hoặc nước rửa nguội hiệu quả\n• Cần M/F (Speed Rod) tích hợp sẵn đầu ren ren trong/ren ngoài giúp tháo lắp cực nhanh.',
       specDetail:[{l:'Kiểu thân cần',v:'Tròn (Round) hoặc Lục giác (Hexagonal)'},{l:'Hoàn thiện bề mặt',v:'Nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn'},{l:'Chiều dài',v:'1220mm - 4270mm'},{l:'Quy cách ren',v:'R22, R25, R32, T38, T45, T51'}] },
 
-    { id:'rhl-drifter', cat:'Thiết Bị', brand:'Long Hoa Vĩ', title:'Búa Khoan Thủy Lực (Hydraulic Drifter)', img:'catalog_ren_ham_lo/page_15.png', badge:'Công nghệ cao',
+    { id:'rhl-drifter', cat:'Thiết Bị', brand:'PULANKA', title:'Búa Khoan Thủy Lực (Hydraulic Drifter)', img:'catalog_ren_ham_lo/page_15.png', badge:'Công nghệ cao',
       desc:'Búa khoan thủy lực tần số cao PLK-18, PLK-20. Lắp đặt trên giàn khoan tự hành hoặc xe khoan hầm lò chuyên dụng.',
       specs:['Tần số 50-70 Hz', 'Công suất 15-20 kW', 'Rung chấn cực thấp'], pressure:['high'], apps:['mining', 'construction'],
       images:['catalog_ren_ham_lo/page_15.png', 'catalog_ren_ham_lo/page_16.png'],
@@ -104,7 +104,7 @@ const BASE_PRODUCTS = [
       detail:'Búa khoan thủy lực cao cấp hoạt động ở tần số đập cực cao, đem lại tốc độ xâm thực đá ấn tượng vượt trội.\n\n• Hệ thống giảm chấn kép bảo vệ búa khoan khỏi lực dội phản chấn từ đá cứng\n• Tiết kiệm năng lượng, hiệu suất bền bỉ trong điều kiện mỏ khắc nghiệt.',
       specDetail:[{l:'Công suất đập',v:'18 kW / 20 kW'},{l:'Tần số đập',v:'50Hz - 70Hz'},{l:'Áp suất thủy lực',v:'130 - 200 bar'},{l:'Trọng lượng búa',v:'170 kg / 185 kg'}] },
 
-    { id:'rhl-dth-hammer', cat:'Búa Khoan', brand:'Long Hoa Vĩ', title:'Búa Khoan Ngầm DTH Áp Cao', img:'catalog_ren_ham_lo/page_17.png', badge:'',
+    { id:'rhl-dth-hammer', cat:'Búa Khoan', brand:'PULANKA', title:'Búa Khoan Ngầm DTH Áp Cao', img:'catalog_ren_ham_lo/page_17.png', badge:'',
       desc:'Búa khoan ngầm áp suất cao HD-55A, HD-65A. Tiết kiệm khí nén hơi, xung lực đập mạnh mẽ.',
       specs:['HD-55A / HD-65A', 'Áp suất 10-25 bar', 'Hiệu suất đập cao'], pressure:['high'], apps:['mining', 'well', 'construction'],
       images:['catalog_ren_ham_lo/page_17.png', 'catalog_ren_ham_lo/page_18.png'],
@@ -112,7 +112,7 @@ const BASE_PRODUCTS = [
       detail:'Búa ngầm DTH được thiết kế tối ưu hóa buồng nén khí hơi, tạo ra xung đập cực lớn với lưu lượng khí nén hơi tối thiểu.\n\n• Vỏ búa tôi thấm chống cát mài mòn đá ngoài vỏ hố khoan tốt\n• Tương thích ren chuẩn API Reg.',
       specDetail:[{l:'Kích thước búa',v:'5 inch / 6 inch / 8 inch'},{l:'Dải áp suất hơi',v:'10 - 25 bar'},{l:'Kích thước đầu nối',v:'3½" API Reg / 4½" API Reg'},{l:'Trọng lượng búa',v:'38.5 kg / 68.0 kg'}] },
 
-    { id:'rhl-dth-bit', cat:'Mũi Khoan', brand:'Long Hoa Vĩ', title:'Mũi Khoan Ngầm DTH Áp Cao', img:'catalog_ren_ham_lo/page_22.png', badge:'',
+    { id:'rhl-dth-bit', cat:'Mũi Khoan', brand:'PULANKA', title:'Mũi Khoan Ngầm DTH Áp Cao', img:'catalog_ren_ham_lo/page_22.png', badge:'',
       desc:'Mũi khoan DTH áp cao DHD350, DHD360, QL60, SD6 nút cacbua. Phù hợp địa tầng đá cứng lộ thiên.',
       specs:['Kích cỡ 105–254mm', 'Sơn bảo vệ hoặc thép thô mộc không sơn', 'Nút cacbua siêu chịu lực'], pressure:['high'], apps:['mining', 'well', 'construction'],
       images:['catalog_ren_ham_lo/page_22.png', 'catalog_ren_ham_lo/page_23.png', 'catalog_ren_ham_lo/page_24.png'],
@@ -120,7 +120,7 @@ const BASE_PRODUCTS = [
       detail:'Mũi khoan DTH là sản phẩm tiêu chuẩn cao chuyên khoan đá mỏ lộ thiên, khoan địa chất và giếng nước sâu.\n\n• Mặt phẳng (Flat Face) cho đá cứng vừa đến siêu cứng, địa hình nứt nẻ\n• Mặt lõm (Concave Face) cho đá đồng nhất, định hướng lỗ cực tốt.',
       specDetail:[{l:'Đường kính mũi',v:'105mm - 254mm'},{l:'Chuẩn đuôi búa',v:'DHD340, DHD350, DHD360, QL60, SD6'},{l:'Hoàn thiện bề mặt',v:'Nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn'},{l:'Rãnh nước xả phoi',v:'4 - 8 rãnh xả rộng'}] },
 
-    { id:'rhl-tapered', cat:'Mũi Khoan', brand:'Long Hoa Vĩ', title:'Dụng Cụ Khoan Côn', img:'catalog_ren_ham_lo/page_25.png', badge:'',
+    { id:'rhl-tapered', cat:'Mũi Khoan', brand:'PULANKA', title:'Dụng Cụ Khoan Côn', img:'catalog_ren_ham_lo/page_25.png', badge:'',
       desc:'Mũi khoan côn nút và côn chữ thập 7°, 11°, 12°. Cần khoan côn lục giác H22 tôi lõi rỗng dẻo dai.',
       specs:['Góc 7° / 11° / 12°', 'Sơn bảo vệ hoặc thép thô mộc không sơn', 'Cần lục giác H22 rỗng'], pressure:['low', 'medium'], apps:['construction', 'mining'],
       images:['catalog_ren_ham_lo/page_25.png', 'catalog_ren_ham_lo/page_26.png'],
@@ -128,7 +128,7 @@ const BASE_PRODUCTS = [
       detail:'Hệ thống dụng cụ khoan côn gọn nhẹ, tháo lắp đơn giản bằng tay lực búa nhẹ, thích hợp tuyệt đối cho khoan mìn thủ công.\n\n• Nút hợp kim phân bố tối ưu giúp khoan đá nhanh hơn mũi chữ nhất\n• Cần H22 rỗng thép khoan cao cấp dẻo dai, chống gãy gập.',
       specDetail:[{l:'Góc côn kết nối',v:'7° / 11° / 12°'},{l:'Vật liệu thép cần',v:'Thép lục giác H22 tôi rỗng'},{l:'Hoàn thiện bề mặt',v:'Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn'},{l:'Kiểu đầu gài búa',v:'H22 × 108mm chuẩn búa cầm tay'}] },
 
-    { id:'rhl-pick', cat:'Phụ Kiện', brand:'Long Hoa Vĩ', title:'Răng Đào Hầm Lò & Phay Đường', img:'catalog_ren_ham_lo/page_27.png', badge:'Chịu mài mòn',
+    { id:'rhl-pick', cat:'Phụ Kiện', brand:'PULANKA', title:'Răng Đào Hầm Lò & Phay Đường', img:'catalog_ren_ham_lo/page_27.png', badge:'Chịu mài mòn',
       desc:'Răng đào lò than TS30cx, răng cưa máy đào hầm lò, răng phay đường bê tông nhựa. Công nghệ rèn nhiệt áp lực cao bền bỉ.',
       specs:['TS30cx / U82 / U84', 'Rèn nhiệt áp lực cao', 'Đầu hợp kim Vonfram'], pressure:['low'], apps:['mining', 'construction'],
       images:['catalog_ren_ham_lo/page_27.png', 'catalog_ren_ham_lo/page_28.png', 'catalog_ren_ham_lo/page_29.png', 'catalog_ren_ham_lo/page_30.png'],
@@ -137,7 +137,7 @@ const BASE_PRODUCTS = [
       specDetail:[{l:'Dòng sản phẩm',v:'Răng đào lò (Coal Picks) / Răng phay đường (Road Milling)'},{l:'Vật liệu thân răng',v:'Thép rèn 42CrMo chịu lực cao'},{l:'Chất liệu đầu cắt',v:'Vonfram Cacbua siêu bền'},{l:'Đường kính gài',v:'φ20mm, φ22mm, φ25mm'}] },
 
     // ─── Máy khoan đá, Xe khoan, Phụ tùng ───
-    { id:'mk-rock-drill', cat:'Thiết Bị', brand:'Long Hoa Vĩ', title:'Máy Khoan Đá Cầm Tay Chân Đỡ', img:'catalog_may_khoan/page_04.png', badge:'Phổ biến nhất',
+    { id:'mk-rock-drill', cat:'Thiết Bị', brand:'SHENLONG', title:'Máy Khoan Đá Cầm Tay Chân Đỡ', img:'catalog_may_khoan/page_04.png', badge:'Phổ biến nhất',
       desc:'Máy khoan đá hơi khí nén chân đỡ YT24, YT27, YT28, YT29A nổi tiếng. Lực đập mạnh mẽ, độ bền vĩnh cửu.',
       specs:['YT28 / YT29A', 'Lực đập đập > 60J', 'Tần số hơi ≥ 37 Hz'], pressure:['low', 'medium'], apps:['mining', 'construction'],
       images:['catalog_may_khoan/page_04.png'],
@@ -145,7 +145,7 @@ const BASE_PRODUCTS = [
       detail:'Dòng máy khoan đá bằng hơi khí nén chân nâng đỡ (Air-leg Rock Drill) cực kỳ thông dụng trong khai thác mỏ hầm lò tại Việt Nam.\n\n•YT28/YT29A có van phân phối khí nén cải tiến, vận hành êm ái, bôi trơn tự động bằng bình chứa dầu ngậm khí hơi\n• Chân khí nén chống nâng đỡ đẩy tự động giảm thiểu sức ép thể lực cho thợ khoan.',
       specDetail:[{l:'Trọng lượng máy',v:'26 kg - 28 kg'},{l:'Đường kính Piston',v:'80 mm'},{l:'Hành trình Piston',v:'60 mm'},{l:'Tốc độ khoan đá cứng',v:'≥ 300 mm/phút'},{l:'Tần số đập máy',v:'≥ 37 Hz'}] },
 
-    { id:'mk-drill-rig', cat:'Thiết Bị', brand:'Long Hoa Vĩ', title:'Xe Khoan Đá Bánh Xích Tự Hành', img:'catalog_may_khoan/page_05.png', badge:'Thiết bị nặng',
+    { id:'mk-drill-rig', cat:'Thiết Bị', brand:'SHENLONG', title:'Xe Khoan Đá Bánh Xích Tự Hành', img:'catalog_may_khoan/page_05.png', badge:'Thiết bị nặng',
       desc:'Dàn xe khoan nổ mìn bánh xích DTH SL-100Y, SL-120Y. Động cơ diesel mạnh mẽ, crawler leo dốc khỏe 30°.',
       specs:['SL-100Y / SL-120Y', 'Bánh xích tự hành crawler', 'ĐK lỗ khoan 90-115mm'], pressure:['high'], apps:['mining', 'construction'],
       images:['catalog_may_khoan/page_05.png'],
@@ -153,7 +153,7 @@ const BASE_PRODUCTS = [
       detail:'Dàn xe khoan nổ mìn tự hành bánh xích Crawler DTH chuyên dùng cho mỏ đá lộ thiên san lấp xây dựng thủy điện lớn.\n\n• Động cơ diesel công suất cao cung cấp thủy lực nâng góc cần và di chuyển crawler bánh xích\n• Hoạt động hoàn hảo trên mọi địa hình hiểm trở quặng mỏ dốc gồ ghề.',
       specDetail:[{l:'Đường kính khoan lỗ',v:'φ90 mm - φ115 mm'},{l:'Độ sâu khoan tối đa',v:'25 mét'},{l:'Tốc độ di chuyển crawler',v:'2.0 km/h'},{l:'Góc nâng cần khoan',v:'-15° đến +95°'}] },
 
-    { id:'mk-parts', cat:'Phụ Kiện', brand:'Long Hoa Vĩ', title:'Phụ Tùng Máy Khoan Đá Hơi', img:'catalog_may_khoan/page_06.png', badge:'Phụ tùng chính hãng',
+    { id:'mk-parts', cat:'Phụ Kiện', brand:'SHENLONG', title:'Phụ Tùng Máy Khoan Đá Hơi', img:'catalog_may_khoan/page_06.png', badge:'Phụ tùng chính hãng',
       desc:'Piston, quả dứa xoay rifle bar, kim hơi nước, van chia khí, bánh cóc thay thế chuẩn bản vẽ OEM YT28/YT29A.',
       specs:['YT28 / YT29A spare parts', 'Thép rèn thấm siêu bền', 'Dung sai OEM ≤ 0.01mm'], pressure:['low', 'medium'], apps:['mining', 'construction'],
       images:['catalog_may_khoan/page_06.png', 'catalog_may_khoan/page_07.png', 'catalog_may_khoan/page_08.png'],
@@ -162,28 +162,28 @@ const BASE_PRODUCTS = [
       specDetail:[{l:'Dòng máy tương thích',v:'YT24, YT27, YT28, YT29A'},{l:'Vật liệu chế tạo',v:'Thép hợp kim rèn bề mặt thấm nitrogen chống mài mòn'},{l:'Dung sai chế tạo',v:'Độ chính xác OEM ≤ 0.01mm'},{l:'Linh kiện có sẵn',v:'Piston, quả dứa, bánh răng, kim nước, phớt chặn hơi'}] },
 
     // ─── Búa & Mũi DTH áp thấp/cao ───
-    { id:'ks-dth-hammer-low', cat:'Búa Khoan', brand:'Long Hoa Vĩ', title:'Búa DTH Áp Thấp CIR', img:'product_images/page_03.png', badge:'Valveless',
+    { id:'ks-dth-hammer-low', cat:'Búa Khoan', brand:'KAISHAN', title:'Búa DTH Áp Thấp CIR', img:'product_images/page_03.png', badge:'Valveless',
       desc:'Búa khoan ngầm áp thấp CIR50–CIR200 thiết kế valveless (không van). Cấu tạo đơn giản, bảo trì dễ dàng, tiết kiệm khí nén.',
       specs:['0.5–0.7 MPa','CIR50–CIR200','Valveless design'], pressure:['low'], apps:['well','construction','mining'],
       models:'CIR50, CIR60, CIR65, CIR70, CIR80, CIR90, CIR110, CIR130, CIR150, CIR170, CIR200',
       detail:'Búa DTH áp thấp sử dụng thiết kế không van (valveless) giúp tăng tần số đập, giảm tiêu hao dầu/khí nén, bảo trì đơn giản.\\n\\n• Áp suất làm việc: 0.5–0.7 MPa\\n• Phù hợp khoan giếng nước, khoan mỏ đá nhỏ, khoan neo đất\\n• Dải model từ CIR50 (lỗ nhỏ 58mm) đến CIR200 (lỗ lớn 250mm)',
       specDetail:[{l:'Dải áp suất',v:'0.5–0.7 MPa (7–10 bar)'},{l:'Dòng model',v:'CIR50 → CIR200'},{l:'Thiết kế',v:'Valveless (không van) — giảm chi tiết, tăng tần số đập'},{l:'Ứng dụng',v:'Khoan giếng, mỏ đá, xây dựng'}] },
 
-    { id:'ks-dth-hammer-high', cat:'Búa Khoan', brand:'Long Hoa Vĩ', title:'Búa DTH Áp Cao KD Series', img:'product_images/page_07.png', badge:'Công suất lớn',
+    { id:'ks-dth-hammer-high', cat:'Búa Khoan', brand:'KAISHAN', title:'Búa DTH Áp Cao KD Series', img:'product_images/page_07.png', badge:'Công suất lớn',
       desc:'Búa khoan ngầm áp cao KD35–KD85 thiết kế valveless, ren multi-step dễ tháo lắp. Hiệu suất truyền năng lượng cao, khoan nhanh.',
       specs:['>1.2 MPa','KD35–KD85','25–188 kg'], pressure:['high'], apps:['mining','construction','exploration'],
       models:'KD35, KD45, KD55, KD65, KD85',
       detail:'Búa DTH áp cao dòng KD được thiết kế valveless với hiệu suất truyền năng lượng vượt trội.\\n\\n• KD35: φ82mm, 930mm, 25kg — cho lỗ khoan trung bình\\n• KD45: φ99mm, 1030mm, 39kg — đa năng\\n• KD55: φ126mm, 1214mm, 76.5kg — khai mỏ lớn\\n• KD65: φ142–148mm, 1248mm, 100kg — khoan sâu\\n• KD85: φ144–148mm, 1482mm, 188kg — công suất cực lớn\\n\\nRen multi-step giúp tháo lắp bảo trì nhanh chóng.',
       specDetail:[{l:'Model',v:'KD35 / KD45 / KD55 / KD65 / KD85'},{l:'ĐK ngoài',v:'φ82–φ148mm'},{l:'Chiều dài (không mũi)',v:'930–1482mm'},{l:'Trọng lượng',v:'25–188 kg'},{l:'Áp suất làm việc',v:'>1.2 MPa (>17 bar)'}] },
 
-    { id:'ks-bit-low', cat:'Mũi Khoan', brand:'Long Hoa Vĩ', title:'Mũi Khoan DTH Áp Thấp CIR', img:'product_images/page_35.png', badge:'',
+    { id:'ks-bit-low', cat:'Mũi Khoan', brand:'KAISHAN', title:'Mũi Khoan DTH Áp Thấp CIR', img:'product_images/page_35.png', badge:'',
       desc:'Mũi khoan DTH áp thấp dòng CIR65–CIR170. Nút hợp kim cacbua vonfram cao cấp, thiết kế CAD/CNC tối ưu flushing.',
       specs:['CIR65–CIR170','ĐK 65–200mm','Nút WC cao cấp'], pressure:['low'], apps:['well','construction','mining'],
       models:'CIR65, CIR70, CIR80, CIR90, CIR110, CIR130, CIR150, CIR170',
       detail:'Mũi khoan DTH áp thấp dùng cho búa CIR series.\\n\\n• Thép hợp kim chịu lực cao kết hợp nút cacbua vonfram (WC) siêu cứng\\n• Thiết kế CAD, gia công CNC chính xác tuyệt đối\\n• Xử lý nhiệt nhiều lần tăng độ cứng và chống mỏi kim loại\\n• Rãnh xả phoi tối ưu đảm bảo flushing đều, giảm mài mòn thân mũi',
       specDetail:[{l:'Dòng sản phẩm',v:'CIR65, CIR70, CIR80, CIR90, CIR110, CIR130, CIR150, CIR170'},{l:'Đường kính mũi',v:'65–200mm'},{l:'Số spline',v:'4–6 spline'},{l:'Mặt mũi khoan',v:'Phẳng (Flat) / Lõm (Concave) / Lồi (Convex)'}] },
 
-    { id:'ks-bit-high', cat:'Mũi Khoan', brand:'Long Hoa Vĩ', title:'Mũi Khoan DTH Áp Cao DHD', img:'product_images/page_36.png', badge:'',
+    { id:'ks-bit-high', cat:'Mũi Khoan', brand:'KAISHAN', title:'Mũi Khoan DTH Áp Cao DHD', img:'product_images/page_36.png', badge:'',
       desc:'Mũi khoan DTH áp cao chuẩn DHD3.5–DHD112. Đa dạng kiểu mặt Flat/Concave/Convex, đường kính 3"–12"+.',
       specs:['DHD3.5–DHD112','ĐK 76–305mm+','Flat/Concave/Convex'], pressure:['high'], apps:['mining','well','construction','exploration'],
       models:'DHD3.5, DHD340A, DHD350, DHD360, DHD380, DHD112',
@@ -192,14 +192,14 @@ const BASE_PRODUCTS = [
 
 
     // ─── Búa & Mũi DTH bổ sung ───
-    { id:'mas-dth-hammer', cat:'Búa Khoan', brand:'Long Hoa Vĩ', title:'Búa Khoan Ngầm DTH (CIR/DHD)', img:'bua_khoan_dth_images/DTH hammer CIR110 130.png', badge:'',
+    { id:'mas-dth-hammer', cat:'Búa Khoan', brand:'MA&S', title:'Búa Khoan Ngầm DTH (CIR/DHD)', img:'bua_khoan_dth_images/DTH hammer CIR110 130.png', badge:'',
       desc:'Búa khoan DTH tương thích chuẩn DHD340–DHD380, CIR90–CIR150. Xung lực đập mạnh, tiết kiệm khí nén, độ bền cao.',
       specs:['DHD340–DHD380','CIR90–CIR150','Tương thích chuẩn quốc tế'], pressure:['low','high'], apps:['mining','well','construction'],
       models:'CIR90, CIR110, CIR130, CIR150, DHD340, DHD350, DHD360',
       detail:'Búa khoan DTH là dòng búa khoan nhập khẩu tương thích hoàn toàn với chuẩn shank quốc tế.\\n\\n• Tương thích búa CIR (áp thấp) và DHD (áp cao)\\n• Vỏ búa thép hợp kim tôi nhiệt chống mài mòn\\n• Buồng nén khí thiết kế tối ưu tiết kiệm lưu lượng khí nén\\n• Phù hợp thay thế cho các dàn khoan hiện hữu dùng búa CIR/DHD',
       specDetail:[{l:'Dòng áp thấp',v:'CIR90, CIR110, CIR130, CIR150'},{l:'Dòng áp cao',v:'DHD340, DHD350, DHD360'},{l:'Tương thích',v:'Chuẩn shank CIR / DHD quốc tế'},{l:'Vật liệu vỏ',v:'Thép hợp kim tôi nhiệt chống mài mòn'}] },
 
-    { id:'mas-dth-bit', cat:'Mũi Khoan', brand:'Long Hoa Vĩ', title:'Mũi Khoan Ngầm DTH (CIR/DHD)', img:'bua_khoan_dth_images/DTH hammer CIR150.png', badge:'',
+    { id:'mas-dth-bit', cat:'Mũi Khoan', brand:'MA&S', title:'Mũi Khoan Ngầm DTH (CIR/DHD)', img:'bua_khoan_dth_images/DTH hammer CIR150.png', badge:'',
       desc:'Mũi khoan DTH nút hợp kim cacbua vonfram. Tương thích chuẩn CIR/DHD. Đường kính 90–203mm.',
       specs:['ĐK 90–203mm','Sơn bảo vệ hoặc thép thô mộc không sơn','CIR/DHD shank'], pressure:['low','high'], apps:['mining','well','construction'],
       models:'Mũi CIR90, Mũi CIR110, Mũi CIR130, Mũi CIR150, Mũi DHD340, Mũi DHD350, Mũi DHD360',
@@ -433,6 +433,7 @@ function renderBrandChart() {
     
     const brandCounts = {
         'Kaiqiu': 0,
+        'Kaiyu': 0,
         'PULANKA': 0,
         'SHENLONG': 0,
         'KAISHAN': 0,
@@ -451,6 +452,7 @@ function renderBrandChart() {
     
     const colors = {
         'Kaiqiu': '#f59e0b',
+        'Kaiyu': '#fbbf24',
         'PULANKA': '#1e3a8a',
         'SHENLONG': '#047857',
         'KAISHAN': '#111827',
@@ -515,7 +517,8 @@ function updateFilterCounts() {
     const catEquipment = PRODUCTS.filter(p => p.cat === 'Thiết Bị').length;
     
     const brandAll = PRODUCTS.length;
-    const brandKaiqiu = PRODUCTS.filter(p => p.brand === 'Kaiqiu' || p.brand === 'Kaiyu').length;
+    const brandKaiqiu = PRODUCTS.filter(p => p.brand === 'Kaiqiu').length;
+    const brandKaiyu = PRODUCTS.filter(p => p.brand === 'Kaiyu').length;
     const brandPulanka = PRODUCTS.filter(p => p.brand === 'PULANKA').length;
     const brandShenlong = PRODUCTS.filter(p => p.brand === 'SHENLONG').length;
     const brandKaishan = PRODUCTS.filter(p => p.brand === 'KAISHAN').length;
@@ -535,6 +538,7 @@ function updateFilterCounts() {
     
     setBadge('count-brand-all', brandAll);
     setBadge('count-brand-kaiqiu', brandKaiqiu);
+    setBadge('count-brand-kaiyu', brandKaiyu);
     setBadge('count-brand-pulanka', brandPulanka);
     setBadge('count-brand-shenlong', brandShenlong);
     setBadge('count-brand-kaishan', brandKaishan);
