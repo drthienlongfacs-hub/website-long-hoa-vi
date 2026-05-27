@@ -6,12 +6,12 @@ const DRILL_BIT_PRODUCTS = [
         "title": "Mũi Khoan Ngầm DTH CIR110 (110mm — 12/13/14 nút)",
         "img": "drill_bit_images/DTH bit CIR110 series.png",
         "badge": "MẶT HÀNG CHIẾN LƯỢC",
-        "desc": "Mũi khoan DTH CIR110/12, 13, 14 mm chuyên dụng cho giếng khoan sâu, khoan khai mỏ địa chất cứng.",
+        "desc": "Mũi khoan DTH CIR110/12, 13, 14 mm loại 1 chính hãng, độ bền cao đã được chứng minh chất lượng tại Việt Nam qua thời gian dài.",
         "specs": [
             "Đường kính: 110mm",
             "Cấu hình: 12 / 13 / 14 nút hợp kim",
-            "Xuất xứ: Trung Quốc (Hàng chất lượng cao)",
-            "Thương hiệu: Long Hoa Vĩ phân phối chính hãng"
+            "Phân khúc: Hàng loại 1 chính hãng, cực kỳ bền bỉ",
+            "Kiểm chứng: Chứng minh chất lượng tại Việt Nam qua thời gian dài"
         ],
         "pressure": [
             "low",
@@ -27,11 +27,11 @@ const DRILL_BIT_PRODUCTS = [
             "drill_bit_images/dht bit CIR110.png"
         ],
         "models": "CIR110-110mm",
-        "detail": "Dòng mũi khoan ngầm DTH CIR110 chiến lược của Long Hoa Vĩ. Nhập khẩu trực tiếp từ nhà máy Trung Quốc uy tín hàng đầu, sản xuất bằng thép hợp kim cao cấp cùng các nút cacbua vonfram (tungsten carbide) siêu chống mài mòn, chịu đập lớn. Sản phẩm chuyên dụng cho khoan giếng sâu, khoan nổ mìn đá cứng và khoan khảo sát địa chất, cam kết hàng chất lượng tốt nhất.",
+        "detail": "Dòng mũi khoan ngầm DTH CIR110 chiến lược của Long Hoa Vĩ. Đây là dòng sản phẩm hàng loại 1 chính hãng, sản xuất tại nhà máy Trung Quốc uy tín hàng đầu và đã được chứng minh chất lượng bền bỉ vượt trội tại các công trình khoan giếng sâu, khai khoáng ở Việt Nam qua thời gian dài. Thân thép hợp kim cao cấp cùng các nút cacbua vonfram (tungsten carbide) siêu chống mài mòn, chịu đập lớn và chống vỡ nút tối đa.",
         "specDetail": [
             {
-                "l": "Xuất xứ",
-                "v": "Trung Quốc (Hàng tuyển chọn chất lượng tốt)"
+                "l": "Xuất xứ & Chất lượng",
+                "v": "Hàng loại 1 chính hãng (Tuyển chọn nghiêm ngặt)"
             },
             {
                 "l": "Đường kính mũi",
@@ -42,12 +42,12 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "12, 13 hoặc 14 nút cầu/nút côn"
             },
             {
-                "l": "Chuẩn đuôi búa tương thích",
+                "l": "Chuẩn đuôi búa",
                 "v": "CIR110 (Áp lực thấp/trung bình)"
             },
             {
-                "l": "Chất lượng kiểm duyệt",
-                "v": "Tiêu chuẩn quốc tế cao cấp, chịu va đập cực tốt"
+                "l": "Kiểm chứng thực tế",
+                "v": "Đã được chứng minh chất lượng tại Việt Nam qua thời gian dài"
             }
         ]
     },
@@ -58,12 +58,12 @@ const DRILL_BIT_PRODUCTS = [
         "title": "Mũi Khoan Côn Hợp Kim Phi 22 (Đường kính 32, 34, 36, 38, 40, 42 mm)",
         "img": "drill_bit_images/7buttons tapered bit.png",
         "badge": "MẶT HÀNG CHIẾN LƯỢC",
-        "desc": "Mũi khoan côn phi 22 (tapered button bit) với đường kính đa dạng từ 32mm đến 42mm, chuyên dụng mỏ đá, công trình xây dựng.",
+        "desc": "Mũi khoan côn phi 22 (đường kính 32-42mm) loại 1 chính hãng, độ bền vượt trội đã được chứng minh chất lượng tại Việt Nam qua thời gian dài.",
         "specs": [
             "Đường kính: 32, 34, 36, 38, 40, 42 mm",
             "Đuôi côn tương thích cần: H22 (Phi 22)",
-            "Xuất xứ: Trung Quốc (Hàng chất lượng cao)",
-            "Góc côn: 7° / 11° / 12°"
+            "Phân khúc: Hàng loại 1 chính hãng tuyển chọn",
+            "Kiểm chứng: Chứng minh chất lượng tại Việt Nam qua thời gian dài"
         ],
         "pressure": [
             "low",
@@ -79,11 +79,11 @@ const DRILL_BIT_PRODUCTS = [
             "drill_bit_images/8buttons tapered bit.png"
         ],
         "models": "Tapered Bit Phi 22",
-        "detail": "Mũi khoan côn hợp kim phi 22 là dòng sản phẩm chiến lược bán chạy nhất của Long Hoa Vĩ cho các mỏ đá xây dựng và khai khoáng. Thiết kế liên kết côn 7 độ, 11 độ hoặc 12 độ chuẩn xác với cần khoan lục giác H22. Sản phẩm nhập khẩu Trung Quốc chất lượng tốt nhất phân khúc, chịu lực đập va đập cực lớn từ búa khoan côn cầm tay.",
+        "detail": "Mũi khoan côn hợp kim phi 22 là dòng sản phẩm chiến lược bán chạy nhất của Long Hoa Vĩ cho các mỏ đá xây dựng và khai khoáng. Sản phẩm cam kết là hàng loại 1 chính hãng nhập khẩu từ Trung Quốc với quy trình tuyển chọn cực kỳ nghiêm ngặt, đã được hàng trăm đơn vị khai thác đá lớn chứng minh chất lượng thực tế bền bỉ vượt trội tại Việt Nam qua thời gian dài sử dụng, chịu lực đập va đập cực lớn từ búa khoan côn cầm tay.",
         "specDetail": [
             {
-                "l": "Xuất xứ",
-                "v": "Trung Quốc (Nhập khẩu tuyển chọn)"
+                "l": "Phân khúc chất lượng",
+                "v": "Hàng loại 1 chính hãng (Tuyển chọn đặc biệt)"
             },
             {
                 "l": "Đường kính mũi khả dụng",
@@ -98,8 +98,8 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "7°, 11°, 12°"
             },
             {
-                "l": "Đặc trưng nổi bật",
-                "v": "Thép hợp kim carbon cao, nút hợp kim cacbua vonfram siêu cứng"
+                "l": "Độ tin cậy",
+                "v": "Đã được chứng minh chất lượng thực tế tại Việt Nam qua thời gian dài"
             }
         ]
     },
