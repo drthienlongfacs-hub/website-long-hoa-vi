@@ -135,60 +135,134 @@
             <div class="section-header">
                 <span class="section-tag">Danh mục sản phẩm phân phối</span>
                 <h2 class="section-title">Hệ Thống Thiết Bị Khoan & Khai Thác</h2>
-                <p class="section-desc">Duyệt toàn bộ danh mục sản phẩm chất lượng cao. Dễ dàng tra cứu, so sánh và đặt hàng.</p>
+                <p class="section-desc">Duyệt toàn bộ danh mục sản phẩm chính hãng từ KAIQIU, PULANKA, SHENLONG và Long Hoa Vĩ. Dễ dàng tra cứu, so sánh và đặt hàng.</p>
             </div>
 
-            <!-- FILTER BAR -->
-            <div class="filter-bar" id="filter-bar">
-                <!-- Brand filter removed — all products branded as Long Hoa Vĩ -->
-
-                <!-- Category Filter Group -->
-                <div class="filter-group">
-                    <label>Nhóm sản phẩm kỹ thuật</label>
-                    <div class="filter-chips" id="category-filters">
-                        <button class="chip active" data-filter="all" onclick="filterByCategory('all')">Tất cả sản phẩm <span class="chip-count" id="count-cat-all">0</span></button>
-                        <button class="chip" data-filter="Búa Khoan" onclick="filterByCategory('Búa Khoan')">Búa Khoan DTH & RC</button>
-                        <button class="chip" data-filter="Mũi Khoan" onclick="filterByCategory('Mũi Khoan')">Mũi Khoan Hợp Kim</button>
-                        <button class="chip" data-filter="Phụ Kiện" onclick="filterByCategory('Phụ Kiện')">Cần Khoan & Phụ Kiện</button>
-                        <button class="chip" data-filter="Thiết Bị" onclick="filterByCategory('Thiết Bị')">Máy & Xe Khoan Đá</button>
-                    </div>
-                </div>
-
-                <div class="filter-secondary" style="margin-top: 16px;">
-                    <div class="filter-group">
-                        <label>Áp suất khí</label>
-                        <select id="pressure-filter" onchange="applyFilters()">
-                            <option value="all">Tất cả áp suất</option>
-                            <option value="low">Thấp (7–17 bar)</option>
-                            <option value="medium">Trung bình (10–21 bar)</option>
-                            <option value="high">Cao (17–25 bar)</option>
-                        </select>
-                    </div>
-                    <div class="filter-group">
-                        <label>Ứng dụng thi công</label>
-                        <select id="app-filter" onchange="applyFilters()">
-                            <option value="all">Tất cả ứng dụng</option>
-                            <option value="mining">Khai thác mỏ đá / Quặng</option>
-                            <option value="well">Khoan giếng công nghiệp</option>
-                            <option value="construction">Xây dựng & Thủy điện</option>
-                            <option value="exploration">Thăm dò địa chất</option>
-                        </select>
-                    </div>
-                    <div class="filter-group">
-                        <label>Sắp xếp danh sách</label>
-                        <select id="sort-filter" onchange="applyFilters()">
-                            <option value="featured">Sản phẩm nổi bật</option>
-                            <option value="name-asc">Tên sản phẩm A→Z</option>
-                            <option value="name-desc">Tên sản phẩm Z→A</option>
-                        </select>
-                    </div>
-                    <div class="filter-result-count" style="margin-left: auto; align-self: center;"><span id="result-count">0</span> sản phẩm</div>
-                </div>
+            <!-- Mobile Sidebar Toggle -->
+            <div class="mobile-filter-trigger-wrap">
+                <button class="mobile-filter-trigger" id="mobile-filter-trigger">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"/></svg>
+                    <span>Bộ lọc & Thống kê sản phẩm</span>
+                </button>
             </div>
 
-            <!-- PRODUCT GRID -->
-            <div class="product-grid" id="product-grid">
-                <!-- Cards rendered by JS -->
+            <div class="catalog-layout">
+                <!-- ═══ SIDEBAR ═══ -->
+                <aside class="catalog-sidebar" id="catalog-sidebar">
+                    <div class="sidebar-header">
+                        <h3>Bộ Lọc Tìm Kiếm</h3>
+                        <button class="sidebar-close" id="sidebar-close">&times;</button>
+                    </div>
+
+                    <!-- Search Block -->
+                    <div class="sidebar-block">
+                        <h4 class="block-title">Tìm kiếm nhanh</h4>
+                        <div class="sidebar-search-box">
+                            <input type="text" id="sidebar-search-input" placeholder="Nhập tên, model (DHD, CIR...)" autocomplete="off">
+                            <button id="sidebar-search-clear" class="search-clear-btn" style="display:none;">&times;</button>
+                        </div>
+                    </div>
+
+                    <!-- Category Filter Block -->
+                    <div class="sidebar-block">
+                        <h4 class="block-title">Nhóm sản phẩm</h4>
+                        <div class="sidebar-menu" id="category-filters">
+                            <a href="#" class="sidebar-menu-item active" data-filter="all" onclick="filterByCategory('all');return false;"><span>🗂 Tất cả sản phẩm</span><span class="badge" id="count-cat-all">0</span></a>
+                            <a href="#" class="sidebar-menu-item" data-filter="Búa Khoan" onclick="filterByCategory('Búa Khoan');return false;"><span>🔨 Búa Khoan DTH & RC</span><span class="badge" id="count-cat-hammer">0</span></a>
+                            <a href="#" class="sidebar-menu-item" data-filter="Mũi Khoan" onclick="filterByCategory('Mũi Khoan');return false;"><span>💎 Mũi Khoan Hợp Kim</span><span class="badge" id="count-cat-bit">0</span></a>
+                            <a href="#" class="sidebar-menu-item" data-filter="Phụ Kiện" onclick="filterByCategory('Phụ Kiện');return false;"><span>⚙ Cần Khoan & Phụ Kiện</span><span class="badge" id="count-cat-accessory">0</span></a>
+                            <a href="#" class="sidebar-menu-item" data-filter="Thiết Bị" onclick="filterByCategory('Thiết Bị');return false;"><span>🚜 Máy & Xe Khoan Đá</span><span class="badge" id="count-cat-equipment">0</span></a>
+                        </div>
+                    </div>
+
+                    <!-- Brand Filter Block -->
+                    <div class="sidebar-block">
+                        <h4 class="block-title">Thương hiệu phân phối</h4>
+                        <div class="sidebar-menu" id="brand-filters">
+                            <a href="#" class="sidebar-menu-item active" data-brand="all" onclick="filterByBrand('all');return false;"><span>Tất cả hãng</span><span class="badge" id="count-brand-all">0</span></a>
+                            <a href="#" class="sidebar-menu-item" data-brand="Kaiqiu" onclick="filterByBrand('Kaiqiu');return false;"><span>KAIQIU / KAIYU</span><span class="badge" id="count-brand-kaiqiu">0</span></a>
+                            <a href="#" class="sidebar-menu-item" data-brand="PULANKA" onclick="filterByBrand('PULANKA');return false;"><span>PULANKA</span><span class="badge" id="count-brand-pulanka">0</span></a>
+                            <a href="#" class="sidebar-menu-item" data-brand="SHENLONG" onclick="filterByBrand('SHENLONG');return false;"><span>SHENLONG</span><span class="badge" id="count-brand-shenlong">0</span></a>
+                            <a href="#" class="sidebar-menu-item" data-brand="KAISHAN" onclick="filterByBrand('KAISHAN');return false;"><span>KAISHAN</span><span class="badge" id="count-brand-kaishan">0</span></a>
+                            <a href="#" class="sidebar-menu-item" data-brand="MA&S" onclick="filterByBrand('MA&S');return false;"><span>MA&S</span><span class="badge" id="count-brand-mas">0</span></a>
+                            <a href="#" class="sidebar-menu-item" data-brand="Long Hoa Vĩ" onclick="filterByBrand('Long Hoa Vĩ');return false;"><span>Mũi Khoan LHV</span><span class="badge" id="count-brand-lhv">0</span></a>
+                        </div>
+                    </div>
+
+                    <!-- Color Swatches Block -->
+                    <div class="sidebar-block">
+                        <h4 class="block-title">Màu sắc & Hoàn thiện</h4>
+                        <div class="color-swatch-list">
+                            <button class="color-swatch active" data-color="all" onclick="filterByColor('all');return false;" title="Tất cả màu sắc" style="background: linear-gradient(135deg, #ef4444, #3b82f6, #10b981, #f59e0b);"></button>
+                            <button class="color-swatch" data-color="yellow" onclick="filterByColor('yellow');return false;" title="Vàng Kaiyu (Signature Yellow)" style="background-color: #f59e0b;"></button>
+                            <button class="color-swatch" data-color="blue" onclick="filterByColor('blue');return false;" title="Xanh Pulanka (Deep Blue)" style="background-color: #1e3a8a;"></button>
+                            <button class="color-swatch" data-color="green" onclick="filterByColor('green');return false;" title="Emerald Shenlong (Green)" style="background-color: #047857;"></button>
+                            <button class="color-swatch" data-color="red" onclick="filterByColor('red');return false;" title="Đỏ MA&S (Industrial Red)" style="background-color: #dc2626;"></button>
+                            <button class="color-swatch" data-color="black" onclick="filterByColor('black');return false;" title="Đen Kaishan / Búa áp cao" style="background-color: #111827;"></button>
+                            <button class="color-swatch" data-color="silver" onclick="filterByColor('silver');return false;" title="Thép Thô Mộc LHV" style="background-color: #9ca3af; border: 1.5px solid #d1d5db;"></button>
+                        </div>
+                    </div>
+
+                    <!-- Spec Filters (Pressure & Application) -->
+                    <div class="sidebar-block">
+                        <h4 class="block-title">Quy cách kỹ thuật</h4>
+                        <div class="sidebar-select-group">
+                            <div class="select-item">
+                                <label>Áp suất khí nén</label>
+                                <select id="pressure-filter" onchange="applyFilters()">
+                                    <option value="all">Tất cả áp suất</option>
+                                    <option value="low">Thấp (7–17 bar)</option>
+                                    <option value="medium">Trung bình (10–21 bar)</option>
+                                    <option value="high">Cao (17–25 bar)</option>
+                                </select>
+                            </div>
+                            <div class="select-item" style="margin-top: 12px;">
+                                <label>Ứng dụng thi công</label>
+                                <select id="app-filter" onchange="applyFilters()">
+                                    <option value="all">Tất cả ứng dụng</option>
+                                    <option value="mining">Khai thác mỏ / Quặng</option>
+                                    <option value="well">Khoan giếng công nghiệp</option>
+                                    <option value="construction">Xây dựng & Thủy điện</option>
+                                    <option value="exploration">Thăm dò địa chất</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- SVG Analytics Chart -->
+                    <div class="sidebar-block analytics-block">
+                        <h4 class="block-title">Thống kê sản phẩm</h4>
+                        <div class="analytics-chart" id="brand-distribution-chart">
+                            <!-- Rendered by JS -->
+                        </div>
+                        <div class="sidebar-security-badge">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                            <span>Hình ảnh độc quyền LHV 🛡️</span>
+                        </div>
+                    </div>
+
+                    <button class="btn btn-secondary btn-full btn-reset-filters" onclick="resetAllFilters()">Đặt lại bộ lọc</button>
+                </aside>
+
+                <!-- ═══ MAIN CONTENT ═══ -->
+                <main class="catalog-main">
+                    <div class="catalog-toolbar">
+                        <div class="result-count"><span id="result-count">0</span> sản phẩm</div>
+                        <div class="toolbar-actions">
+                            <label for="sort-filter">Sắp xếp:</label>
+                            <select id="sort-filter" onchange="applyFilters()">
+                                <option value="featured">Sản phẩm nổi bật</option>
+                                <option value="name-asc">Tên A→Z</option>
+                                <option value="name-desc">Tên Z→A</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- PRODUCT GRID -->
+                    <div class="product-grid" id="product-grid">
+                        <!-- Cards rendered by JS -->
+                    </div>
+                </main>
             </div>
         </div>
     </section>

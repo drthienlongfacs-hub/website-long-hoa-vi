@@ -179,7 +179,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Góc côn 7°/11°/12°",
             "Đường kính 30-45mm",
-            "Nút hợp kim siêu bền"
+            "Sơn bảo vệ hoặc thép thô nguyên bản"
         ],
         "pressure": [
             "low",
@@ -208,6 +208,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Cacbua vonfram (WC)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai thác mỏ đá, công trình xây dựng"
             }
@@ -224,7 +228,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Góc côn 7°/11°/12°",
             "Đường kính 30-45mm",
-            "Nút hợp kim siêu bền"
+            "Sơn bảo vệ hoặc thép thô nguyên bản"
         ],
         "pressure": [
             "low",
@@ -253,6 +257,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Cacbua vonfram (WC)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai thác mỏ đá, công trình xây dựng"
             }
@@ -269,7 +277,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Góc côn 7°/11°/12°",
             "Đường kính 30-45mm",
-            "Nút hợp kim siêu bền"
+            "Sơn bảo vệ hoặc thép thô nguyên bản"
         ],
         "pressure": [
             "low",
@@ -298,6 +306,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Cacbua vonfram (WC)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai thác mỏ đá, công trình xây dựng"
             }
@@ -314,7 +326,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực thấp 7-17 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "low",
@@ -344,6 +356,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -360,7 +376,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực cao 17-25 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "high"
@@ -389,6 +405,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -405,7 +425,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực cao 17-25 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "high"
@@ -434,6 +454,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -450,7 +474,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực cao 17-25 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "high"
@@ -479,6 +503,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -495,7 +523,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực thấp 7-17 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "low",
@@ -525,6 +553,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -541,7 +573,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực thấp 7-17 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "low",
@@ -571,6 +603,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -587,7 +623,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực thấp 7-17 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "low",
@@ -617,6 +653,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -633,7 +673,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực cao 17-25 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "high"
@@ -662,6 +702,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -678,7 +722,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực cao 17-25 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "high"
@@ -707,6 +751,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -723,7 +771,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực cao 17-25 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "high"
@@ -752,6 +800,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -768,7 +820,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực cao 17-25 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "high"
@@ -797,6 +849,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -813,7 +869,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực cao 17-25 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "high"
@@ -842,6 +898,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -858,7 +918,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực cao 17-25 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "high"
@@ -887,6 +947,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -903,7 +967,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực cao 17-25 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "high"
@@ -932,6 +996,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -948,7 +1016,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực cao 17-25 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "high"
@@ -977,6 +1045,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -993,7 +1065,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực cao 17-25 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "high"
@@ -1022,6 +1094,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -1038,7 +1114,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Đa dạng kích thước",
             "Hợp kim vonfram",
-            "Độ bền bỉ cao"
+            "Có sơn bảo vệ hoặc thép thô nguyên bản"
         ],
         "pressure": [
             "high"
@@ -1058,6 +1134,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Long Hoa Vĩ"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Chất liệu",
                 "v": "Thép tôi thấm carbon, Cacbua Vonfram"
             }
@@ -1074,7 +1154,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Ren R32/T38/T45/T51",
             "Hợp kim chịu va đập",
-            "Xả phoi tối ưu"
+            "Đa dạng màu sơn hoặc thép thô nguyên bản"
         ],
         "pressure": [
             "high"
@@ -1102,6 +1182,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Nút hình cầu hoặc hình đạn"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có sơn phủ bảo vệ nhiều màu tùy chọn hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khoan hầm, khai mỏ hầm lò, neo đá"
             }
@@ -1118,7 +1202,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Ren R32/T38/T45/T51",
             "Hợp kim chịu va đập",
-            "Xả phoi tối ưu"
+            "Đa dạng màu sơn hoặc thép thô nguyên bản"
         ],
         "pressure": [
             "high"
@@ -1146,6 +1230,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Nút hình cầu hoặc hình đạn"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có sơn phủ bảo vệ nhiều màu tùy chọn hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khoan hầm, khai mỏ hầm lò, neo đá"
             }
@@ -1162,7 +1250,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Thân khía rút ngược",
             "Ren T38/T45/T51",
-            "Đá nứt nẻ, phức tạp"
+            "Đa dạng sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "high"
@@ -1190,6 +1278,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "64mm - 115mm"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ hoặc thép thô mộc không sơn nguyên bản"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khoan hầm lò địa tầng sạt lở, yếu"
             }
@@ -1206,7 +1298,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Chuẩn khớp Nga P110",
             "Chịu va đập cực tốt",
-            "Mỏ đá xi măng"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "high"
@@ -1229,6 +1321,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "110mm / 130mm"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô không sơn nguyên bản"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai thác đá xi măng, mỏ quặng lớn"
             }
@@ -1245,7 +1341,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Ren R32/T38/T45/T51",
             "Hợp kim chịu va đập",
-            "Xả phoi tối ưu"
+            "Đa dạng màu sơn hoặc thép thô nguyên bản"
         ],
         "pressure": [
             "high"
@@ -1273,6 +1369,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Nút hình cầu hoặc hình đạn"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có sơn phủ bảo vệ nhiều màu tùy chọn hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khoan hầm, khai mỏ hầm lò, neo đá"
             }
@@ -1289,7 +1389,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Ren R32/T38/T45/T51",
             "Hợp kim chịu va đập",
-            "Xả phoi tối ưu"
+            "Đa dạng màu sơn hoặc thép thô nguyên bản"
         ],
         "pressure": [
             "high"
@@ -1317,6 +1417,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Nút hình cầu hoặc hình đạn"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có sơn phủ bảo vệ nhiều màu tùy chọn hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khoan hầm, khai mỏ hầm lò, neo đá"
             }
@@ -1333,7 +1437,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Ren R32/T38/T45/T51",
             "Hợp kim chịu va đập",
-            "Xả phoi tối ưu"
+            "Đa dạng màu sơn hoặc thép thô nguyên bản"
         ],
         "pressure": [
             "high"
@@ -1361,6 +1465,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Nút hình cầu hoặc hình đạn"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có sơn phủ bảo vệ nhiều màu tùy chọn hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khoan hầm, khai mỏ hầm lò, neo đá"
             }
@@ -1377,7 +1485,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Góc côn 7°/11°/12°",
             "Đường kính 30-45mm",
-            "Nút hợp kim siêu bền"
+            "Sơn bảo vệ hoặc thép thô nguyên bản"
         ],
         "pressure": [
             "low",
@@ -1404,6 +1512,10 @@ const DRILL_BIT_PRODUCTS = [
             {
                 "l": "Nút hợp kim",
                 "v": "Cacbua vonfram (WC)"
+            },
+            {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
             },
             {
                 "l": "Ứng dụng",
@@ -1450,6 +1562,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Nút hình cầu hoặc hình đạn"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có sơn phủ bảo vệ nhiều màu tùy chọn hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khoan hầm, khai mỏ hầm lò, neo đá"
             }
@@ -1466,7 +1582,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực thấp 7-17 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "low",
@@ -1496,6 +1612,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -1512,7 +1632,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Ren R32/T38/T45/T51",
             "Hợp kim chịu va đập",
-            "Xả phoi tối ưu"
+            "Đa dạng màu sơn hoặc thép thô nguyên bản"
         ],
         "pressure": [
             "high"
@@ -1540,6 +1660,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Nút hình cầu hoặc hình đạn"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có sơn phủ bảo vệ nhiều màu tùy chọn hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khoan hầm, khai mỏ hầm lò, neo đá"
             }
@@ -1556,7 +1680,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực thấp 7-17 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "low",
@@ -1586,6 +1710,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -1602,7 +1730,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực thấp 7-17 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "low",
@@ -1632,6 +1760,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -1648,7 +1780,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực thấp 7-17 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "low",
@@ -1678,6 +1810,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -1694,7 +1830,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực thấp 7-17 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "low",
@@ -1724,6 +1860,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -1740,7 +1880,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực thấp 7-17 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "low",
@@ -1770,6 +1910,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -1786,7 +1930,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực thấp 7-17 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "low",
@@ -1816,6 +1960,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -1832,7 +1980,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực thấp 7-17 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "low",
@@ -1862,6 +2010,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -1878,7 +2030,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực thấp 7-17 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "low",
@@ -1908,6 +2060,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -1924,7 +2080,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực thấp 7-17 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "low",
@@ -1954,6 +2110,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -1970,7 +2130,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực thấp 7-17 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "low",
@@ -2000,6 +2160,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -2016,7 +2180,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực thấp 7-17 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "low",
@@ -2046,6 +2210,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -2062,7 +2230,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực thấp 7-17 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "low",
@@ -2092,6 +2260,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -2108,7 +2280,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực cao 17-25 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "high"
@@ -2137,6 +2309,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -2153,7 +2329,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực cao 17-25 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "high"
@@ -2182,6 +2358,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -2198,7 +2378,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực cao 17-25 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "high"
@@ -2227,6 +2407,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -2243,7 +2427,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực cao 17-25 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "high"
@@ -2272,6 +2456,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -2288,7 +2476,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực cao 17-25 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "high"
@@ -2317,6 +2505,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -2333,7 +2525,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực cao 17-25 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "high"
@@ -2360,6 +2552,10 @@ const DRILL_BIT_PRODUCTS = [
             {
                 "l": "Loại mặt mũi",
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
+            },
+            {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
             },
             {
                 "l": "Ứng dụng",
@@ -2407,6 +2603,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -2423,7 +2623,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực cao 17-25 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "high"
@@ -2452,6 +2652,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -2468,7 +2672,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực cao 17-25 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "high"
@@ -2497,6 +2701,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -2513,7 +2721,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "ĐK 50-400mm",
             "Áp lực cao 17-25 bar",
-            "Nút cầu/Nút côn"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "high"
@@ -2540,6 +2748,10 @@ const DRILL_BIT_PRODUCTS = [
             {
                 "l": "Loại mặt mũi",
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
+            },
+            {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
             },
             {
                 "l": "Ứng dụng",
@@ -2587,6 +2799,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Mặt phẳng (Flat) hoặc Mặt lõm (Concave)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai mỏ, khoan giếng công nghiệp, đóng cọc"
             }
@@ -2603,7 +2819,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Ren R32/T38/T45/T51",
             "Hợp kim chịu va đập",
-            "Xả phoi tối ưu"
+            "Đa dạng màu sơn hoặc thép thô nguyên bản"
         ],
         "pressure": [
             "high"
@@ -2631,6 +2847,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Nút hình cầu hoặc hình đạn"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có sơn phủ bảo vệ nhiều màu tùy chọn hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khoan hầm, khai mỏ hầm lò, neo đá"
             }
@@ -2647,7 +2867,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Ren R32/T38/T45/T51",
             "Hợp kim chịu va đập",
-            "Xả phoi tối ưu"
+            "Đa dạng màu sơn hoặc thép thô nguyên bản"
         ],
         "pressure": [
             "high"
@@ -2673,6 +2893,10 @@ const DRILL_BIT_PRODUCTS = [
             {
                 "l": "Kiểu nút",
                 "v": "Nút hình cầu hoặc hình đạn"
+            },
+            {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có sơn phủ bảo vệ nhiều màu tùy chọn hoặc thép thô mộc không sơn"
             },
             {
                 "l": "Ứng dụng",
@@ -2719,6 +2943,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Côn dẫn hướng tích hợp"
             },
             {
+                "l": "Hoàn thiện",
+                "v": "Nhiều màu sơn phủ hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Doa mở rộng hầm, khoan nổ mìn tầng"
             }
@@ -2735,7 +2963,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Ren R32/T51",
             "Đường kính doa lớn",
-            "Mặt doa phẳng chuẩn"
+            "Đa dạng sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "high"
@@ -2763,6 +2991,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Côn dẫn hướng tích hợp"
             },
             {
+                "l": "Hoàn thiện",
+                "v": "Nhiều màu sơn phủ hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Doa mở rộng hầm, khoan nổ mìn tầng"
             }
@@ -2779,7 +3011,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Ren R32/T38/T45/T51",
             "Hợp kim chịu va đập",
-            "Xả phoi tối ưu"
+            "Đa dạng màu sơn hoặc thép thô nguyên bản"
         ],
         "pressure": [
             "high"
@@ -2807,6 +3039,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Nút hình cầu hoặc hình đạn"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có sơn phủ bảo vệ nhiều màu tùy chọn hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khoan hầm, khai mỏ hầm lò, neo đá"
             }
@@ -2823,7 +3059,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Ren R32/T38/T45/T51",
             "Hợp kim chịu va đập",
-            "Xả phoi tối ưu"
+            "Đa dạng màu sơn hoặc thép thô nguyên bản"
         ],
         "pressure": [
             "high"
@@ -2851,6 +3087,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Nút hình cầu hoặc hình đạn"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có sơn phủ bảo vệ nhiều màu tùy chọn hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khoan hầm, khai mỏ hầm lò, neo đá"
             }
@@ -2867,7 +3107,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Thân khía rút ngược",
             "Ren T38/T45/T51",
-            "Đá nứt nẻ, phức tạp"
+            "Đa dạng sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "high"
@@ -2895,6 +3135,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "64mm - 115mm"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ bảo vệ hoặc thép thô mộc không sơn nguyên bản"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khoan hầm lò địa tầng sạt lở, yếu"
             }
@@ -2911,7 +3155,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Ren R32/T38/T45/T51",
             "Hợp kim chịu va đập",
-            "Xả phoi tối ưu"
+            "Đa dạng màu sơn hoặc thép thô nguyên bản"
         ],
         "pressure": [
             "high"
@@ -2939,6 +3183,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Nút hình cầu hoặc hình đạn"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có sơn phủ bảo vệ nhiều màu tùy chọn hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khoan hầm, khai mỏ hầm lò, neo đá"
             }
@@ -2955,7 +3203,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Ren R32/T38/T45/T51",
             "Hợp kim chịu va đập",
-            "Xả phoi tối ưu"
+            "Đa dạng màu sơn hoặc thép thô nguyên bản"
         ],
         "pressure": [
             "high"
@@ -2983,6 +3231,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Nút hình cầu hoặc hình đạn"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có sơn phủ bảo vệ nhiều màu tùy chọn hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khoan hầm, khai mỏ hầm lò, neo đá"
             }
@@ -2999,7 +3251,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Ren R32/T38/T45/T51",
             "Hợp kim chịu va đập",
-            "Xả phoi tối ưu"
+            "Đa dạng màu sơn hoặc thép thô nguyên bản"
         ],
         "pressure": [
             "high"
@@ -3027,6 +3279,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Nút hình cầu hoặc hình đạn"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có sơn phủ bảo vệ nhiều màu tùy chọn hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khoan hầm, khai mỏ hầm lò, neo đá"
             }
@@ -3043,7 +3299,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Ren R32/T38/T45/T51",
             "Hợp kim chịu va đập",
-            "Xả phoi tối ưu"
+            "Đa dạng màu sơn hoặc thép thô nguyên bản"
         ],
         "pressure": [
             "high"
@@ -3071,6 +3327,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Nút hình cầu hoặc hình đạn"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có sơn phủ bảo vệ nhiều màu tùy chọn hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khoan hầm, khai mỏ hầm lò, neo đá"
             }
@@ -3087,7 +3347,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Ren R32/T38/T45/T51",
             "Hợp kim chịu va đập",
-            "Xả phoi tối ưu"
+            "Đa dạng màu sơn hoặc thép thô nguyên bản"
         ],
         "pressure": [
             "high"
@@ -3115,6 +3375,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Nút hình cầu hoặc hình đạn"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có sơn phủ bảo vệ nhiều màu tùy chọn hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khoan hầm, khai mỏ hầm lò, neo đá"
             }
@@ -3131,7 +3395,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Ren R32/T38/T45/T51",
             "Hợp kim chịu va đập",
-            "Xả phoi tối ưu"
+            "Đa dạng màu sơn hoặc thép thô nguyên bản"
         ],
         "pressure": [
             "high"
@@ -3157,6 +3421,10 @@ const DRILL_BIT_PRODUCTS = [
             {
                 "l": "Kiểu nút",
                 "v": "Nút hình cầu hoặc hình đạn"
+            },
+            {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có sơn phủ bảo vệ nhiều màu tùy chọn hoặc thép thô mộc không sơn"
             },
             {
                 "l": "Ứng dụng",
@@ -3203,6 +3471,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Nút hình cầu hoặc hình đạn"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có sơn phủ bảo vệ nhiều màu tùy chọn hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khoan hầm, khai mỏ hầm lò, neo đá"
             }
@@ -3219,7 +3491,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Chuẩn khớp Nga P110",
             "Chịu va đập cực tốt",
-            "Mỏ đá xi măng"
+            "Nhiều màu sơn hoặc thép mộc không sơn"
         ],
         "pressure": [
             "high"
@@ -3242,6 +3514,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "110mm / 130mm"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có nhiều màu sơn phủ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô không sơn nguyên bản"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai thác đá xi măng, mỏ quặng lớn"
             }
@@ -3258,7 +3534,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Góc côn 7°/11°/12°",
             "Đường kính 30-45mm",
-            "Nút hợp kim siêu bền"
+            "Sơn bảo vệ hoặc thép thô nguyên bản"
         ],
         "pressure": [
             "low",
@@ -3287,6 +3563,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Cacbua vonfram (WC)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai thác mỏ đá, công trình xây dựng"
             }
@@ -3303,7 +3583,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Góc côn 7°/11°/12°",
             "Đường kính 30-45mm",
-            "Nút hợp kim siêu bền"
+            "Sơn bảo vệ hoặc thép thô nguyên bản"
         ],
         "pressure": [
             "low",
@@ -3332,6 +3612,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Cacbua vonfram (WC)"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khai thác mỏ đá, công trình xây dựng"
             }
@@ -3348,7 +3632,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Ren R32/T38/T45/T51",
             "Hợp kim chịu va đập",
-            "Xả phoi tối ưu"
+            "Đa dạng màu sơn hoặc thép thô nguyên bản"
         ],
         "pressure": [
             "high"
@@ -3376,6 +3660,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Nút hình cầu hoặc hình đạn"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có sơn phủ bảo vệ nhiều màu tùy chọn hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khoan hầm, khai mỏ hầm lò, neo đá"
             }
@@ -3392,7 +3680,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Ren R32/T38/T45/T51",
             "Hợp kim chịu va đập",
-            "Xả phoi tối ưu"
+            "Đa dạng màu sơn hoặc thép thô nguyên bản"
         ],
         "pressure": [
             "high"
@@ -3420,6 +3708,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Nút hình cầu hoặc hình đạn"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có sơn phủ bảo vệ nhiều màu tùy chọn hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khoan hầm, khai mỏ hầm lò, neo đá"
             }
@@ -3436,7 +3728,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Ren R32/T38/T45/T51",
             "Hợp kim chịu va đập",
-            "Xả phoi tối ưu"
+            "Đa dạng màu sơn hoặc thép thô nguyên bản"
         ],
         "pressure": [
             "high"
@@ -3464,6 +3756,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Nút hình cầu hoặc hình đạn"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có sơn phủ bảo vệ nhiều màu tùy chọn hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khoan hầm, khai mỏ hầm lò, neo đá"
             }
@@ -3480,7 +3776,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Ren R32/T38/T45/T51",
             "Hợp kim chịu va đập",
-            "Xả phoi tối ưu"
+            "Đa dạng màu sơn hoặc thép thô nguyên bản"
         ],
         "pressure": [
             "high"
@@ -3508,6 +3804,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Nút hình cầu hoặc hình đạn"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có sơn phủ bảo vệ nhiều màu tùy chọn hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khoan hầm, khai mỏ hầm lò, neo đá"
             }
@@ -3524,7 +3824,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Ren R32/T38/T45/T51",
             "Hợp kim chịu va đập",
-            "Xả phoi tối ưu"
+            "Đa dạng màu sơn hoặc thép thô nguyên bản"
         ],
         "pressure": [
             "high"
@@ -3552,6 +3852,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Nút hình cầu hoặc hình đạn"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có sơn phủ bảo vệ nhiều màu tùy chọn hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khoan hầm, khai mỏ hầm lò, neo đá"
             }
@@ -3568,7 +3872,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Ren R32/T38/T45/T51",
             "Hợp kim chịu va đập",
-            "Xả phoi tối ưu"
+            "Đa dạng màu sơn hoặc thép thô nguyên bản"
         ],
         "pressure": [
             "high"
@@ -3596,6 +3900,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Nút hình cầu hoặc hình đạn"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có sơn phủ bảo vệ nhiều màu tùy chọn hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khoan hầm, khai mỏ hầm lò, neo đá"
             }
@@ -3612,7 +3920,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Ren R32/T38/T45/T51",
             "Hợp kim chịu va đập",
-            "Xả phoi tối ưu"
+            "Đa dạng màu sơn hoặc thép thô nguyên bản"
         ],
         "pressure": [
             "high"
@@ -3640,6 +3948,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Nút hình cầu hoặc hình đạn"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có sơn phủ bảo vệ nhiều màu tùy chọn hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khoan hầm, khai mỏ hầm lò, neo đá"
             }
@@ -3656,7 +3968,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Ren R32/T38/T45/T51",
             "Hợp kim chịu va đập",
-            "Xả phoi tối ưu"
+            "Đa dạng màu sơn hoặc thép thô nguyên bản"
         ],
         "pressure": [
             "high"
@@ -3684,6 +3996,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Nút hình cầu hoặc hình đạn"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có sơn phủ bảo vệ nhiều màu tùy chọn hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khoan hầm, khai mỏ hầm lò, neo đá"
             }
@@ -3700,7 +4016,7 @@ const DRILL_BIT_PRODUCTS = [
         "specs": [
             "Ren R32/T38/T45/T51",
             "Hợp kim chịu va đập",
-            "Xả phoi tối ưu"
+            "Đa dạng màu sơn hoặc thép thô nguyên bản"
         ],
         "pressure": [
             "high"
@@ -3726,6 +4042,10 @@ const DRILL_BIT_PRODUCTS = [
             {
                 "l": "Kiểu nút",
                 "v": "Nút hình cầu hoặc hình đạn"
+            },
+            {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có sơn phủ bảo vệ nhiều màu tùy chọn hoặc thép thô mộc không sơn"
             },
             {
                 "l": "Ứng dụng",
@@ -3772,6 +4092,10 @@ const DRILL_BIT_PRODUCTS = [
                 "v": "Nút hình cầu hoặc hình đạn"
             },
             {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có sơn phủ bảo vệ nhiều màu tùy chọn hoặc thép thô mộc không sơn"
+            },
+            {
                 "l": "Ứng dụng",
                 "v": "Khoan hầm, khai mỏ hầm lò, neo đá"
             }
@@ -3814,6 +4138,10 @@ const DRILL_BIT_PRODUCTS = [
             {
                 "l": "Kiểu nút",
                 "v": "Nút hình cầu hoặc hình đạn"
+            },
+            {
+                "l": "Hoàn thiện bề mặt",
+                "v": "Có sơn phủ bảo vệ nhiều màu tùy chọn hoặc thép thô mộc không sơn"
             },
             {
                 "l": "Ứng dụng",

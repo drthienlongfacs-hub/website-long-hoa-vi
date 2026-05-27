@@ -17,11 +17,11 @@ const BASE_PRODUCTS = [
 
     { id:'dth-bit', cat:'Mũi Khoan', brand:'Long Hoa Vĩ', title:'Mũi Khoan Ngầm DTH', img:'product_images/page_35.png', badge:'Bền bỉ',
       desc:'Mũi khoan áp lực thấp/trung/cao. Mặt phẳng & lồi. Nút hợp kim cacbua vonfram cao cấp chống mài mòn mạnh.',
-      specs:['50–400mm','4–16 rãnh xả','Nút cacbua WC'], pressure:['low','medium','high'], apps:['mining','well','construction'],
+      specs:['50–400mm','Có nhiều màu sơn bảo vệ hoặc không sơn','Nút cacbua WC'], pressure:['low','medium','high'], apps:['mining','well','construction'],
       images:['product_images/page_35.png','product_images/page_36.png','product_images/page_37.png','product_images/page_39.png'],
       models:'CIR50/60/65/70/80/90/110/150/170, BR1/2/3, COP/DHD, QL40–80, SD5–12',
       detail:'Mũi khoan DTH gắn nút hợp kim cacbua vonfram (tungsten carbide) với độ cứng và khả năng chống mài mòn cao.\n\n• Áp thấp (CIR): ĐK 50–400mm\n• Áp trung bình (BR): ĐK 64–105mm\n• Áp cao (COP/DHD/QL/SD): ĐK 105–381mm\n\nMặt phẳng (flat face) hoặc mặt lồi (convex face) tùy loại đá.',
-      specDetail:[{l:'Đường kính',v:'50–400mm'},{l:'Loại mặt',v:'Phẳng / Lồi'},{l:'Nút hợp kim',v:'Cacbua vonfram (WC)'},{l:'Kích thước nút',v:'φ8–φ22mm'},{l:'Số rãnh xả phoi',v:'4–16 rãnh'}] },
+      specDetail:[{l:'Đường kính',v:'50–400mm'},{l:'Loại mặt',v:'Phẳng / Lồi'},{l:'Nút hợp kim',v:'Cacbua vonfram (WC)'},{l:'Hoàn thiện bề mặt',v:'Nhiều màu sơn bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn'},{l:'Số rãnh xả phoi',v:'4–16 rãnh'}] },
 
     { id:'drill-pipe', cat:'Phụ Kiện', brand:'Long Hoa Vĩ', title:'Cần Khoan DTH', img:'product_images/page_47.png', badge:'',
       desc:'Cần khoan ren API chuẩn quốc tế, thép hợp kim đúc chịu lực va đập xoắn cực tốt. Chiều dài 1–6m.',
@@ -57,20 +57,20 @@ const BASE_PRODUCTS = [
 
     { id:'tapered-tool', cat:'Mũi Khoan', brand:'Long Hoa Vĩ', title:'Dụng Cụ Khoan Côn', img:'product_images/page_55.png', badge:'',
       desc:'Mũi khoan côn 7°/11°/12° nút hợp kim & chữ thập. Cần khoan côn lục giác H22 cao cấp.',
-      specs:['Góc 7°/11°/12°','28–45mm đường kính','Cần H22 tôi cứng'], pressure:['low','medium'], apps:['construction'],
+      specs:['Góc 7°/11°/12°','Sơn bảo vệ hoặc thép thô mộc không sơn','Cần H22 tôi cứng'], pressure:['low','medium'], apps:['construction'],
       images:['product_images/page_53.png','product_images/page_54.png','product_images/page_55.png'],
       models:'Mũi côn 7°/11°/12° chữ thập 28–40mm, Mũi côn nút 34–45mm, Cần H22: 610–8000mm',
       detail:'Dụng cụ khoan côn cho lỗ nhỏ (dưới 50mm) trong xây dựng, khai thác đá khối, neo giữ đất đá.\n\n• Mũi khoan côn: kiểu chữ thập (cross) hoặc kiểu nút (button)\n• Cần khoan côn H22: thân lục giác rỗng 22mm\n• Ưu điểm: trọng lượng nhẹ, tháo lắp thủ công nhanh, phù hợp máy cầm tay',
-      specDetail:[{l:'Góc côn liên kết',v:'7° / 11° / 12°'},{l:'Loại mũi khoan',v:'Chữ thập / Nút hợp kim'},{l:'Đường kính mũi',v:'28–45mm'},{l:'Thân cần khoan',v:'Lục giác H22, rỗng giữa, 610–8000mm'},{l:'Vật liệu đầu gài',v:'Thép carbon siêu bền tôi nhiệt'}] },
+      specDetail:[{l:'Góc côn liên kết',v:'7° / 11° / 12°'},{l:'Loại mũi khoan',v:'Chữ thập / Nút hợp kim'},{l:'Đường kính mũi',v:'28–45mm'},{l:'Thân cần khoan',v:'Lục giác H22, rỗng giữa, 610–8000mm'},{l:'Hoàn thiện bề mặt',v:'Có nhiều màu sơn bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn'}] },
 
     // ─── Khoan ren, Hầm lò, Thủy lực ───
     { id:'rhl-thread-bit', cat:'Mũi Khoan', brand:'Long Hoa Vĩ', title:'Mũi Khoan Ren Cao Cấp', img:'catalog_ren_ham_lo/page_04.png', badge:'Hợp kim R32/T38',
       desc:'Mũi khoan ren bán cầu và nút đạn R22, R25, R32, T38, T45, T51. Thích hợp cho khoan hầm mỏ lộ thiên & thủy điện.',
-      specs:['Ren R22–T51', 'Đường kính 38–127mm', 'Nút cầu / Nút đạn'], pressure:['medium', 'high'], apps:['mining', 'construction'],
+      specs:['Ren R22–T51', 'Có sơn bảo vệ hoặc thép thô mộc không sơn', 'Nút cầu / Nút đạn'], pressure:['medium', 'high'], apps:['mining', 'construction'],
       images:['catalog_ren_ham_lo/page_04.png', 'catalog_ren_ham_lo/page_05.png', 'catalog_ren_ham_lo/page_06.png'],
       models:'Ren R22, Ren R25, Ren R28, Ren R32, Ren R35, Ren T38, Ren T45, Ren T51, Ren GT60',
       detail:'Mũi khoan ren được sản xuất bằng thép hợp kim chịu lực hàng đầu thế giới kết hợp với các nút hợp kim Cacbua Vonfram siêu cứng.\n\n• Ren nhỏ (R22–R32): ĐK 38–76mm, thích hợp khoan đá mỏ vừa, hầm lò nhỏ\n• Ren lớn (T38–T51): ĐK 76–127mm, chuyên dụng cho búa khoan thủy lực công suất lớn, khoan đá cứng lộ thiên.',
-      specDetail:[{l:'Chuẩn ren',v:'R22, R25, R32, T38, T45, T51, GT60'},{l:'Đường kính',v:'38–127mm'},{l:'Số nút hợp kim',v:'6–12 nút'},{l:'Kiểu mặt',v:'Flat face / Drop center'}] },
+      specDetail:[{l:'Chuẩn ren',v:'R22, R25, R32, T38, T45, T51, GT60'},{l:'Đường kính',v:'38–127mm'},{l:'Hoàn thiện bề mặt',v:'Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn'},{l:'Kiểu mặt',v:'Flat face / Drop center'}] },
 
     { id:'rhl-shank-adapter', cat:'Phụ Kiện', brand:'Long Hoa Vĩ', title:'Chuôi Búa Thủy Lực (Shank Adapter)', img:'catalog_ren_ham_lo/page_08.png', badge:'Chính xác CNC',
       desc:'Chuôi búa thủy lực tương thích Atlas Copco (Cop1838), Sandvik, Furukawa, Ingersoll Rand, Montabert. Tôi nhiệt chống xoắn cực tốt.',
@@ -90,11 +90,11 @@ const BASE_PRODUCTS = [
 
     { id:'rhl-drill-rod', cat:'Phụ Kiện', brand:'Long Hoa Vĩ', title:'Cần Khoan Ren', img:'catalog_ren_ham_lo/page_13.png', badge:'',
       desc:'Cần khoan ren extension, cần M/F (Male/Female), cần lục giác Hexagonal/Round. Thép khoan rỗng chất lượng cao.',
-      specs:['Cần R32 / T38 / T45 / T51', 'Dài 1.2m - 4.3m', 'M/F & Extension Rods'], pressure:['medium', 'high'], apps:['mining', 'construction'],
+      specs:['Cần R32 / T38 / T45 / T51', 'Sơn bảo vệ hoặc thép thô mộc không sơn', 'M/F & Extension Rods'], pressure:['medium', 'high'], apps:['mining', 'construction'],
       images:['catalog_ren_ham_lo/page_13.png', 'catalog_ren_ham_lo/page_12.png', 'catalog_ren_ham_lo/page_14.png'],
       models:'Round Rods R32/T38/T45/T51, Hexagonal Rods R25/R28/R32, Male-Female (M/F) Speed Rods',
       detail:'Cần khoan ren chuyên dụng cho khoan hầm mỏ đá, khoan nổ mìn kỹ thuật.\n\n• Thép rỗng truyền khí xả phoi hơi hoặc nước rửa nguội hiệu quả\n• Cần M/F (Speed Rod) tích hợp sẵn đầu ren ren trong/ren ngoài giúp tháo lắp cực nhanh.',
-      specDetail:[{l:'Kiểu thân cần',v:'Tròn (Round) hoặc Lục giác (Hexagonal)'},{l:'Đầu ren',v:'Extension Rods / M/F (Speed) Rods'},{l:'Chiều dài',v:'1220mm - 4270mm'},{l:'Quy cách ren',v:'R22, R25, R32, T38, T45, T51'}] },
+      specDetail:[{l:'Kiểu thân cần',v:'Tròn (Round) hoặc Lục giác (Hexagonal)'},{l:'Hoàn thiện bề mặt',v:'Nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn'},{l:'Chiều dài',v:'1220mm - 4270mm'},{l:'Quy cách ren',v:'R22, R25, R32, T38, T45, T51'}] },
 
     { id:'rhl-drifter', cat:'Thiết Bị', brand:'Long Hoa Vĩ', title:'Búa Khoan Thủy Lực (Hydraulic Drifter)', img:'catalog_ren_ham_lo/page_15.png', badge:'Công nghệ cao',
       desc:'Búa khoan thủy lực tần số cao PLK-18, PLK-20. Lắp đặt trên giàn khoan tự hành hoặc xe khoan hầm lò chuyên dụng.',
@@ -114,19 +114,19 @@ const BASE_PRODUCTS = [
 
     { id:'rhl-dth-bit', cat:'Mũi Khoan', brand:'Long Hoa Vĩ', title:'Mũi Khoan Ngầm DTH Áp Cao', img:'catalog_ren_ham_lo/page_22.png', badge:'',
       desc:'Mũi khoan DTH áp cao DHD350, DHD360, QL60, SD6 nút cacbua. Phù hợp địa tầng đá cứng lộ thiên.',
-      specs:['Kích cỡ 105–254mm', 'Đuôi DHD / QL / SD', 'Nút cacbua siêu chịu lực'], pressure:['high'], apps:['mining', 'well', 'construction'],
+      specs:['Kích cỡ 105–254mm', 'Sơn bảo vệ hoặc thép thô mộc không sơn', 'Nút cacbua siêu chịu lực'], pressure:['high'], apps:['mining', 'well', 'construction'],
       images:['catalog_ren_ham_lo/page_22.png', 'catalog_ren_ham_lo/page_23.png', 'catalog_ren_ham_lo/page_24.png'],
       models:'DHD340/350/360/380, SD5/6/8, QL50/60/80',
       detail:'Mũi khoan DTH là sản phẩm tiêu chuẩn cao chuyên khoan đá mỏ lộ thiên, khoan địa chất và giếng nước sâu.\n\n• Mặt phẳng (Flat Face) cho đá cứng vừa đến siêu cứng, địa hình nứt nẻ\n• Mặt lõm (Concave Face) cho đá đồng nhất, định hướng lỗ cực tốt.',
-      specDetail:[{l:'Đường kính mũi',v:'105mm - 254mm'},{l:'Chuẩn đuôi búa',v:'DHD340, DHD350, DHD360, QL60, SD6'},{l:'Kiểu nút',v:'Nút cầu (spherical) / Nút đạn (ballistic)'},{l:'Rãnh nước xả phoi',v:'4 - 8 rãnh xả rộng'}] },
+      specDetail:[{l:'Đường kính mũi',v:'105mm - 254mm'},{l:'Chuẩn đuôi búa',v:'DHD340, DHD350, DHD360, QL60, SD6'},{l:'Hoàn thiện bề mặt',v:'Nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn'},{l:'Rãnh nước xả phoi',v:'4 - 8 rãnh xả rộng'}] },
 
     { id:'rhl-tapered', cat:'Mũi Khoan', brand:'Long Hoa Vĩ', title:'Dụng Cụ Khoan Côn', img:'catalog_ren_ham_lo/page_25.png', badge:'',
       desc:'Mũi khoan côn nút và côn chữ thập 7°, 11°, 12°. Cần khoan côn lục giác H22 tôi lõi rỗng dẻo dai.',
-      specs:['Góc 7° / 11° / 12°', 'Mũi côn nút 30-45mm', 'Cần lục giác H22 rỗng'], pressure:['low', 'medium'], apps:['construction', 'mining'],
+      specs:['Góc 7° / 11° / 12°', 'Sơn bảo vệ hoặc thép thô mộc không sơn', 'Cần lục giác H22 rỗng'], pressure:['low', 'medium'], apps:['construction', 'mining'],
       images:['catalog_ren_ham_lo/page_25.png', 'catalog_ren_ham_lo/page_26.png'],
       models:'Mũi khoan côn nút 7° φ32/φ34/φ36/φ38, Mũi khoan côn chữ thập 11°/12° φ36/φ40, Cần H22 côn dài 0.6m - 4.8m',
       detail:'Hệ thống dụng cụ khoan côn gọn nhẹ, tháo lắp đơn giản bằng tay lực búa nhẹ, thích hợp tuyệt đối cho khoan mìn thủ công.\n\n• Nút hợp kim phân bố tối ưu giúp khoan đá nhanh hơn mũi chữ nhất\n• Cần H22 rỗng thép khoan cao cấp dẻo dai, chống gãy gập.',
-      specDetail:[{l:'Góc côn kết nối',v:'7° / 11° / 12°'},{l:'Vật liệu thép cần',v:'Thép lục giác H22 tôi rỗng'},{l:'Kích thước mũi côn',v:'φ28mm - φ45mm'},{l:'Kiểu đầu gài búa',v:'H22 × 108mm chuẩn búa cầm tay'}] },
+      specDetail:[{l:'Góc côn kết nối',v:'7° / 11° / 12°'},{l:'Vật liệu thép cần',v:'Thép lục giác H22 tôi rỗng'},{l:'Hoàn thiện bề mặt',v:'Có nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn'},{l:'Kiểu đầu gài búa',v:'H22 × 108mm chuẩn búa cầm tay'}] },
 
     { id:'rhl-pick', cat:'Phụ Kiện', brand:'Long Hoa Vĩ', title:'Răng Đào Hầm Lò & Phay Đường', img:'catalog_ren_ham_lo/page_27.png', badge:'Chịu mài mòn',
       desc:'Răng đào lò than TS30cx, răng cưa máy đào hầm lò, răng phay đường bê tông nhựa. Công nghệ rèn nhiệt áp lực cao bền bỉ.',
@@ -201,10 +201,10 @@ const BASE_PRODUCTS = [
 
     { id:'mas-dth-bit', cat:'Mũi Khoan', brand:'Long Hoa Vĩ', title:'Mũi Khoan Ngầm DTH (CIR/DHD)', img:'bua_khoan_dth_images/DTH hammer CIR150.png', badge:'',
       desc:'Mũi khoan DTH nút hợp kim cacbua vonfram. Tương thích chuẩn CIR/DHD. Đường kính 90–203mm.',
-      specs:['ĐK 90–203mm','Nút WC cao cấp','CIR/DHD shank'], pressure:['low','high'], apps:['mining','well','construction'],
+      specs:['ĐK 90–203mm','Sơn bảo vệ hoặc thép thô mộc không sơn','CIR/DHD shank'], pressure:['low','high'], apps:['mining','well','construction'],
       models:'Mũi CIR90, Mũi CIR110, Mũi CIR130, Mũi CIR150, Mũi DHD340, Mũi DHD350, Mũi DHD360',
       detail:'Mũi khoan DTH được chế tạo từ thép hợp kim cao cấp kết hợp nút cacbua vonfram siêu cứng.\\n\\n• Đường kính từ 90mm đến 203mm\\n• Kiểu mặt: Flat Face (đá cứng) và Concave (giữ hướng)\\n• Rãnh xả phoi thiết kế rộng, flushing hiệu quả\\n• Tương thích hoàn toàn với búa CIR/DHD các hãng',
-      specDetail:[{l:'Đường kính mũi',v:'90–203mm'},{l:'Chuẩn đuôi shank',v:'CIR90/110/130/150, DHD340/350/360'},{l:'Nút hợp kim',v:'Cacbua vonfram (WC)'},{l:'Kiểu mặt mũi',v:'Flat Face / Concave'}] }
+      specDetail:[{l:'Đường kính mũi',v:'90–203mm'},{l:'Hoàn thiện bề mặt',v:'Nhiều màu sơn phủ bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn'},{l:'Nút hợp kim',v:'Cacbua vonfram (WC)'},{l:'Kiểu mặt mũi',v:'Flat Face / Concave'}] }
 ];
 
 // Combine standard products with all 81 generated drill bit products (brand: Long Hoa Vĩ)
@@ -318,13 +318,27 @@ function renderProductGrid() {
     `).join('');
 }
 
-// ═══ FILTER LOGIC (Multi-axis Brand × Category) ═══
+// ═══ FILTER LOGIC (Multi-axis Brand × Category × Color × Search) ═══
 let currentCategory = 'all';
 let currentBrand = 'all';
+let currentColor = 'all';
+let currentSearchQuery = '';
+
+function getProductColor(p) {
+    if (!p || !p.brand) return 'silver';
+    const b = p.brand.toLowerCase();
+    if (b.includes('kaiqiu') || b.includes('kaiyu')) return 'yellow';
+    if (b.includes('pulanka')) return 'blue';
+    if (b.includes('shenlong')) return 'green';
+    if (b.includes('ma&s')) return 'red';
+    if (b.includes('kaishan')) return 'black';
+    if (b.includes('long hoa')) return 'silver';
+    return 'silver';
+}
 
 function filterByCategory(cat) {
     currentCategory = cat;
-    document.querySelectorAll('#category-filters .chip').forEach(c => {
+    document.querySelectorAll('#category-filters .sidebar-menu-item').forEach(c => {
         c.classList.toggle('active', c.dataset.filter === cat);
     });
     applyFilters();
@@ -332,8 +346,16 @@ function filterByCategory(cat) {
 
 function filterByBrand(brand) {
     currentBrand = brand;
-    document.querySelectorAll('#brand-filters .chip').forEach(c => {
+    document.querySelectorAll('#brand-filters .sidebar-menu-item').forEach(c => {
         c.classList.toggle('active', c.dataset.brand === brand);
+    });
+    applyFilters();
+}
+
+function filterByColor(color) {
+    currentColor = color;
+    document.querySelectorAll('.color-swatch').forEach(c => {
+        c.classList.toggle('active', c.dataset.color === color);
     });
     applyFilters();
 }
@@ -354,11 +376,21 @@ function applyFilters() {
         const brand = card.dataset.brand;
         const cat = card.dataset.cat;
         
+        const prod = PRODUCTS.find(x => x.id === id);
+        const prodColor = prod ? getProductColor(prod) : 'silver';
+        
         let show = true;
         if (currentCategory !== 'all' && cat !== currentCategory) show = false;
         if (currentBrand !== 'all' && brand !== currentBrand) show = false;
+        if (currentColor !== 'all' && prodColor !== currentColor) show = false;
         if (pressure !== 'all' && !p.includes(pressure)) show = false;
         if (app !== 'all' && !a.includes(app)) show = false;
+        
+        if (currentSearchQuery) {
+            const q = currentSearchQuery.toLowerCase();
+            const prodText = `${prod.title} ${prod.models || ''} ${prod.desc} ${prod.cat}`.toLowerCase();
+            if (!prodText.includes(q)) show = false;
+        }
         
         card.classList.toggle('hidden', !show);
         if (show) displayedCount++;
@@ -370,7 +402,6 @@ function applyFilters() {
     } else if (sortVal === 'name-desc') {
         cards.sort((a, b) => b.querySelector('.card-title').textContent.localeCompare(a.querySelector('.card-title').textContent));
     } else {
-        // Default Featured Sorting (by original array index)
         cards.sort((a, b) => {
             const indexA = PRODUCTS.findIndex(p => p.id === a.dataset.id);
             const indexB = PRODUCTS.findIndex(p => p.id === b.dataset.id);
@@ -378,45 +409,139 @@ function applyFilters() {
         });
     }
     
-    // Re-append to grid in sorted order
     cards.forEach(card => grid.appendChild(card));
     
-    // Update count indicator
-    document.getElementById('result-count').textContent = displayedCount;
+    const resultCountEl = document.getElementById('result-count');
+    if (resultCountEl) resultCountEl.textContent = displayedCount;
+    
+    // Dynamic SVG Analytics render
+    renderBrandChart();
+}
+
+// ═══ SVG DYNAMIC BRAND CHART ═══
+function renderBrandChart() {
+    const chartContainer = document.getElementById('brand-distribution-chart');
+    if (!chartContainer) return;
+    
+    const visibleCards = Array.from(document.querySelectorAll('.product-card:not(.hidden)'));
+    const totalVisible = visibleCards.length;
+    
+    if (totalVisible === 0) {
+        chartContainer.innerHTML = '<div style="font-size:11px;color:var(--text3);text-align:center;padding:10px 0;">Không có dữ liệu phù hợp.</div>';
+        return;
+    }
+    
+    const brandCounts = {
+        'Kaiqiu': 0,
+        'PULANKA': 0,
+        'SHENLONG': 0,
+        'KAISHAN': 0,
+        'MA&S': 0,
+        'Long Hoa Vĩ': 0
+    };
+    
+    visibleCards.forEach(card => {
+        const b = card.dataset.brand;
+        if (brandCounts.hasOwnProperty(b)) {
+            brandCounts[b]++;
+        } else {
+            brandCounts['Long Hoa Vĩ']++;
+        }
+    });
+    
+    const colors = {
+        'Kaiqiu': '#f59e0b',
+        'PULANKA': '#1e3a8a',
+        'SHENLONG': '#047857',
+        'KAISHAN': '#111827',
+        'MA&S': '#dc2626',
+        'Long Hoa Vĩ': '#9ca3af'
+    };
+    
+    let html = '';
+    for (const [brand, count] of Object.entries(brandCounts)) {
+        if (count === 0) continue;
+        const pct = Math.round((count / totalVisible) * 100);
+        html += `
+            <div class="chart-row">
+                <div class="chart-row-label">
+                    <span>${brand}</span>
+                    <strong>${count} SP (${pct}%)</strong>
+                </div>
+                <div class="chart-row-bar-wrap">
+                    <div class="chart-row-bar" style="width: ${pct}%; background-color: ${colors[brand]};"></div>
+                </div>
+            </div>
+        `;
+    }
+    chartContainer.innerHTML = html;
+}
+
+// ═══ RESET FILTERS ═══
+function resetAllFilters() {
+    currentCategory = 'all';
+    currentBrand = 'all';
+    currentColor = 'all';
+    currentSearchQuery = '';
+    
+    const searchInput = document.getElementById('sidebar-search-input');
+    if (searchInput) searchInput.value = '';
+    const searchClear = document.getElementById('sidebar-search-clear');
+    if (searchClear) searchClear.style.display = 'none';
+    
+    document.getElementById('pressure-filter').value = 'all';
+    document.getElementById('app-filter').value = 'all';
+    document.getElementById('sort-filter').value = 'featured';
+    
+    document.querySelectorAll('#category-filters .sidebar-menu-item').forEach(c => {
+        c.classList.toggle('active', c.dataset.filter === 'all');
+    });
+    document.querySelectorAll('#brand-filters .sidebar-menu-item').forEach(c => {
+        c.classList.toggle('active', c.dataset.brand === 'all');
+    });
+    document.querySelectorAll('.color-swatch').forEach(c => {
+        c.classList.toggle('active', c.dataset.color === 'all');
+    });
+    
+    applyFilters();
 }
 
 // ═══ UPDATE BADGE COUNTS ═══
 function updateFilterCounts() {
-    // All products are branded Long Hoa Vĩ (manufacturer names removed)
-    
-    // Category Counts
     const catAll = PRODUCTS.length;
     const catHammer = PRODUCTS.filter(p => p.cat === 'Búa Khoan').length;
     const catBit = PRODUCTS.filter(p => p.cat === 'Mũi Khoan').length;
     const catAccessory = PRODUCTS.filter(p => p.cat === 'Phụ Kiện').length;
     const catEquipment = PRODUCTS.filter(p => p.cat === 'Thiết Bị').length;
     
-    if (document.getElementById('count-cat-all')) document.getElementById('count-cat-all').textContent = catAll;
+    const brandAll = PRODUCTS.length;
+    const brandKaiqiu = PRODUCTS.filter(p => p.brand === 'Kaiqiu' || p.brand === 'Kaiyu').length;
+    const brandPulanka = PRODUCTS.filter(p => p.brand === 'PULANKA').length;
+    const brandShenlong = PRODUCTS.filter(p => p.brand === 'SHENLONG').length;
+    const brandKaishan = PRODUCTS.filter(p => p.brand === 'KAISHAN').length;
+    const brandMas = PRODUCTS.filter(p => p.brand === 'MA&S').length;
+    const brandLhv = PRODUCTS.filter(p => p.brand === 'Long Hoa Vĩ').length;
     
-    // Update Category Chips content to show counts dynamically
-    const categoryChips = document.querySelectorAll('#category-filters .chip');
-    categoryChips.forEach(chip => {
-        const filter = chip.dataset.filter;
-        if (filter === 'all') return;
-        let count = 0;
-        if (filter === 'Búa Khoan') count = catHammer;
-        else if (filter === 'Mũi Khoan') count = catBit;
-        else if (filter === 'Phụ Kiện') count = catAccessory;
-        else if (filter === 'Thiết Bị') count = catEquipment;
-        
-        let text = filter === 'Búa Khoan' ? 'Búa Khoan DTH & RC' :
-                   filter === 'Mũi Khoan' ? 'Mũi Khoan Hợp Kim' :
-                   filter === 'Phụ Kiện' ? 'Cần Khoan & Phụ Kiện' :
-                   filter === 'Thiết Bị' ? 'Máy & Xe Khoan Đá' : filter;
-        
-        chip.innerHTML = `${text} <span class="chip-count">${count}</span>`;
-    });
+    const setBadge = (id, val) => {
+        const el = document.getElementById(id);
+        if (el) el.textContent = val;
+    };
+    
+    setBadge('count-cat-all', catAll);
+    setBadge('count-cat-hammer', catHammer);
+    setBadge('count-cat-bit', catBit);
+    setBadge('count-cat-accessory', catAccessory);
+    setBadge('count-cat-equipment', catEquipment);
+    
+    setBadge('count-brand-all', brandAll);
+    setBadge('count-brand-kaiqiu', brandKaiqiu);
+    setBadge('count-brand-pulanka', brandPulanka);
+    setBadge('count-brand-shenlong', brandShenlong);
+    setBadge('count-brand-kaishan', brandKaishan);
+    setBadge('count-brand-mas', brandMas);
+    setBadge('count-brand-lhv', brandLhv);
 }
+
 
 // ═══ MULTI-CATALOG SWITCHER ═══
 function selectCatalog(key) {
@@ -752,6 +877,52 @@ document.addEventListener('DOMContentLoaded', () => {
     createParticles();
     animateCounters();
     initScrollAnimations();
+
+    // ═══ SIDEBAR EVENT LISTENERS ═══
+    const mobileTrigger = document.getElementById('mobile-filter-trigger');
+    const sidebar = document.getElementById('catalog-sidebar');
+    const sidebarClose = document.getElementById('sidebar-close');
+    const searchInput = document.getElementById('sidebar-search-input');
+    const searchClear = document.getElementById('sidebar-search-clear');
+    
+    if (mobileTrigger && sidebar) {
+        mobileTrigger.addEventListener('click', () => {
+            sidebar.classList.add('open');
+        });
+    }
+    
+    if (sidebarClose && sidebar) {
+        sidebarClose.addEventListener('click', () => {
+            sidebar.classList.remove('open');
+        });
+    }
+    
+    if (searchInput) {
+        searchInput.addEventListener('input', (e) => {
+            currentSearchQuery = e.target.value;
+            if (searchClear) {
+                searchClear.style.display = currentSearchQuery ? 'block' : 'none';
+            }
+            applyFilters();
+        });
+    }
+    
+    if (searchClear && searchInput) {
+        searchClear.addEventListener('click', () => {
+            searchInput.value = '';
+            currentSearchQuery = '';
+            searchClear.style.display = 'none';
+            applyFilters();
+        });
+    }
+    
+    document.addEventListener('click', (e) => {
+        if (window.innerWidth <= 992 && sidebar && sidebar.classList.contains('open')) {
+            if (!sidebar.contains(e.target) && !mobileTrigger.contains(e.target)) {
+                sidebar.classList.remove('open');
+            }
+        }
+    });
 
     // ═══ IMAGE PROTECTION — Anti-Copy Measures ═══
     // 1. Disable right-click on images
