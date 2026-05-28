@@ -16,3 +16,4 @@ push_to_github.py
 .DS_Store
 Thumbs.db
 .push_manifest.json
+tmp/

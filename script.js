@@ -1180,6 +1180,46 @@ function openLegalModal(type) {
                 <p>Mọi tranh chấp phát sinh từ hoặc liên quan đến việc sử dụng website hoặc giao dịch mua bán hàng hóa sẽ được ưu tiên giải quyết bằng thương lượng, hòa giải trên tinh thần hợp tác cùng có lợi. Trường hợp không thể thương lượng hòa giải, tranh chấp sẽ được đưa ra phân xử tại Tòa án có thẩm quyền tại tỉnh Đồng Nai theo quy định của pháp luật Việt Nam.</p>
             </div>
         `;
+    } else if (type === 'copyright') {
+        html = `
+            <div style="padding: 10px 5px;">
+                <h2 style="color: #f59e0b; font-size: 22px; margin-bottom: 20px; border-bottom: 1px solid rgba(245,158,11,0.2); padding-bottom: 10px; font-weight: 700;">CHÍNH SÁCH BẢN QUYỀN VÀ SỞ HỮU TRÍ TUỆ</h2>
+                <p style="font-size: 13px; color: rgba(255,255,255,0.6); margin-bottom: 20px; font-style: italic;">Ban hành và áp dụng từ ngày 01/01/2026. Tuân thủ nghiêm ngặt Luật Sở hữu trí tuệ của nước Cộng hòa Xã hội Chủ nghĩa Việt Nam.</p>
+
+                <h4 style="color: #f59e0b; font-size: 16px; margin: 15px 0 10px 0;">1. CĂN CỨ PHÁP LÝ</h4>
+                <p>Chính sách này được xây dựng trên cơ sở tuân thủ nghiêm ngặt các quy định pháp luật Việt Nam về sở hữu trí tuệ:</p>
+                <ul style="padding-left: 20px; margin-bottom: 15px;">
+                    <li><strong>Luật Sở hữu trí tuệ số 50/2005/QH11</strong> và <strong>Luật số 07/2022/QH15</strong> sửa đổi, bổ sung một số điều của Luật Sở hữu trí tuệ.</li>
+                    <li><strong>Nghị định số 17/2023/NĐ-CP</strong> quy định chi tiết một số điều và biện pháp thi hành Luật Sở hữu trí tuệ về quyền tác giả, quyền liên quan.</li>
+                    <li><strong>Bộ luật Hình sự số 100/2015/QH13 (sửa đổi, bổ sung 2017)</strong> — Điều 225 quy định về Tội xâm phạm quyền tác giả, quyền liên quan.</li>
+                </ul>
+
+                <h4 style="color: #f59e0b; font-size: 16px; margin: 15px 0 10px 0;">2. PHẠM VI BẢO HỘ QUYỀN TÁC GIẢ & SỞ HỮU TRÍ TUỆ</h4>
+                <p>Toàn bộ nội dung và tài nguyên được đăng tải trên website thuộc quyền sở hữu độc quyền hoặc quyền sử dụng hợp pháp của <strong>Công ty TNHH MTV Long Hoa Vĩ</strong>, bao gồm nhưng không giới hạn ở:</p>
+                <ul style="padding-left: 20px; margin-bottom: 15px;">
+                    <li><strong>Hình ảnh Catalog Thiết bị kỹ thuật:</strong> Toàn bộ 51 trang hình ảnh catalog thiết bị chi tiết (từ trang 05 đến trang 55 trong danh mục sản phẩm) mô tả cấu trúc búa khoan ngầm DTH, mũi khoan ren, cần khoan, đầu nối và ống chống.</li>
+                    <li><strong>Cơ sở dữ liệu thông số kỹ thuật (Data Spec Sheets):</strong> Bảng tra cứu thông số kỹ thuật chi tiết về áp suất khí nén (bar), đường kính lỗ khoan (mm), loại ren liên kết (API Reg, IF) được hệ thống hóa trong mã nguồn <code>drill_bits_data.js</code> và <code>script.js</code>.</li>
+                    <li><strong>Thiết kế Giao diện và Mã nguồn:</strong> Cấu trúc giao diện trực quan, hệ thống bảng biểu, mã lệnh vận hành CSS và JavaScript của trang web này.</li>
+                </ul>
+
+                <h4 style="color: #f59e0b; font-size: 16px; margin: 15px 0 10px 0;">3. BIỆN PHÁP BẢO VỆ CÔNG NGHỆ CHỐNG SAO CHÉP TRÁI PHÉP</h4>
+                <p>Để tự bảo vệ quyền tác giả theo quy định tại <strong>Điều 198a Luật Sở hữu trí tuệ</strong>, Công ty TNHH MTV Long Hoa Vĩ áp dụng các biện pháp kỹ thuật bắt buộc:</p>
+                <ul style="padding-left: 20px; margin-bottom: 15px;">
+                    <li><strong>Đóng dấu bản quyền số chéo (Watermark):</strong> Tất cả hình ảnh catalog sản phẩm và hình ảnh thực tế được hiển thị trên hệ thống đều được đóng dấu bản quyền chéo lặp lại với nội dung: <strong>"LONG HOA VĨ | 0385 195 501"</strong>.</li>
+                    <li><strong>Chống sao chép trực tiếp:</strong> Hệ thống sử dụng các đoạn mã kỹ thuật hạn chế hành vi nhấp chuột phải tải ảnh trực tiếp, bảo vệ tài nguyên số khỏi việc khai thác thương mại phi pháp.</li>
+                    <li><strong>Nghiêm cấm tẩy xóa Watermark:</strong> Mọi hành vi tự ý cắt xén hình ảnh, sử dụng công nghệ AI hoặc phần mềm biên tập để xóa bỏ, làm mờ dấu bản quyền chéo trên hình ảnh là hành vi trực tiếp phá hoại biện pháp công nghệ bảo vệ quyền tác giả, vi phạm nghiêm trọng quy định pháp luật sở hữu trí tuệ.</li>
+                </ul>
+
+                <h4 style="color: #f59e0b; font-size: 16px; margin: 15px 0 10px 0;">4. CHÍNH SÁCH XỬ LÝ VI PHẠM BẢN QUYỀN</h4>
+                <p>Khi phát hiện bất kỳ hành vi sao chép, giả mạo nhãn hiệu, sử dụng hình ảnh catalog đóng dấu của Long Hoa Vĩ để kinh doanh thương mại trái phép, chúng tôi sẽ kiên quyết thực hiện các biện pháp sau:</p>
+                <ul style="padding-left: 20px; margin-bottom: 15px;">
+                    <li><strong>Yêu cầu gỡ bỏ:</strong> Gửi thông báo cảnh cáo chính thức bằng văn bản yêu cầu bên vi phạm gỡ bỏ ngay lập tức toàn bộ tài nguyên hình ảnh, thông số kỹ thuật sao chép trái phép.</li>
+                    <li><strong>Xử lý Hành chính:</strong> Đệ trình hồ sơ vi phạm đến Thanh tra Sở Văn hóa, Thể thao và Du lịch, Thanh tra Bộ Khoa học và Công nghệ hoặc Cục Bản quyền tác giả để yêu cầu xử phạt hành chính và tịch thu tang vật vi phạm.</li>
+                    <li><strong>Khởi kiện Dân sự:</strong> Tiến hành khởi kiện tại Tòa án có thẩm quyền yêu cầu bồi thường thiệt hại thực tế, chi phí thuê luật sư và buộc bên vi phạm phải xin lỗi công khai trên các phương tiện thông tin đại chúng.</li>
+                    <li><strong>Truy cứu Trách nhiệm Hình sự:</strong> Đối với các hành vi vi phạm có quy mô lớn, có tính chất thương mại thu lợi bất chính lớn, chúng tôi sẽ đề nghị cơ quan điều tra tiến hành truy cứu trách nhiệm hình sự theo quy định tại <strong>Điều 225 Bộ luật Hình sự</strong>.</li>
+                </ul>
+            </div>
+        `;
     }
 
     body.innerHTML = html;
