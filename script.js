@@ -1186,36 +1186,35 @@ function openLegalModal(type) {
                 <h2 style="color: #f59e0b; font-size: 22px; margin-bottom: 20px; border-bottom: 1px solid rgba(245,158,11,0.2); padding-bottom: 10px; font-weight: 700;">TUYÊN BỐ BẢN QUYỀN, QUYỀN PHÂN PHỐI VÀ ĐẠI DIỆN THƯƠNG MẠI</h2>
                 <p style="font-size: 13px; color: rgba(255,255,255,0.6); margin-bottom: 20px; font-style: italic;">Ban hành và áp dụng từ ngày 01/01/2026. Tuân thủ nghiêm ngặt Luật Sở hữu trí tuệ và Luật Thương mại của nước Cộng hòa Xã hội Chủ nghĩa Việt Nam.</p>
 
-                <h4 style="color: #f59e0b; font-size: 16px; margin: 15px 0 10px 0;">1. CĂN CỨ PHÁP LÝ CHÍNH QUY</h4>
-                <p>Chính sách này được xây dựng trên cơ sở tuân thủ và bảo vệ quyền lợi hợp pháp của doanh nghiệp theo các quy định pháp luật Việt Nam hiện hành:</p>
-                <ul style="padding-left: 20px; margin-bottom: 15px;">
-                    <li><strong>Luật Sở hữu trí tuệ số 50/2005/QH11</strong> (sửa đổi, bổ sung bởi **Luật số 07/2022/QH15**), tập trung vào các quy định bảo hộ đối với **Tác phẩm sưu tập (điều 22)** và **Tác phẩm phái sinh/dịch thuật (điều 20)**.</li>
+                <h4 style="color: #f59e0b; font-size: 16px; margin: 15px 0 10px 0;">1. CĂN CỨ PHÁP LÝ</h4>
+                <p>Chính sách này được xây dựng trên cơ sở bảo vệ quyền lợi hợp pháp của doanh nghiệp và tuân thủ các quy định pháp luật Việt Nam hiện hành:</p>
+                <ul style="padding-left: 20px; margin-bottom: 15px; line-height: 1.6;">
+                    <li><strong>Luật Sở hữu trí tuệ số 50/2005/QH11</strong> (được sửa đổi, bổ sung năm 2022) về bảo hộ quyền tác giả đối với tác phẩm phái sinh (bản dịch, biên soạn) và tác phẩm sưu tập.</li>
                     <li><strong>Luật Thương mại số 36/2005/QH11</strong> quy định về quyền đại diện thương mại, quyền phân phối và giới thiệu hàng hóa của thương nhân phân phối.</li>
-                    <li><strong>Bộ luật Hình sự số 100/2015/QH13 (sửa đổi, bổ sung 2017)</strong> — Điều 225 quy định về tội xâm phạm quyền tác giả, quyền liên quan.</li>
+                    <li><strong>Bộ luật Hình sự số 100/2015/QH13</strong> (sửa đổi, bổ sung năm 2017) về quy định xử lý hành vi xâm phạm quyền tác giả.</li>
                 </ul>
 
-                <h4 style="color: #f59e0b; font-size: 16px; margin: 15px 0 10px 0;">2. PHẠM VI BẢO HỘ & ĐẶC ĐIỂM SỞ HỮU TRÍ TUỆ KHÁCH QUAN</h4>
-                <p>Để đảm bảo tính minh bạch pháp lý và loại bỏ hoàn toàn các rủi ro tranh chấp sở hữu kiểu dáng gốc, <strong>Công ty TNHH MTV Long Hoa Vĩ</strong> tuyên bố rõ ràng phạm vi quyền hạn như sau:</p>
-                <ul style="padding-left: 20px; margin-bottom: 15px;">
-                    <li><strong>Bản quyền Bản dịch, Việt hóa & Biên soạn:</strong> Long Hoa Vĩ sở hữu độc quyền đối với toàn bộ bản dịch tiếng Việt, nội dung mô tả kỹ thuật, cẩm nang tra cứu và các thông số thực địa đã được biên tập, hệ thống hóa và trình bày trực quan trên hệ thống website này.</li>
-                    <li><strong>Bản quyền Biên tập Hình ảnh Catalog:</strong> Long Hoa Vĩ sở hữu quyền tác giả đối với toàn bộ 51 trang hình ảnh catalog thiết bị đã qua số hóa, phục chế, làm sạch nhãn hiệu cũ, định dạng lại bố cục và phân loại phục vụ tiếp thị tại thị trường Việt Nam.</li>
-                    <li><strong>Dữ liệu Thông số Kỹ thuật (Spec Sheet):</strong> Cơ sở dữ liệu thông số kỹ thuật được hệ thống hóa, sắp xếp thông minh dưới dạng mã nguồn <code>drill_bits_data.js</code> thuộc quyền sở hữu sưu tập của chúng tôi.</li>
+                <h4 style="color: #f59e0b; font-size: 16px; margin: 15px 0 10px 0;">2. PHẠM VI BẢO HỘ & ĐẶC ĐIỂM SỞ HỮU TRÍ TUỆ</h4>
+                <p>Để đảm bảo tính minh bạch đối với các đối tác và khách hàng, <strong>Công ty TNHH MTV Long Hoa Vĩ</strong> xác định rõ phạm vi bảo hộ sở hữu trí tuệ trên website này như sau:</p>
+                <ul style="padding-left: 20px; margin-bottom: 15px; line-height: 1.6;">
+                    <li><strong>Nội dung dịch thuật, Việt hóa và Biên soạn kỹ thuật:</strong> Long Hoa Vĩ giữ quyền tác giả đối với toàn bộ bản dịch tiếng Việt, nội dung mô tả sản phẩm, tài liệu hướng dẫn tra cứu và các thông tin tư vấn kỹ thuật đã được đội ngũ chúng tôi tổng hợp, biên tập và trình bày trên website này.</li>
+                    <li><strong>Hình ảnh Danh mục & Catalog sản phẩm:</strong> Quyền tác giả đối với toàn bộ các trang tài liệu hình ảnh catalog, sơ đồ cấu trúc thiết bị và phụ kiện đã được số hóa, Việt hóa nội dung chú thích và hiệu chỉnh đồ họa trực quan để phục vụ công tác giới thiệu sản phẩm tại Việt Nam.</li>
+                    <li><strong>Hệ thống Thông số Kỹ thuật:</strong> Bảng tra cứu dữ liệu quy cách chi tiết (áp suất khí nén, đường kính ngoài, trọng lượng...) được chọn lọc, sắp xếp và tối ưu hiển thị dưới dạng cơ sở dữ liệu tra cứu trực tuyến trên website thuộc quyền sở hữu sưu tập của chúng tôi.</li>
                     <li><strong>TUYÊN BỐ MIỄN TRỪ & GIỚI HẠN SỞ HỮU GỐC:</strong> Chúng tôi tuyên bố rõ ràng <strong>không sở hữu kiểu dáng công nghiệp gốc hoặc bằng sáng chế cơ khí gốc</strong> của các mẫu thiết bị khoan cơ khí nặng. Các thiết kế này thuộc quyền sở hữu trí tuệ hợp pháp của các tập đoàn sản xuất thiết bị khai khoáng đối tác. Long Hoa Vĩ hoạt động với tư cách là đơn vị nhập khẩu, phân phối, chịu trách nhiệm kỹ thuật và bảo hành chính thức tại thị trường Việt Nam.</li>
                 </ul>
-
-                <h4 style="color: #f59e0b; font-size: 16px; margin: 15px 0 10px 0;">3. BIỆN PHÁP BẢO VỆ CÔNG NGHỆ (WATERMARK) HỢP PHÁP</h4>
-                <p>Tuân thủ quy định tại <strong>Điều 198a Luật Sở hữu trí tuệ</strong> về quyền tự bảo vệ của chủ thể quyền, Long Hoa Vĩ áp dụng các biện pháp kỹ thuật số sau:</p>
-                <ul style="padding-left: 20px; margin-bottom: 15px;">
-                    <li><strong>Dấu bản quyền số (Watermark) chéo:</strong> Việc đóng dấu chéo mờ nội dung <strong>"LONG HOA VĨ | 0385 195 501"</strong> trên toàn bộ hình ảnh catalog và album thực tế là biện pháp công nghệ nhằm bảo vệ thành quả lao động biên tập, chi phí số hóa hình ảnh và ngăn chặn các hành vi giả mạo thương hiệu để lừa đảo khách hàng.</li>
-                    <li><strong>Nghiêm cấm tẩy xóa Watermark:</strong> Mọi hành vi dùng công nghệ AI, photoshop để tẩy xóa, làm mờ hoặc cắt bỏ watermark trên hình ảnh catalog biên soạn của Long Hoa Vĩ là hành vi cố ý vô hiệu hóa biện pháp công nghệ bảo vệ quyền tác giả, vi phạm trực tiếp quy định của Luật Sở hữu trí tuệ Việt Nam.</li>
+                <h4 style="color: #f59e0b; font-size: 16px; margin: 15px 0 10px 0;">3. BIỆN PHÁP BẢO VỆ CÔNG NGHỆ CHỐNG SAO CHÉP</h4>
+                <p>Nhằm bảo vệ thành quả biên soạn và ngăn chặn các hành vi giả mạo thông tin gây ảnh hưởng đến khách hàng, chúng tôi áp dụng các giải pháp tự bảo vệ kỹ thuật số:</p>
+                <ul style="padding-left: 20px; margin-bottom: 15px; line-height: 1.6;">
+                    <li><strong>Dấu bản quyền số (Watermark) chéo:</strong> Việc hiển thị dấu mờ chéo nhẹ <strong>"LONG HOA VĨ | 0385 195 501"</strong> trên hình ảnh catalog và album ảnh thực tế là biện pháp nhận diện thương mại chính quy, giúp đối tác xác thực nguồn cấp hàng chính hãng.</li>
+                    <li><strong>Yêu cầu tôn trọng bản quyền hình ảnh:</strong> Nghiêm cấm các hành vi tự ý cắt ghép hình ảnh, tẩy xóa dấu nhận diện thương hiệu hoặc sử dụng tài nguyên của Long Hoa Vĩ vào mục đích thương mại phi pháp.</li>
                 </ul>
 
-                <h4 style="color: #f59e0b; font-size: 16px; margin: 15px 0 10px 0;">4. CHÍNH SÁCH XỬ LÝ HÀNH VI CẠNH TRANH KHÔNG LÀNH MẠNH</h4>
-                <p>Trong trường hợp phát hiện các đơn vị kinh doanh cùng ngành tự ý sao chép nguyên bản catalog dịch thuật của Long Hoa Vĩ, hoặc sử dụng hình ảnh có đóng dấu bản quyền của chúng tôi để gây nhầm lẫn cho đối tác, chúng tôi sẽ phối hợp chặt chẽ với cơ quan chức năng:</p>
-                <ul style="padding-left: 20px; margin-bottom: 15px;">
-                    <li>Gửi văn bản cảnh cáo chính thức yêu cầu gỡ bỏ tài nguyên sao chép trái phép.</li>
-                    <li>Đệ trình hồ sơ vi phạm cạnh tranh không lành mạnh đến Cục Cạnh tranh và Bảo vệ người tiêu dùng, Thanh tra Sở Văn hóa, Thể thao và Du lịch để xử phạt hành chính.</li>
-                    <li>Khởi kiện dân sự yêu cầu bồi thường chi phí cơ hội, thiệt hại danh tiếng thương hiệu và chi phí pháp lý phát sinh.</li>
+                <h4 style="color: #f59e0b; font-size: 16px; margin: 15px 0 10px 0;">4. CHÍNH SÁCH PHỐI HỢP XỬ LÝ VI PHẠM</h4>
+                <p>Trong trường hợp phát hiện các hành vi sao chép trái phép, giả mạo nhãn hiệu hoặc sử dụng hình ảnh thuộc quyền sở hữu của Long Hoa Vĩ để thực hiện hành vi cạnh tranh không lành mạnh, công ty sẽ thực hiện các biện pháp phối hợp cùng cơ quan chức năng:</p>
+                <ul style="padding-left: 20px; margin-bottom: 15px; line-height: 1.6;">
+                    <li>Gửi thông báo bằng văn bản yêu cầu gỡ bỏ tài nguyên sao chép hoặc giả mạo.</li>
+                    <li>Kiến nghị xử lý hành chính theo quy định đối với các hành vi vi phạm về cạnh tranh và sở hữu trí tuệ đến cơ quan quản lý nhà nước có thẩm quyền.</li>
+                    <li>Tiến hành các biện pháp pháp lý cần thiết để bảo vệ quyền lợi hợp pháp của doanh nghiệp và khách hàng.</li>
                 </ul>
             </div>
         `;
