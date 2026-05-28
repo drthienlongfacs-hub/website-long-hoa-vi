@@ -7,7 +7,7 @@
 // ═══ PRODUCT DATABASE ═══
 const BASE_PRODUCTS = [
     // ─── Búa khoan, Mũi khoan, Phụ kiện DTH ───
-    { id:'dth-hammer', cat:'Búa Khoan', brand:'Kaiqiu', title:'Búa Khoan Ngầm DTH', img:'product_images/page_03.png', badge:'Chủ lực',
+    { id:'dth-hammer', cat:'Búa Khoan', brand:'Long Hoa Vĩ', title:'Búa Khoan Ngầm DTH', img:'product_images/page_03.png', badge:'Chủ lực',
       desc:'Búa khoan áp lực cao/trung/thấp: DHD, COP, QL, SD, Mission, CIR. Phục vụ khai mỏ, khoan giếng, xây dựng thủy điện.',
       specs:['7–25 bar','55–260mm','4.5–210 kg'], pressure:['low','medium','high'], apps:['mining','well','construction','exploration'],
       images:['product_images/page_03.png','product_images/page_05.png','product_images/page_07.png','product_images/page_09.png'],
@@ -15,15 +15,15 @@ const BASE_PRODUCTS = [
       detail:'Búa khoan ngầm DTH hoạt động bằng khí nén, búa đặt ngay trên mũi khoan tại đáy hố. Truyền năng lượng trực tiếp vào đá, giảm hao tổn, tăng tốc độ khoan.\n\n• Áp thấp (CIR): 7–17 bar — khoan giếng, khoan nông\n• Áp trung bình (BR/Mission): 10–21 bar — xây dựng, neo đất\n• Áp cao (DHD/SD/QL/COP): 17–25 bar — khai mỏ, khoan sâu',
       specDetail:[{l:'Dải áp suất',v:'7–25 bar'},{l:'ĐK ngoài',v:'55–260mm'},{l:'ĐK lỗ khoan',v:'58–381mm'},{l:'Kết nối ren',v:'CIR / API 2⅜"–6" / Remet / Metzke'},{l:'Trọng lượng',v:'4.5–210 kg'},{l:'Dòng sản phẩm',v:'CIR, DHD, SD, QL, COP, Mission, BR'}] },
 
-    { id:'dth-bit', cat:'Mũi Khoan', brand:'Kaiqiu', title:'Mũi Khoan Ngầm DTH', img:'product_images/page_35.png', badge:'Bền bỉ',
+    { id:'dth-bit', cat:'Mũi Khoan', brand:'Long Hoa Vĩ', title:'Mũi Khoan Ngầm DTH', img:'product_images/page_35.png', badge:'Bền bỉ',
       desc:'Mũi khoan áp lực thấp/trung/cao. Mặt phẳng & lồi. Nút hợp kim cacbua vonfram cao cấp chống mài mòn mạnh.',
       specs:['50–400mm','Có nhiều màu sơn bảo vệ hoặc không sơn','Nút cacbua WC'], pressure:['low','medium','high'], apps:['mining','well','construction'],
       images:['product_images/page_35.png','product_images/page_36.png','product_images/page_37.png','product_images/page_39.png'],
       models:'CIR50/60/65/70/80/90/110/150/170, BR1/2/3, COP/DHD, QL40–80, SD5–12',
-      detail:'Mũi khoan DTH gắn nút hợp kim cacbua vonfram (tungsten carbide) với độ cứng và khả năng chống mài mòn cao.\n\n• Áp thấp (CIR): ĐK 50–400mm\n• Áp trung bình (BR): ĐK 64–105mm\n• Áp cao (COP/DHD/QL/SD): ĐK 105–381mm\n\nMặt phẳng (flat face) hoặc mặt lồi (convex face) tùy loại đá.',
+      detail:'Mũi khoan DTH gắn nút hợp kim cacbua vonfram (tungsten carbide) with độ cứng và khả năng chống mài mòn cao.\n\n• Áp thấp (CIR): ĐK 50–400mm\n• Áp trung bình (BR): ĐK 64–105mm\n• Áp cao (COP/DHD/QL/SD): ĐK 105–381mm\n\nMặt phẳng (flat face) hoặc mặt lồi (convex face) tùy loại đá.',
       specDetail:[{l:'Đường kính',v:'50–400mm'},{l:'Loại mặt',v:'Phẳng / Lồi'},{l:'Nút hợp kim',v:'Cacbua vonfram (WC)'},{l:'Hoàn thiện bề mặt',v:'Nhiều màu sơn bảo vệ (Xanh, Đỏ, Vàng, Đen) hoặc thép thô mộc không sơn'},{l:'Số rãnh xả phoi',v:'4–16 rãnh'}] },
 
-    { id:'drill-pipe', cat:'Phụ Kiện', brand:'Kaiyu', title:'Cần Khoan DTH', img:'product_images/page_47.png', badge:'',
+    { id:'drill-pipe', cat:'Phụ Kiện', brand:'Long Hoa Vĩ', title:'Cần Khoan DTH', img:'product_images/page_47.png', badge:'',
       desc:'Cần khoan ren API chuẩn quốc tế, thép hợp kim đúc chịu lực va đập xoắn cực tốt. Chiều dài 1–6m.',
       specs:['API 2⅜"–4½"','1–6m dài','Ren REG/IF'], pressure:['low','medium','high'], apps:['mining','well','construction','exploration'],
       images:['product_images/page_47.png','product_images/page_48.png','product_images/page_49.png'],
@@ -31,7 +31,7 @@ const BASE_PRODUCTS = [
       detail:'Cần khoan DTH truyền lực xoay và khí nén từ máy khoan đến búa khoan tại đáy hố.\n\n• Ren API REG (Regular) và IF (Internal Flush)\n• Chiều dài: 1000–6000mm\n• Thép hợp kim rỗng, xử lý nhiệt tinh vi toàn bộ cần\n• Thiết kế mặt khóa tháo lắp nhanh',
       specDetail:[{l:'Loại ren',v:'API REG / API IF / Remet / Metzke'},{l:'ĐK ngoài',v:'57–114mm'},{l:'ĐK trong',v:'38–76mm'},{l:'Chiều dài',v:'1000–6000mm'},{l:'Vật liệu',v:'Thép hợp kim tôi nhiệt'}] },
 
-    { id:'rc-hammer', cat:'Búa Khoan', brand:'Kaiqiu', title:'Búa Tuần Hoàn Ngược RC', img:'product_images/page_31.png', badge:'Thăm dò',
+    { id:'rc-hammer', cat:'Búa Khoan', brand:'Long Hoa Vĩ', title:'Búa Tuần Hoàn Ngược RC', img:'product_images/page_31.png', badge:'Thăm dò',
       desc:'Búa khoan lấy mẫu địa tầng tuần hoàn ngược. Độ sâu cao, bảo đảm mẫu không nhiễm bẩn địa tầng bên ngoài.',
       specs:['4"–5.5" cỡ búa','200–500 PSI','Ren Remet/Metzke'], pressure:['high'], apps:['exploration'],
       images:['product_images/page_31.png','product_images/page_32.png','product_images/page_33.png'],
@@ -39,7 +39,7 @@ const BASE_PRODUCTS = [
       detail:'Búa RC thu hồi mẫu qua ống trong bằng luồng khí nén ngược chiều, đảm bảo mẫu không bị nhiễm bẩn.\n\n• Mẫu khoan sạch, đại diện địa chất chính xác 100%\n• Thu hồi liên tục, không cần dừng chu kỳ khoan\n• Phù hợp thăm dò sâu hàng trăm mét',
       specDetail:[{l:'Kích thước búa',v:'4"–5.5"'},{l:'Chiều dài',v:'1191–1294mm'},{l:'Trọng lượng',v:'52–81 kg'},{l:'Áp suất khí',v:'200–500 PSI'},{l:'Ren kết nối',v:'Remet / Metzke'}] },
 
-    { id:'casing-tool', cat:'Phụ Kiện', brand:'Kaiyu', title:'Dụng Cụ Khoan Ống Chống', img:'product_images/page_40.png', badge:'',
+    { id:'casing-tool', cat:'Phụ Kiện', brand:'Long Hoa Vĩ', title:'Dụng Cụ Khoan Ống Chống', img:'product_images/page_40.png', badge:'',
       desc:'Khoan đồng tâm/lệch tâm luồn ống chống. Giải pháp khoan qua địa tầng sạt lở, bùn cát chảy.',
       specs:['Đồng/Lệch tâm','89–324mm ống','DHD3.5–112'], pressure:['high'], apps:['well','construction'],
       images:['product_images/page_40.png','product_images/page_41.png','product_images/page_42.png'],
@@ -47,7 +47,7 @@ const BASE_PRODUCTS = [
       detail:'Khoan và lắp ống chống đồng thời. Đồng tâm (concentric) hoặc lệch tâm (eccentric/ODEX).\n\nPhụ kiện gồm: ống chống bảo vệ hố, đế ống chống (casing shoe), vòng định vị (ring bit), khóa định vị chuyên dụng.',
       specDetail:[{l:'Kiểu hệ thống',v:'Đồng tâm / Lệch tâm (ODEX)'},{l:'Tương thích búa',v:'DHD3.5–DHD112'},{l:'ĐK ống chống',v:'89–324mm'},{l:'Ứng dụng địa chất',v:'Đất yếu, cát chảy, sạt lở mạnh'}] },
 
-    { id:'adapter', cat:'Phụ Kiện', brand:'Kaiyu', title:'Đầu Nối Chuyển Đổi', img:'product_images/page_50.png', badge:'',
+    { id:'adapter', cat:'Phụ Kiện', brand:'Long Hoa Vĩ', title:'Đầu Nối Chuyển Đổi', img:'product_images/page_50.png', badge:'',
       desc:'Đầu nối ren API chuẩn: Box-Pin, Box-Box, Pin-Pin. Gia công CNC chính xác tuyệt đối.',
       specs:['API 2⅜"–4½"','Box/Pin ren','CNC nguyên khối'], pressure:['low','medium','high'], apps:['mining','well','construction','exploration'],
       images:['product_images/page_50.png','product_images/page_51.png'],
@@ -55,7 +55,7 @@ const BASE_PRODUCTS = [
       detail:'Đầu nối chuyển đổi kết nối giữa các thiết bị có kích thước ren khác nhau.\n\n• Box–Pin (Trong–Ngoài): Phổ biến nhất\n• Box–Box (Trong–Trong): Nối 2 thiết bị ren ngoài\n• Pin–Pin (Ngoài–Ngoài): Nối 2 thiết bị ren trong\n\nGia công CNC, thép hợp kim, ren API chuẩn quốc tế.',
       specDetail:[{l:'Kiểu nối',v:'Box-Pin / Box-Box / Pin-Pin'},{l:'Quy cách ren',v:'2⅜"–4½" API REG/IF'},{l:'Vật liệu chế tạo',v:'Thép hợp kim xử lý nhiệt'},{l:'Mặt bản dẹt dập khóa',v:'65–120mm'}] },
 
-    { id:'tapered-tool', cat:'Mũi Khoan', brand:'Kaiyu', title:'Dụng Cụ Khoan Côn', img:'product_images/page_55.png', badge:'',
+    { id:'tapered-tool', cat:'Mũi Khoan', brand:'Long Hoa Vĩ', title:'Dụng Cụ Khoan Côn', img:'product_images/page_55.png', badge:'',
       desc:'Mũi khoan côn 7°/11°/12° nút hợp kim & chữ thập. Cần khoan côn lục giác H22 cao cấp.',
       specs:['Góc 7°/11°/12°','Sơn bảo vệ hoặc thép thô mộc không sơn','Cần H22 tôi cứng'], pressure:['low','medium'], apps:['construction'],
       images:['product_images/page_53.png','product_images/page_54.png','product_images/page_55.png'],
@@ -162,28 +162,28 @@ const BASE_PRODUCTS = [
       specDetail:[{l:'Dòng máy tương thích',v:'YT24, YT27, YT28, YT29A'},{l:'Vật liệu chế tạo',v:'Thép hợp kim rèn bề mặt thấm nitrogen chống mài mòn'},{l:'Dung sai chế tạo',v:'Độ chính xác OEM ≤ 0.01mm'},{l:'Linh kiện có sẵn',v:'Piston, quả dứa, bánh răng, kim nước, phớt chặn hơi'}] },
 
     // ─── Búa & Mũi DTH áp thấp/cao ───
-    { id:'ks-dth-hammer-low', cat:'Búa Khoan', brand:'KAISHAN', title:'Búa DTH Áp Thấp CIR', img:'product_images/page_03.png', badge:'Valveless',
+    { id:'ks-dth-hammer-low', cat:'Búa Khoan', brand:'Long Hoa Vĩ', title:'Búa DTH Áp Thấp CIR', img:'product_images/page_03.png', badge:'Valveless',
       desc:'Búa khoan ngầm áp thấp CIR50–CIR200 thiết kế valveless (không van). Cấu tạo đơn giản, bảo trì dễ dàng, tiết kiệm khí nén.',
       specs:['0.5–0.7 MPa','CIR50–CIR200','Valveless design'], pressure:['low'], apps:['well','construction','mining'],
       models:'CIR50, CIR60, CIR65, CIR70, CIR80, CIR90, CIR110, CIR130, CIR150, CIR170, CIR200',
       detail:'Búa DTH áp thấp sử dụng thiết kế không van (valveless) giúp tăng tần số đập, giảm tiêu hao dầu/khí nén, bảo trì đơn giản.\\n\\n• Áp suất làm việc: 0.5–0.7 MPa\\n• Phù hợp khoan giếng nước, khoan mỏ đá nhỏ, khoan neo đất\\n• Dải model từ CIR50 (lỗ nhỏ 58mm) đến CIR200 (lỗ lớn 250mm)',
       specDetail:[{l:'Dải áp suất',v:'0.5–0.7 MPa (7–10 bar)'},{l:'Dòng model',v:'CIR50 → CIR200'},{l:'Thiết kế',v:'Valveless (không van) — giảm chi tiết, tăng tần số đập'},{l:'Ứng dụng',v:'Khoan giếng, mỏ đá, xây dựng'}] },
 
-    { id:'ks-dth-hammer-high', cat:'Búa Khoan', brand:'KAISHAN', title:'Búa DTH Áp Cao KD Series', img:'product_images/page_07.png', badge:'Công suất lớn',
+    { id:'ks-dth-hammer-high', cat:'Búa Khoan', brand:'Long Hoa Vĩ', title:'Búa DTH Áp Cao KD Series', img:'product_images/page_07.png', badge:'Công suất lớn',
       desc:'Búa khoan ngầm áp cao KD35–KD85 thiết kế valveless, ren multi-step dễ tháo lắp. Hiệu suất truyền năng lượng cao, khoan nhanh.',
       specs:['>1.2 MPa','KD35–KD85','25–188 kg'], pressure:['high'], apps:['mining','construction','exploration'],
       models:'KD35, KD45, KD55, KD65, KD85',
       detail:'Búa DTH áp cao dòng KD được thiết kế valveless với hiệu suất truyền năng lượng vượt trội.\\n\\n• KD35: φ82mm, 930mm, 25kg — cho lỗ khoan trung bình\\n• KD45: φ99mm, 1030mm, 39kg — đa năng\\n• KD55: φ126mm, 1214mm, 76.5kg — khai mỏ lớn\\n• KD65: φ142–148mm, 1248mm, 100kg — khoan sâu\\n• KD85: φ144–148mm, 1482mm, 188kg — công suất cực lớn\\n\\nRen multi-step giúp tháo lắp bảo trì nhanh chóng.',
       specDetail:[{l:'Model',v:'KD35 / KD45 / KD55 / KD65 / KD85'},{l:'ĐK ngoài',v:'φ82–φ148mm'},{l:'Chiều dài (không mũi)',v:'930–1482mm'},{l:'Trọng lượng',v:'25–188 kg'},{l:'Áp suất làm việc',v:'>1.2 MPa (>17 bar)'}] },
 
-    { id:'ks-bit-low', cat:'Mũi Khoan', brand:'KAISHAN', title:'Mũi Khoan DTH Áp Thấp CIR', img:'product_images/page_35.png', badge:'',
+    { id:'ks-bit-low', cat:'Mũi Khoan', brand:'Long Hoa Vĩ', title:'Mũi Khoan DTH Áp Thấp CIR', img:'product_images/page_35.png', badge:'',
       desc:'Mũi khoan DTH áp thấp dòng CIR65–CIR170. Nút hợp kim cacbua vonfram cao cấp, thiết kế CAD/CNC tối ưu flushing.',
       specs:['CIR65–CIR170','ĐK 65–200mm','Nút WC cao cấp'], pressure:['low'], apps:['well','construction','mining'],
       models:'CIR65, CIR70, CIR80, CIR90, CIR110, CIR130, CIR150, CIR170',
       detail:'Mũi khoan DTH áp thấp dùng cho búa CIR series.\\n\\n• Thép hợp kim chịu lực cao kết hợp nút cacbua vonfram (WC) siêu cứng\\n• Thiết kế CAD, gia công CNC chính xác tuyệt đối\\n• Xử lý nhiệt nhiều lần tăng độ cứng và chống mỏi kim loại\\n• Rãnh xả phoi tối ưu đảm bảo flushing đều, giảm mài mòn thân mũi',
       specDetail:[{l:'Dòng sản phẩm',v:'CIR65, CIR70, CIR80, CIR90, CIR110, CIR130, CIR150, CIR170'},{l:'Đường kính mũi',v:'65–200mm'},{l:'Số spline',v:'4–6 spline'},{l:'Mặt mũi khoan',v:'Phẳng (Flat) / Lõm (Concave) / Lồi (Convex)'}] },
 
-    { id:'ks-bit-high', cat:'Mũi Khoan', brand:'KAISHAN', title:'Mũi Khoan DTH Áp Cao DHD', img:'product_images/page_36.png', badge:'',
+    { id:'ks-bit-high', cat:'Mũi Khoan', brand:'Long Hoa Vĩ', title:'Mũi Khoan DTH Áp Cao DHD', img:'product_images/page_36.png', badge:'',
       desc:'Mũi khoan DTH áp cao chuẩn DHD3.5–DHD112. Đa dạng kiểu mặt Flat/Concave/Convex, đường kính 3"–12"+.',
       specs:['DHD3.5–DHD112','ĐK 76–305mm+','Flat/Concave/Convex'], pressure:['high'], apps:['mining','well','construction','exploration'],
       models:'DHD3.5, DHD340A, DHD350, DHD360, DHD380, DHD112',
@@ -213,17 +213,17 @@ const PRODUCTS = [
     ...(typeof DRILL_BIT_PRODUCTS !== 'undefined' ? DRILL_BIT_PRODUCTS : [])
 ];
 
-// Priority sorting: moves real photos, KAIYU brand, and 'Mũi Khoan' category to the top
+// Priority sorting: moves real photos, core LHV products, and 'Mũi Khoan' category to the top
 PRODUCTS.sort((a, b) => {
     const score = p => {
         let val = 0;
         const hasRealPhoto = (p.img && p.img.includes('z78708')) || 
                              (p.images && p.images.some(img => img.includes('z78708')));
-        const isKaiyu = p.brand && p.brand.toLowerCase() === 'kaiyu';
+        const isCoreLHV = ['drill-pipe', 'casing-tool', 'adapter', 'tapered-tool'].includes(p.id);
         const isDrillBit = p.cat === 'Mũi Khoan';
         
         if (hasRealPhoto) val += 1000;
-        if (isKaiyu) val += 500;
+        if (isCoreLHV) val += 500;
         if (isDrillBit) val += 200;
         return val;
     };
@@ -343,14 +343,18 @@ let currentSub = 'all';
 let currentSearchQuery = '';
 
 function getProductColor(p) {
-    if (!p || !p.brand) return 'silver';
-    const b = p.brand.toLowerCase();
-    if (b.includes('kaiqiu') || b.includes('kaiyu')) return 'yellow';
+    if (!p) return 'silver';
+    const id = p.id;
+    if (id.startsWith('dth-') || id.startsWith('drill-pipe') || id.startsWith('rc-hammer') || id.startsWith('casing-tool') || id.startsWith('adapter') || id.startsWith('tapered-tool') || id.includes('z78708')) {
+        return 'yellow';
+    }
+    if (id.startsWith('ks-')) {
+        return 'black';
+    }
+    const b = (p.brand || '').toLowerCase();
     if (b.includes('pulanka')) return 'blue';
     if (b.includes('shenlong')) return 'green';
     if (b.includes('ma&s')) return 'red';
-    if (b.includes('kaishan')) return 'black';
-    if (b.includes('long hoa')) return 'silver';
     return 'silver';
 }
 
@@ -510,11 +514,8 @@ function renderBrandChart() {
     }
     
     const brandCounts = {
-        'Kaiqiu': 0,
-        'Kaiyu': 0,
         'PULANKA': 0,
         'SHENLONG': 0,
-        'KAISHAN': 0,
         'MA&S': 0,
         'Long Hoa Vĩ': 0
     };
@@ -529,13 +530,10 @@ function renderBrandChart() {
     });
     
     const colors = {
-        'Kaiqiu': '#f59e0b',
-        'Kaiyu': '#fbbf24',
         'PULANKA': '#1e3a8a',
         'SHENLONG': '#047857',
-        'KAISHAN': '#111827',
         'MA&S': '#dc2626',
-        'Long Hoa Vĩ': '#9ca3af'
+        'Long Hoa Vĩ': '#f59e0b'
     };
     
     let html = '';
@@ -603,11 +601,8 @@ function updateFilterCounts() {
     const subTapered = PRODUCTS.filter(p => getProductSub(p) === 'tapered').length;
     
     const brandAll = PRODUCTS.length;
-    const brandKaiqiu = PRODUCTS.filter(p => p.brand === 'Kaiqiu').length;
-    const brandKaiyu = PRODUCTS.filter(p => p.brand === 'Kaiyu').length;
     const brandPulanka = PRODUCTS.filter(p => p.brand === 'PULANKA').length;
     const brandShenlong = PRODUCTS.filter(p => p.brand === 'SHENLONG').length;
-    const brandKaishan = PRODUCTS.filter(p => p.brand === 'KAISHAN').length;
     const brandMas = PRODUCTS.filter(p => p.brand === 'MA&S').length;
     const brandLhv = PRODUCTS.filter(p => p.brand === 'Long Hoa Vĩ').length;
     
@@ -627,11 +622,8 @@ function updateFilterCounts() {
     setBadge('count-sub-tapered', subTapered);
     
     setBadge('count-brand-all', brandAll);
-    setBadge('count-brand-kaiqiu', brandKaiqiu);
-    setBadge('count-brand-kaiyu', brandKaiyu);
     setBadge('count-brand-pulanka', brandPulanka);
     setBadge('count-brand-shenlong', brandShenlong);
-    setBadge('count-brand-kaishan', brandKaishan);
     setBadge('count-brand-mas', brandMas);
     setBadge('count-brand-lhv', brandLhv);
 }
