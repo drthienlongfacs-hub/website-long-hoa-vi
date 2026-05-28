@@ -213,6 +213,23 @@ const PRODUCTS = [
     ...(typeof DRILL_BIT_PRODUCTS !== 'undefined' ? DRILL_BIT_PRODUCTS : [])
 ];
 
+// Priority sorting: moves real photos, KAIYU brand, and 'Mũi Khoan' category to the top
+PRODUCTS.sort((a, b) => {
+    const score = p => {
+        let val = 0;
+        const hasRealPhoto = (p.img && p.img.includes('z78708')) || 
+                             (p.images && p.images.some(img => img.includes('z78708')));
+        const isKaiyu = p.brand && p.brand.toLowerCase() === 'kaiyu';
+        const isDrillBit = p.cat === 'Mũi Khoan';
+        
+        if (hasRealPhoto) val += 1000;
+        if (isKaiyu) val += 500;
+        if (isDrillBit) val += 200;
+        return val;
+    };
+    return score(b) - score(a);
+});
+
 // ═══ CATALOG DEFINITIONS (Multiple Catalogs Support) ═══
 const CATALOGS = {
     dth: {
@@ -322,6 +339,7 @@ function renderProductGrid() {
 let currentCategory = 'all';
 let currentBrand = 'all';
 let currentColor = 'all';
+let currentSub = 'all';
 let currentSearchQuery = '';
 
 function getProductColor(p) {
@@ -336,10 +354,67 @@ function getProductColor(p) {
     return 'silver';
 }
 
+function getProductSub(p) {
+    if (!p || p.cat !== 'Mũi Khoan') return 'other';
+    const titleLower = p.title.toLowerCase();
+    const modelsLower = (p.models || '').toLowerCase();
+    const detailLower = (p.detail || '').toLowerCase();
+    const specsLower = (p.specs || []).join(' ').toLowerCase();
+    
+    // Check tapered/hand drill bits: "côn", "tay", "taper", "chisel", "h22"
+    const isTaperedOrHand = titleLower.includes('côn') || 
+                            titleLower.includes('tay') || 
+                            titleLower.includes('taper') || 
+                            titleLower.includes('chisel') ||
+                            modelsLower.includes('côn') || 
+                            modelsLower.includes('taper') ||
+                            detailLower.includes('khoan côn') || 
+                            detailLower.includes('cần khoan côn') || 
+                            detailLower.includes('h22') ||
+                            specsLower.includes('h22') || 
+                            specsLower.includes('côn');
+                            
+    if (isTaperedOrHand) {
+        return 'tapered';
+    }
+    
+    // Check large drill bits: diameter >= 110mm, models CIR110+, DHD, SD, QL, COP, Mission
+    const isLarge = titleLower.includes('lớn') || 
+                    titleLower.includes('110') || 
+                    modelsLower.includes('115') || 
+                    modelsLower.includes('130') || 
+                    modelsLower.includes('150') ||
+                    modelsLower.includes('dhd') || 
+                    modelsLower.includes('sd') || 
+                    modelsLower.includes('ql') || 
+                    specsLower.includes('110') || 
+                    specsLower.includes('115') || 
+                    specsLower.includes('130') || 
+                    specsLower.includes('150') ||
+                    detailLower.includes('110') || 
+                    detailLower.includes('áp cao') || 
+                    titleLower.includes('ngầm dth') || 
+                    titleLower.includes('áp cao');
+                    
+    if (isLarge) {
+        return 'large';
+    }
+    
+    return 'other';
+}
+
 function filterByCategory(cat) {
     currentCategory = cat;
     document.querySelectorAll('#category-filters .sidebar-menu-item').forEach(c => {
         c.classList.toggle('active', c.dataset.filter === cat);
+    });
+    applyFilters();
+}
+
+function filterBySub(sub) {
+    currentSub = sub;
+    document.querySelectorAll('#drill-bit-sub-filters .sidebar-menu-item').forEach(c => {
+        c.classList.toggle('active', c.dataset.sub === sub);
     });
     applyFilters();
 }
@@ -359,6 +434,7 @@ function filterByColor(color) {
     });
     applyFilters();
 }
+
 
 function applyFilters() {
     const pressure = document.getElementById('pressure-filter').value;
@@ -380,7 +456,9 @@ function applyFilters() {
         const prodColor = prod ? getProductColor(prod) : 'silver';
         
         let show = true;
+        const prodSub = prod ? getProductSub(prod) : 'other';
         if (currentCategory !== 'all' && cat !== currentCategory) show = false;
+        if (currentSub !== 'all' && prodSub !== currentSub) show = false;
         if (currentBrand !== 'all' && brand !== currentBrand) show = false;
         if (currentColor !== 'all' && prodColor !== currentColor) show = false;
         if (pressure !== 'all' && !p.includes(pressure)) show = false;
@@ -484,6 +562,7 @@ function resetAllFilters() {
     currentCategory = 'all';
     currentBrand = 'all';
     currentColor = 'all';
+    currentSub = 'all';
     currentSearchQuery = '';
     
     const searchInput = document.getElementById('sidebar-search-input');
@@ -497,6 +576,9 @@ function resetAllFilters() {
     
     document.querySelectorAll('#category-filters .sidebar-menu-item').forEach(c => {
         c.classList.toggle('active', c.dataset.filter === 'all');
+    });
+    document.querySelectorAll('#drill-bit-sub-filters .sidebar-menu-item').forEach(c => {
+        c.classList.toggle('active', c.dataset.sub === 'all');
     });
     document.querySelectorAll('#brand-filters .sidebar-menu-item').forEach(c => {
         c.classList.toggle('active', c.dataset.brand === 'all');
@@ -515,6 +597,10 @@ function updateFilterCounts() {
     const catBit = PRODUCTS.filter(p => p.cat === 'Mũi Khoan').length;
     const catAccessory = PRODUCTS.filter(p => p.cat === 'Phụ Kiện').length;
     const catEquipment = PRODUCTS.filter(p => p.cat === 'Thiết Bị').length;
+    
+    const subAll = PRODUCTS.filter(p => p.cat === 'Mũi Khoan').length;
+    const subLarge = PRODUCTS.filter(p => getProductSub(p) === 'large').length;
+    const subTapered = PRODUCTS.filter(p => getProductSub(p) === 'tapered').length;
     
     const brandAll = PRODUCTS.length;
     const brandKaiqiu = PRODUCTS.filter(p => p.brand === 'Kaiqiu').length;
@@ -535,6 +621,10 @@ function updateFilterCounts() {
     setBadge('count-cat-bit', catBit);
     setBadge('count-cat-accessory', catAccessory);
     setBadge('count-cat-equipment', catEquipment);
+    
+    setBadge('count-sub-all', subAll);
+    setBadge('count-sub-large', subLarge);
+    setBadge('count-sub-tapered', subTapered);
     
     setBadge('count-brand-all', brandAll);
     setBadge('count-brand-kaiqiu', brandKaiqiu);
